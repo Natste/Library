@@ -1,0 +1,16 @@
+<snippet>
+<content><![CDATA[
+
+\{
+  "name": "${1:Friendly Name}",
+  "scope": "${2:scope.placeholder}",
+  "foreground": "color(var(${3:fg}))",
+  "background": "color(var(${3:fg}) a(0.15))",
+  "selection_foreground": "color(var(${3:fg}) s(+ 100%) l(+ 25%))",
+  "font_style": "${5:regular}"
+\},
+]]></content>
+<tabTrigger>_rule</tabTrigger>
+<description>Sublime Color Scheme: Name, scope, foregroung, background, and font style.</description>
+<scope>source.json.sublime-color-scheme</scope>
+</snippet>

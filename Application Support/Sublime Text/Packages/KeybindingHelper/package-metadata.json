@@ -1,0 +1,1 @@
+{"version": "2.1.1", "platforms": ["*"], "url": "https://github.com/r-stein/sublime-text-keybinding-helper", "dependencies": [], "sublime_text": ">=3000", "description": "A Sublime Text package to simplify the creation and look-up of key-bindings"}

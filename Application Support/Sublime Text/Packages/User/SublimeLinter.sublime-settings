@@ -1,0 +1,53 @@
+// SublimeLinter Settings - User
+{
+  "linters": {
+    "clang": {
+      "executable": "clang",
+      "disable": false,
+      "args": ["-fsyntax-only", "-single_module"],
+      // "I": ["${folder}/include", "${folder}","${VC_INCLUDE}/vcruntime.h", "${C_STDLIB}"],
+      "filter_errors": ["file not found", "unknown type name", "-Wmacro", "STD_", "undeclared identifier","implicit"],
+      "lint_mode": "load_save"
+    },
+    "clang++": {
+      "disable": true,
+      "executable": "clang++",
+      "I": ["${folder}/include", "${folder}"],
+      // "filter_errors": [""],
+      "lint_mode": "load_save"
+    },
+    "bashate": {
+      "disable": true
+    },
+    "yamllint": {
+      "disable": true
+    },
+    "pylint": {
+      "disable": false,
+      "args": ["--max-parents=15"],
+      "executable": "pylint",
+      "filter_errors": [
+        "R1710",
+        "E0401",
+        "W0611",
+        "C0115",
+        "C0303",
+        "C0103",
+        "C0301",
+        "C0116",
+        "C0114",
+        "C0413",
+        "Kysy",
+        "C0411",
+        "Unable to import 'Kysy'",
+        "Unable to import 'Utils'",
+        "Unable to import 'Mero'",
+        "W0311"
+      ],
+      "lint_mode": "background",
+      "python": 3
+    }
+  },
+  "no_column_highlights_line": true,
+  "show_marks_in_minimap": false
+}

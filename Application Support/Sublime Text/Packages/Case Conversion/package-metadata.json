@@ -1,0 +1,1 @@
+{"version": "2017.08.07.15.50.53", "description": "Case conversion plugin (pascal, camel, snake) for sublime text 2", "url": "https://github.com/jdavisclark/CaseConversion", "platforms": ["*"], "dependencies": [], "sublime_text": "*"}

@@ -1,0 +1,18 @@
+<snippet>
+    <content>
+      <![CDATA[
+- description: ${1:a}+${2:b} to ${3:c}
+  manipulators:
+  - type: basic
+    from:
+      simultaneous:
+      - key_code: ${1:a}
+      - key_code: ${2:b}
+      modifiers: {optional:[any]}
+    to: [{key_code: ${3:c}}]
+
+${0:sim}]]>
+  </content>
+  <tabTrigger>sim</tabTrigger>
+  <scope>source.yaml</scope>
+</snippet>

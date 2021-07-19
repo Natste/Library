@@ -1,0 +1,63 @@
+[
+    {
+        "id": "edit",
+        "children":
+        [
+            {
+                "id": "line",
+                "children":
+                [
+                    { "caption": "-" },
+                    { "caption": "Include Lines With Regex", "command": "prompt_filter_to_lines", "args": { "search_type": "regex", "invert_search": false } },
+                    { "caption": "Include Lines With String", "command": "prompt_filter_to_lines", "args": { "search_type": "string", "invert_search": false } },
+                    { "caption": "Exclude Lines With Regex", "command": "prompt_filter_to_lines", "args": { "search_type": "regex", "invert_search": true } },
+                    { "caption": "Exclude Lines With String", "command": "prompt_filter_to_lines", "args": { "search_type": "string", "invert_search": true } }
+                ]
+            },
+            {
+                "id": "fold",
+                "children":
+                [
+                    { "caption": "-" },
+                    { "caption": "Fold Excluding Regex", "command": "prompt_fold_to_lines", "args": { "search_type": "regex", "invert_search": false } },
+                    { "caption": "Fold Excluding String", "command": "prompt_fold_to_lines", "args": { "search_type": "string", "invert_search": false } },
+                    { "caption": "Fold With Regex", "command": "prompt_fold_to_lines", "args": { "search_type": "regex", "invert_search": true } },
+                    { "caption": "Fold With String", "command": "prompt_fold_to_lines", "args": { "search_type": "string", "invert_search": true } }
+                ]
+            }
+        ]
+    },
+
+    {
+        "caption": "Preferences",
+        "mnemonic": "n",
+        "id": "preferences",
+        "children":
+        [
+            {
+                "caption": "Package Settings",
+                "mnemonic": "P",
+                "id": "package-settings",
+                "children":
+                [
+                    {
+                        "caption": "Filter Lines",
+                        "children":
+                        [
+                            {
+                                "command": "open_file",
+                                "args": {"file": "${packages}/Filter Lines/Filter Lines.sublime-settings"},
+                                "caption": "Settings – Default"
+                            },
+                            {
+                                "command": "open_file",
+                                "args": {"file": "${packages}/User/Filter Lines.sublime-settings"},
+                                "caption": "Settings – User"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

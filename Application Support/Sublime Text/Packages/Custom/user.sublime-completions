@@ -1,0 +1,30 @@
+{
+  "scope": "source.python",
+  "completions": [
+    {
+      "trigger": "GRID",
+      "annotation": "tk grid row & column",
+      "contents": "grid(row=${1:0}, column=${2:0}${3:)}"
+    },
+    {
+      "trigger": ",span",
+      "annotation": "tk grid rowspan & columnspan",
+      "contents": "rowspan=${1:1}, columnspan=${2:1}$3"
+    },
+    {
+      "trigger": ",pad",
+      "annotation": "tk grid external padding",
+      "contents": "padx=${1:10}, pady=${2:10}$3"
+    },
+    {
+      "trigger": ",ipad",
+      "annotation": "tk grid internal padding",
+      "contents": "ipadx=${1:10}, ipady=${2:10}$3"
+    },
+    {
+      "trigger": ",sticky",
+      "annotation": "tk grid sticky",
+      "contents": "sticky=\"${1:nw}\"$2"
+    }
+  ]
+}

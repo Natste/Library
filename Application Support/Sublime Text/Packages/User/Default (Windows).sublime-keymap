@@ -1,0 +1,202 @@
+[
+  { "keys": ["ctrl+insert"], "command": "afn_show_filenames",
+     "context":
+   [
+       { "key": "afn_use_keybinding", "operator": "equal", "operand": true }
+   ]
+  },
+  {
+    "args": {
+      "file": "res://Packages/User/tab_toggle_bookmark.sublime-macro"
+    },
+    "command": "run_macro_file",
+    "context": [
+      {
+        "key": "preceding_text",
+        "operand": ".*tbm$",
+        "operator": "regex_match"
+      }
+    ],
+    "keys": ["tab"]
+  },
+  {
+    "args": {
+      "file": "res://Packages/User/tab_next_bookmark.sublime-macro"
+    },
+    "command": "run_macro_file",
+    "context": [
+      {
+        "key": "preceding_text",
+        "operand": ".*nbm$",
+        "operator": "regex_match"
+      }
+    ],
+    "keys": ["tab"]
+  },
+  {
+    "args": {
+      "file": "res://Packages/User/tab_prev_bookmark.sublime-macro"
+    },
+    "command": "run_macro_file",
+    "context": [
+      {
+        "key": "preceding_text",
+        "operand": ".*pbm$",
+        "operator": "regex_match"
+      }
+    ],
+    "keys": ["tab"]
+  },
+  {
+    "args": {
+      "file": "res://Packages/User/tab_clear_bookmarks.sublime-macro"
+    },
+    "command": "run_macro_file",
+    "context": [
+      {
+        "key": "preceding_text",
+        "operand": ".*cbm$",
+        "operator": "regex_match"
+      }
+    ],
+    "keys": ["tab"]
+  },
+  {
+    "args": {
+      "file": "res://Packages/User/tab_select_all_bookmarks.sublime-macro"
+    },
+    "command": "run_macro_file",
+    "context": [
+      {
+        "key": "preceding_text",
+        "operand": ".*sbm$",
+        "operator": "regex_match"
+      }
+    ],
+    "keys": ["tab"]
+  },
+  {
+    "args": {
+      "file": "res://Packages/Custom/breakpoint undo.sublime-macro"
+    },
+    "command": "run_macro_file",
+    "context": [
+      {
+        "key": "preceding_text",
+        "operand": ".*breakpoint\\(\\).*$",
+        "operator": "regex_match"
+      }
+    ],
+    "keys": ["tab"]
+  },
+ {
+   "args": {
+      "file": "res://Packages/Custom/breakpoint do.sublime-macro"
+   },
+   "command": "run_macro_file",
+   "context": [
+         {
+           "key": "preceding_text",
+           "operand": ".*bp$",
+           "operator": "regex_match"
+         }      ],
+    "keys": ["tab"]
+  },
+  {
+    "command": "toggle_origami_auto_focus",
+    "keys": ["ctrl+k", "ctrl+f"]
+  },
+  {
+    "command": "prompt_open_folder",
+    "keys": ["ctrl+alt+o"]
+  },
+  {
+    "args": {
+      "text": ""
+    },
+    "command": "text_pastry_show_command_line",
+    "keys": ["ctrl+alt+n"]
+  },
+  {
+    "args": {
+      "text": "\\i"
+    },
+    "command": "text_pastry_show_command_line",
+    "keys": ["ctrl+alt+i"]
+  },
+  {
+    "command": "text_pastry_show_menu",
+    "keys": ["ctrl+alt+t"]
+  },
+  {
+    "args": {
+      "clipboard": true,
+      "separator": "\\n"
+    },
+    "command": "text_pastry_insert_text",
+    "keys": ["ctrl+alt+v"]
+  },
+  {
+    "command": "move_text_left",
+    "keys": ["super+ctrl+alt+left"]
+  },
+  {
+    "command": "move_text_right",
+    "keys": ["super+ctrl+alt+right"]
+  },
+  {
+    "command": "move_text_up",
+    "keys": ["super+ctrl+alt+up"]
+  },
+  {
+    "command": "move_text_down",
+    "keys": ["super+ctrl+alt+down"]
+  },
+  {
+    "command": "text_pastry_redo",
+    "keys": ["ctrl+alt+b"]
+  },
+  {
+    "args": {
+      "reverse": true
+    },
+    "command": "text_pastry_history_navigator",
+    "context": [
+      {
+        "key": "setting.text_pastry_command_line",
+        "operand": true,
+        "operator": "equal"
+      },
+      {
+        "key": "panel_has_focus"
+      }
+    ],
+    "keys": ["up"]
+  },
+  {
+    "args": {
+      "reverse": false
+    },
+    "command": "text_pastry_history_navigator",
+    "context": [
+      {
+        "key": "setting.text_pastry_command_line",
+        "operand": true,
+        "operator": "equal"
+      },
+      {
+        "key": "panel_has_focus"
+      }
+    ],
+    "keys": ["down"]
+  },
+  {
+    "command": "paste_and_indent",
+    "keys": ["ctrl+v"]
+  },
+  {
+    "command": "paste",
+    "keys": ["ctrl+shift+v"]
+  },
+  { "keys": ["ctrl+k", "ctrl+shift+p"], "command": "sxs_select_file" }
+]

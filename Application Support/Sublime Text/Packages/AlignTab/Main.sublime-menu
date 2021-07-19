@@ -1,0 +1,43 @@
+[
+    {
+        "caption": "Preferences",
+        "mnemonic": "n",
+        "id": "preferences",
+        "children":
+        [
+            {
+                "caption": "Package Settings",
+                "mnemonic": "P",
+                "id": "package-settings",
+                "children":
+                [
+                    {
+                        "caption": "AlignTab",
+                        "children":
+                        [
+                            {
+                              "caption": "Settings",
+                              "command": "edit_settings",
+                              "args": {
+                                "base_file": "${packages}/AlignTab/AlignTab.sublime-settings"
+                              }
+                            },
+                            {
+                                "caption": "Context Menu",
+                                "command": "align_tab_edit_settings",
+                                "args":
+                                {
+                                    "user_file": "${packages}/User/AlignTab/Context.sublime-menu",
+                                    "base_file": "${packages}/AlignTab/Context.sublime-menu",
+                                    "default": "[\n\t$0\n]\n"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+
+
+]

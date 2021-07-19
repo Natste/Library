@@ -1,0 +1,16 @@
+[
+  {
+    "command": "left_delete"
+  },
+  {
+    "command": "left_delete"
+  },
+  {"command": "run_macro_file", "args": {"file": "res://Packages/Default/Add Line.sublime-macro"} },
+  {
+    "args": {
+      "characters": "breakpoint()"
+    },
+    "command": "insert"
+  },
+  {"command": "toggle_bookmark"},
+]

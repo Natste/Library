@@ -1,0 +1,981 @@
+{
+	"history":
+	[
+		{
+			"data":
+			{
+				"args":
+				{
+					"stop": "5",
+				},
+				"command": "text_pastry_range",
+				"text": "range 5",
+			},
+			"key": "fc20591edf62e8865b895d3324583da2",
+			"label": "range 5",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"start": "5",
+					"stop": "8",
+				},
+				"command": "text_pastry_range",
+				"text": "range 5,8",
+			},
+			"key": "2d62b0ca85fa63cab34e4b3179ed25b2",
+			"label": "range 5,8",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "range 5,",
+				},
+				"command": "text_pastry_range_parser",
+				"text": "range 5,",
+			},
+			"key": "f3c76b6366dcb7df8698be89bea3acf3",
+			"label": "range 5,",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "\\i(5)",
+				},
+				"command": "text_pastry_step",
+				"text": "\\i(5)",
+			},
+			"key": "1926d5718c8992538159493273ef7a57",
+			"label": "\\i(5)",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "\\i 5",
+				},
+				"command": "text_pastry_step",
+				"text": "\\i 5",
+			},
+			"key": "2d1a5304ac36a92e5396530af7c05ec8",
+			"label": "\\i 5",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "\\i5",
+				},
+				"command": "text_pastry_step",
+				"text": "\\i5",
+			},
+			"key": "e1fdc4786f8236711e7a6b379e9af5a2",
+			"label": "\\i5",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "1",
+				},
+				"command": "text_pastry_step",
+				"text": "\\i",
+			},
+			"key": "1bd7ee1ce72751da4e64129f6d32db41",
+			"label": "\\i",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "\\i(0)",
+				},
+				"command": "text_pastry_step",
+				"text": "\\i(0)",
+			},
+			"key": "2aa920e9f4728b83b765e362f6e31332",
+			"label": "\\i(0)",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "\\i(2)",
+				},
+				"command": "text_pastry_step",
+				"text": "\\i(2)",
+			},
+			"key": "7dabebb8540b161cbced10d7519f23b3",
+			"label": "\\i(2)",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "add ",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "add ",
+			},
+			"key": "34ecf7b5f505b34af74c7f7223738868",
+			"label": "add ",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"context": null,
+					"operator": null,
+					"pattern": "dtsm",
+				},
+				"command": "text_pastry_modify_selection",
+				"text": "find dtsm",
+			},
+			"key": "f987b055cbc7f02be031ae33fda84bc3",
+			"label": "find dtsm",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"context": null,
+					"operator": null,
+					"pattern": "init_dtsm",
+				},
+				"command": "text_pastry_modify_selection",
+				"text": "find init_dtsm",
+			},
+			"key": "f047682dfecad561db170eae579d4cdb",
+			"label": "find init_dtsm",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"start": "1",
+					"stop": "9",
+				},
+				"command": "text_pastry_range",
+				"text": "range 1,9",
+			},
+			"key": "563a12f35a4a3dedad73ee2649644344",
+			"label": "range 1,9",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"start": "0",
+					"stop": "16",
+				},
+				"command": "text_pastry_range",
+				"text": "range 0,16",
+			},
+			"key": "f19354801b582a74d2f73d5ac9461cfc",
+			"label": "range 0,16",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"start": "0",
+					"step": "4",
+					"stop": "16",
+				},
+				"command": "text_pastry_range",
+				"text": "range 0,16,4",
+			},
+			"key": "2d66c44ee96086f40d9e1e3e863dfe5e",
+			"label": "range 0,16,4",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"start": "16",
+					"step": "0",
+					"stop": "4",
+				},
+				"command": "text_pastry_range",
+				"text": "range 16,4,0",
+			},
+			"key": "edf36e607ae804f51a47c90cfa50ec98",
+			"label": "range 16,4,0",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"start": "16",
+					"step": "4",
+					"stop": "0",
+				},
+				"command": "text_pastry_range",
+				"text": "range 16,0,4",
+			},
+			"key": "1dde5ec65e8e3df9e4652b260d421097",
+			"label": "range 16,0,4",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"start": "16",
+					"step": "3",
+					"stop": "0",
+				},
+				"command": "text_pastry_range",
+				"text": "range 16,0,3",
+			},
+			"key": "264e4f140ab23f02ccc4c659dea725a5",
+			"label": "range 16,0,3",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"start": "16",
+					"step": "4",
+					"stop": "-1",
+				},
+				"command": "text_pastry_range",
+				"text": "range 16,-1,4",
+			},
+			"key": "e0068791ae149573b6697f39dc90ad25",
+			"label": "range 16,-1,4",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"start": "12",
+					"step": "4",
+					"stop": "-10",
+				},
+				"command": "text_pastry_range",
+				"text": "range 12,-10,4",
+			},
+			"key": "88a6e5149b0e79a9dbf8d454f2afdb98",
+			"label": "range 12,-10,4",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"start": "60",
+					"stop": "-4",
+				},
+				"command": "text_pastry_range",
+				"text": "range 60,-4",
+			},
+			"key": "637b368b3c8aab1cb24f8542e93016a7",
+			"label": "range 60,-4",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"start": "16",
+					"step": "-4",
+					"stop": "0",
+				},
+				"command": "text_pastry_range",
+				"text": "range 16 0 -4",
+			},
+			"key": "8746698af93cd2fd4bab748a52343e00",
+			"label": "range 16 0 -4",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"start": "12",
+					"step": "-4",
+					"stop": "0",
+				},
+				"command": "text_pastry_range",
+				"text": "range 12 0 -4",
+			},
+			"key": "ab31c61d9018bb2d01bd66f195a863dd",
+			"label": "range 12 0 -4",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					/*"text": "range ",*/
+					"start": "12",
+					"stop": "0",
+				},
+				"command": "text_pastry_range",
+				"text": "range 12 0",
+			},
+			"key": "efdd2d8dbb98f4b6db86be782bd07207",
+			"label": "range 12 0",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"start": "12",
+					"stop": "4",
+					"step": "0",
+				},
+				"command": "text_pastry_range",
+				"text": "range 12,4,0",
+			},
+			"key": "dd4b66dccae8a6a6fe87c02b46a0c6de",
+			"label": "range 12,4,0",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"start": "12",
+					"step": "4",
+					"stop": "0",
+				},
+				"command": "text_pastry_range",
+				"text": "range 12,0,4",
+			},
+			"key": "81e5ba35d93a5edefb2da2e8f746cf95",
+			"label": "range 12,0,4",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					/*"start": "12",*/
+					/*"step": "4",*/
+					/*"stop": "0",*/
+					"text": "\\i(12,4) 0",
+				},
+				"command": "text_pastry_step",
+				"text": "\\i(12,4) 0",
+			},
+			"key": "6e345f0aea6287a373c8641b4220c57d",
+			"label": "\\i(12,4) 0",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "\\i(12,4)",
+				},
+				"command": "text_pastry_step",
+				"text": "\\i(12,4)",
+			},
+			"key": "75cba3aa2cb22be6141d5bb338264536",
+			"label": "\\i(12,4)",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "\\i(12,-4)",
+				},
+				"command": "text_pastry_step",
+				"text": "\\i(12,-4)",
+			},
+			"key": "a38e36bdc70ef87074d8475c987af2c7",
+			"label": "\\i(12,-4)",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "\\i(20,-4)",
+				},
+				"command": "text_pastry_step",
+				"text": "\\i(20,-4)",
+			},
+			"key": "f866b2a2f0daec8c9737907f2aa87ed4",
+			"label": "\\i(20,-4)",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "\\i(16,-4)",
+				},
+				"command": "text_pastry_step",
+				"text": "\\i(16,-4)",
+			},
+			"key": "3358d5bc148981d3909453792cce4100",
+			"label": "\\i(16,-4)",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "\\i(0,4)",
+				},
+				"command": "text_pastry_step",
+				"text": "\\i(0,4)",
+			},
+			"key": "92c2559a8837f4dfe846d57920fc163f",
+			"label": "\\i(0,4)",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "\\i(7,1)",
+				},
+				"command": "text_pastry_step",
+				"text": "\\i(7,1)",
+			},
+			"key": "3edd8bb7e142986c2f0bd99ca65c21b8",
+			"label": "\\i(7,1)",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "\\i(1)",
+				},
+				"command": "text_pastry_step",
+				"text": "\\i(1)",
+			},
+			"key": "5816541bf0789a00f9efcbb7800b50c0",
+			"label": "\\i(1)",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					/*"text": "\\i(1)",*/
+					"start": "0",
+					"stop": "100",
+				},
+				"command": "text_pastry_range",
+				"text": "range 0,100",
+			},
+			"key": "0426d4ba3650cc0d7b9fdc589d5c69d4",
+			"label": "range 0,100",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"start": "0",
+					"stop": "10",
+				},
+				"command": "text_pastry_range",
+				"text": "range 0,10",
+			},
+			"key": "a3cf0a760dc0cca8ff0114d954624662",
+			"label": "range 0,10",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"start": "50",
+					"stop": "60",
+				},
+				"command": "text_pastry_range",
+				"text": "range 50,60",
+			},
+			"key": "a93b0f3deb17a57365e88940121dcb53",
+			"label": "range 50,60",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"start": "50",
+					"stop": "40",
+				},
+				"command": "text_pastry_range",
+				"text": "range 50 40",
+			},
+			"key": "0065cc8a96548cc15bdd534bd440525e",
+			"label": "range 50 40",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"start": "50",
+					"stop": "40",
+				},
+				"command": "text_pastry_range",
+				"text": "range 50,40",
+			},
+			"key": "790ebdd51761b2c35d46f3f6ac3aa588",
+			"label": "range 50,40",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"start": "50",
+					"stop": "30",
+				},
+				"command": "text_pastry_range",
+				"text": "range 50,30",
+			},
+			"key": "a499a205bacf87b84024f0d533fabf24",
+			"label": "range 50,30",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"start": "70",
+					"stop": "0",
+					"step": "2",
+				},
+				"command": "text_pastry_range",
+				"text": "range 70 0 2",
+			},
+			"key": "22823987a3426b1defd1f82f2d378f9a",
+			"label": "range 70 0 2",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					/*"start": "70",*/
+					/*"step": "2",*/
+					/*"stop": "1",*/
+					"text": "range ",
+				},
+				"command": "text_pastry_range_parser",
+				"text": "range ",
+			},
+			"key": "b01dac259fabb9c579f2f2b9111a3325",
+			"label": "range ",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					/*"stop": "1"*/
+					"text": "range 1,",
+				},
+				"command": "text_pastry_range_parser",
+				"text": "range 1,",
+			},
+			"key": "6aa38f0b546268504bb3afb5e6f5b328",
+			"label": "range 1,",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					/*"text": "range 1,",*/
+					"start": "1",
+					"stop": "10",
+				},
+				"command": "text_pastry_range",
+				"text": "range 1 10",
+			},
+			"key": "1647d8463f4516c1edd77183824b2ccc",
+			"label": "range 1 10",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					/*"start": "1",*/
+					/*"stop": "10",*/
+					"text": "\\n",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "\\n",
+			},
+			"key": "1d78758685e5e2f4efeeb490f8521abd",
+			"label": "\\n",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "range(0 1)",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "range(0 1)",
+			},
+			"key": "bd8985afc8b261ef8d222d7f02ee50df",
+			"label": "range(0 1)",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "range",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "range",
+			},
+			"key": "37b19816109a32106d109e83bbb3c97d",
+			"label": "range",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					/*"text": "range",*/
+					/*"threshold": 3,*/
+					"stop": "10",
+					"start": "0",
+				},
+				"command": "text_pastry_range",
+				"text": "range 0 10",
+			},
+			"key": "fffc86d633ee23a7563e2474b6105af3",
+			"label": "range 0 10",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"stop": "1",
+					/*"start": "0",*/
+				},
+				"command": "text_pastry_range",
+				"text": "range 1",
+			},
+			"key": "8901b4fef0730f41bca3fa0d31f4eb2f",
+			"label": "range 1",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					/*"start": "0",*/
+					"stop": "6",
+					"start": "1",
+				},
+				"command": "text_pastry_range",
+				"text": "range 1 6",
+			},
+			"key": "9c802a8b2462527cb6ae220ec4b71e80",
+			"label": "range 1 6",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"start": "16",
+					"stop": "19",
+				},
+				"command": "text_pastry_range",
+				"text": "range 16 19",
+			},
+			"key": "85e24b738e4566bfe20e913e8647e7f5",
+			"label": "range 16 19",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"start": "1",
+					"stop": "4",
+				},
+				"command": "text_pastry_range",
+				"text": "range 1 4",
+			},
+			"key": "1e8d66f70fcf09619d753d2d00b080d1",
+			"label": "range 1 4",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					/*"start": "1",*/
+					/*"stop": "4",*/
+					"text": "07",
+				},
+				"command": "text_pastry_step",
+				"text": "07",
+			},
+			"key": "d72d187df41e10ea7d9fcdc7f5909205",
+			"label": "07",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "0 0 7",
+				},
+				"command": "text_pastry_step",
+				"text": "0 0 7",
+			},
+			"key": "e115fc922be349e45cf26f9d0a31aeaa",
+			"label": "0 0 7",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					/*"text": "0 0 7",*/
+					"start": "0",
+					"stop": "7",
+				},
+				"command": "text_pastry_range",
+				"text": "range 0 7",
+			},
+			"key": "d1f804f803ab783026e993727aa94fd6",
+			"label": "range 0 7",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					/*"start": "0",*/
+					"stop": "0",
+				},
+				"command": "text_pastry_range",
+				"text": "range 0",
+			},
+			"key": "5349240a31c0e7aa1cd061d3916744ca",
+			"label": "range 0",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"start": "0",
+					"stop": "9",
+				},
+				"command": "text_pastry_range",
+				"text": "range 0 9",
+			},
+			"key": "499b4f7e0b50b7541e58c51b27a90b11",
+			"label": "range 0 9",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "0 9",
+				},
+				"command": "text_pastry_step",
+				"text": "0 9",
+			},
+			"key": "a7ad22ef5c412c050b47464aefb04c51",
+			"label": "0 9",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "00 01",
+				},
+				"command": "text_pastry_step",
+				"text": "00 01",
+			},
+			"key": "8dadd49224478cba2fe52cab4cbeb4c1",
+			"label": "00 01",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "1 2",
+				},
+				"command": "text_pastry_step",
+				"text": "1 2",
+			},
+			"key": "31371f199688ae40ba84c37a303411be",
+			"label": "1 2",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "2 3",
+				},
+				"command": "text_pastry_step",
+				"text": "2 3",
+			},
+			"key": "a2d9b33304a1222854cafaf96187e00d",
+			"label": "2 3",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "12 4",
+				},
+				"command": "text_pastry_step",
+				"text": "12 4",
+			},
+			"key": "23833f1b6bc0e27836c08bd3cc8b3819",
+			"label": "12 4",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "12 -4",
+				},
+				"command": "text_pastry_step",
+				"text": "12 -4",
+			},
+			"key": "8d2a76807fc6bb9164142b3af9b44503",
+			"label": "12 -4",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "6 -2",
+				},
+				"command": "text_pastry_step",
+				"text": "6 -2",
+			},
+			"key": "76761789dc5ac06ca4bc802a4aa76ea0",
+			"label": "6 -2",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "4 -1",
+				},
+				"command": "text_pastry_step",
+				"text": "4 -1",
+			},
+			"key": "d986ced5f46ff4915f9763823c5166f2",
+			"label": "4 -1",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "0 1",
+				},
+				"command": "text_pastry_step",
+				"text": "0 1",
+			},
+			"key": "27a3f1a3d555387ab7bf589ca716c295",
+			"label": "0 1",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "3 1",
+				},
+				"command": "text_pastry_step",
+				"text": "3 1",
+			},
+			"key": "39c34c1a5f43fabf4c8903c4f4a91e29",
+			"label": "3 1",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "1 1",
+				},
+				"command": "text_pastry_step",
+				"text": "1 1",
+			},
+			"key": "75c124fae7a8b8b89183d4de196613b3",
+			"label": "1 1",
+		},
+	],
+	"last_command":
+	{
+		"args":
+		{
+			/*"start": "70",*/
+			/*"step": "2",*/
+			/*"stop": "1",*/
+			/*"text": "range 1,",*/
+			/*"start": "1",*/
+			/*"stop": "10",*/
+			/*"text": "range",*/
+			/*"threshold": 3,*/
+			/*"stop": "4",*/
+			/*"start": "0",*/
+			/*"start": "1",*/
+			/*"text": "0 0 7",*/
+			/*"start": "0",*/
+			/*"stop": "9",*/
+			/*"start": "0",*/
+			"text": "1 1",
+		},
+		"command": "text_pastry_step",
+		"text": "1 1",
+	},
+}

@@ -1,0 +1,10 @@
+[
+    {
+        "caption": "Toggle Origami Auto Focus",
+        "command": "toggle_origami_auto_focus",
+    },
+    {
+        "caption": "Change Origami Fraction",
+        "command": "change_origami_fraction",
+    },
+]

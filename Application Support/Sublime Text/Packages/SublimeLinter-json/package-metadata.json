@@ -1,0 +1,1 @@
+{"version": "1.3.2", "url": "https://github.com/SublimeLinter/SublimeLinter-json", "dependencies": [], "sublime_text": ">=3000", "platforms": ["*"], "description": "SublimeLinter plugin for JSON."}

@@ -1,0 +1,1 @@
+{"description": "Markdown preview and build plugin for Sublime Text https://facelessuser.github.io/MarkdownPreview/", "dependencies": [], "sublime_text": ">=3000", "version": "2.2.5", "platforms": ["*"], "url": "https://github.com/facelessuser/MarkdownPreview"}

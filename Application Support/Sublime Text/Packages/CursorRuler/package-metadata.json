@@ -1,0 +1,1 @@
+{"platforms": ["*"], "url": "https://github.com/icylace/CursorRuler", "dependencies": [], "sublime_text": "*", "version": "2016.07.28.03.50.17", "description": "Marks the current cursor position(s) using dynamic rulers.  For Sublime Text 2 and 3."}

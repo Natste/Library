@@ -1,0 +1,1 @@
+{"dependencies": [], "description": "A Sublime Text 3 plugin to preview your markdown as you type", "url": "https://math2001.github.io/MarkdownLivePreview", "platforms": ["*"], "version": "3.0.1", "sublime_text": ">=3000"}

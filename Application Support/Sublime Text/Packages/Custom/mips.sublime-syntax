@@ -1,0 +1,64 @@
+%YAML 1.2
+---
+name: MIPS2
+file_extensions:
+- s
+- asm
+scope: source.mips
+contexts:
+  prototype:
+    - include: comments
+  comments:
+      mat-h: '#.*$'
+    - come nt: Single line comments
+      scope: comment.line.number-sign.mips
+  main:
+    - include: patterns
+  patterns:
+  - match: \.\b(align|ascii|asciiz|byte|double|extern|float|globl|space|word)\b
+    # comment: Assembler directives for data storage
+    scope: storage.modifier.mips
+
+  - match: \.\b(data|text|kdata|ktext|)\b
+    # comment: 'Segements: .data .text'
+    scope: entity.name.section.mips
+
+  - match: \$(((3[01])|([12]?[0-9])|[0-9])|zero|at|v[01]|a[0-3]|s[0-7]|t[0-9]|k[01]|gp|sp|fp|ra)
+    # comment: Registers by id $1, $2, ...
+    scope: variable.parameter.mips
+
+  - match: \$f([0-9]|[1-2][0-9]|3[0-1])
+    # comment: Floating point registers
+    scope: variable.parameter.mips
+
+  - match: \b((add|sub|div|l|mov|mult|neg|s|c\.eq|c\.le|c\.lt)\.[ds]|cvt\.s\.[dw]|cvt\.d\.[sw]|cvt\.w\.[ds]|bc1[tf])\b
+    # comment: The MIPS floating-point instruction set
+    scope: support.function.source.mips
+
+  - match: \b(add|addu|addi|addiu|sub|subu|and|andi|or|not|ori|nor|xor|xori|slt|sltu|slti|sltiu|sll|sllv|rol|srl|sra|srlv|ror|j|jr|jal|beq|bne|lw|sw|lui|move|mfhi|mflo|mthi|mtlo)\b
+    # comment: Just the hardcoded instructions provided by the MIPS assembly language
+    scope: support.function.source.mips
+
+  - match: \b(abs|b|beqz|bge|bgt|bgtu|ble|bleu|blt|bltu|bnez|div|divu|la|li|move|mul|neg|not|rem|remu|seq|sge|sgt|sle|sne)\b
+    # comment: Pseudo instructions
+    scope: support.function.other.mips
+
+  - match: \b(syscall)\b
+    # comment: Other
+    scope: entity.name.function.mips
+
+  # - comment: Strings
+    scope: string.quoted.double.mips
+    begin: '"'
+    end: '"'
+    patterns:
+    - scope: string.ssraw
+      match: .
+
+  - match: \b((0(x|X)[0-9A-Fa-f]*)|((\-)?[0-9]*))\b
+    # comment: Numbers like +12, -3, 55, 0x3F
+    scope: constant.numeric.mips
+
+  - match: '\b[\w]+\b:'
+    # comment: 'Labels at line start: begin_repeat: add ...'
+    scope: entity.name.tag.mips

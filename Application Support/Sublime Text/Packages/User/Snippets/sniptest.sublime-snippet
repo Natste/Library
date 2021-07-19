@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+$SELECTION
+]]></content>
+<tabTrigger>sniptest</tabTrigger>
+<description>snippet maker test</description>
+<scope>source.python</scope>
+</snippet>

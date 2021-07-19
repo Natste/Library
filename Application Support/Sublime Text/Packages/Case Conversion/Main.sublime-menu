@@ -1,0 +1,62 @@
+[
+	{
+	    "id": "edit",
+	    "children":
+	    [
+	    {
+	        "id": "convert_case",
+	        "children":
+	        [
+	            { "command": "convert_to_snake", "caption": "snake_case" },
+	            { "command": "convert_to_screaming_snake", "caption": "SCREAMING_SNAKE_CASE" },
+	            { "command": "convert_to_camel", "caption": "camelCase" },
+	            { "command": "convert_to_pascal", "caption": "PascalCase" },
+	            { "command": "convert_to_dot", "caption": "dot.case" },
+	            { "command": "convert_to_dash", "caption": "dash-case" },
+	            { "command": "convert_to_separate_words", "caption": "separate␣words" },
+                { "command": "convert_to_slash", "caption": "separate/with/slash" },
+	            { "command": "convert_to_back_slash", "caption": "separate\\with\\backslash" },
+	            { "command": "toggle_snake_camel_pascal", "caption": "Toggle Case" }
+	        ]
+	    }
+	    ]
+	},
+    {
+        "caption": "Preferences",
+        "mnemonic": "n",
+        "id": "preferences",
+        "children":
+        [
+            {
+                "caption": "Package Settings",
+                "mnemonic": "P",
+                "id": "package-settings",
+                "children":
+                [
+                    {
+                        "caption": "Case Conversion",
+                        "children":
+                        [
+                            {
+                                "command": "edit_settings",
+                                "args": {
+                                    "base_file": "${packages}/Case Conversion/CaseConversion.sublime-settings",
+                                    "default": "// Settings in here override those in \"Case Conversion/CaseConversion.sublime-settings\",\n\n{\n\t$0\n}\n"
+                                },
+                                "caption": "Settings"
+                            },
+                            {
+                                "command": "edit_settings",
+                                "args": {
+                                    "base_file": "${packages}/Case Conversion/Default ($platform).sublime-keymap",
+                                    "default": "// Settings in here override those in \"Case Conversion/Default.sublime-settings\",\n\n{\n\t$0\n}\n"
+                                },
+                                "caption": "Key Bindings"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

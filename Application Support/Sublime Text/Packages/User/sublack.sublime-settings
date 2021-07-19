@@ -1,0 +1,5 @@
+{
+"black_command": "black",
+"black_on_save": false,
+"black_line_length": 80
+}

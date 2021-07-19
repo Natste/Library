@@ -1,0 +1,16 @@
+{
+	"extensions":
+	[
+		"xml.dist",
+	],
+	"hidden_extensions":
+	[
+		"rss",
+		"vcproj",
+		"tmLanguage",
+		"tmTheme",
+		"tmSnippet",
+		"dae",
+		"csproj"
+	],
+}

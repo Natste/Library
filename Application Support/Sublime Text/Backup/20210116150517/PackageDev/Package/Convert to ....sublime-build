@@ -1,0 +1,27 @@
+{
+    "target": "packagedev_convert",
+    "selector": "source.json, source.json-tmlanguage, source.yaml-tmlanguage, source.yaml, text.xml",
+    "variants": [
+        {
+            "name": "JSON",
+            "target": "packagedev_convert",
+            "target_format": "json"
+        },
+        {
+            "name": "Property List",
+            "target": "packagedev_convert",
+            "target_format": "plist"
+        },
+        {
+            "name": "YAML (Block Style)",
+            "target": "packagedev_convert",
+            "target_format": "yaml",
+            "default_flow_style": false
+        },
+        {
+            "name": "YAML (Default Style)",
+            "target": "packagedev_convert",
+            "target_format": "yaml"
+        }
+    ]
+}

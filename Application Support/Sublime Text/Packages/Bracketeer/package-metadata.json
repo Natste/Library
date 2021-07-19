@@ -1,0 +1,1 @@
+{"description": "Some bracket manipulation, selection, and insertion commands.", "dependencies": [], "sublime_text": ">=3000", "version": "2.1.2", "platforms": ["*"], "url": "https://github.com/colinta/SublimeBracketeer"}

@@ -1,0 +1,245 @@
+name: Coffee Light (rainglow)
+settings:
+- settings:
+    activeGuide: '#ffffff'
+    background: '#f4f2f2'
+    bracketContentsForeground: '#282122'
+    bracketContentsOptions: underline
+    bracketsForeground: '#282122'
+    bracketsOptions: underline
+    caret: '#222222'
+    findHighlight: '#ffe792'
+    findHighlightForeground: '#333333'
+    foreground: '#282122'
+    invisibles: '#ffffff'
+    lineHighlight: '#fbfafa'
+    selection: '#0a9f9b'
+    selectionBorder: '#ffffff'
+    selectionForeground: '#ffffff'
+    tagsOptions: stippled_underline
+- name: Comment
+  scope: comment
+  settings:
+    foreground: '#a59d9e'
+- name: String
+  scope: string
+  settings:
+    foreground: '#a58163'
+- name: Number
+  scope: constant.numeric
+  settings:
+    foreground: '#cc8f5d'
+- name: Built-in constant
+  scope: constant.language
+  settings:
+    foreground: '#282122'
+- name: User-defined constant
+  scope: constant.character, constant.other
+  settings:
+    foreground: '#282122'
+- name: Variable
+  scope: variable
+  settings:
+    fontStyle: ''
+- name: Keyword
+  scope: keyword
+  settings:
+    foreground: '#80b2b0'
+- name: Storage
+  scope: storage
+  settings:
+    fontStyle: ''
+    foreground: '#282122'
+- name: Storage type
+  scope: storage.type
+  settings:
+    fontStyle: ''
+    foreground: '#0a9f9b'
+- name: Class name
+  scope: entity.name.class
+  settings:
+    fontStyle: underline
+    foreground: '#282122'
+- name: Inherited class
+  scope: entity.other.inherited-class
+  settings:
+    fontStyle: italic underline
+    foreground: '#282122'
+- name: Function name
+  scope: entity.name.function
+  settings:
+    fontStyle: ''
+    foreground: '#e77757'
+- name: Function argument
+  scope: variable.parameter
+  settings:
+    fontStyle: italic
+    foreground: '#56484a'
+- name: Tag name
+  scope: entity.name.tag
+  settings:
+    fontStyle: ''
+    foreground: '#0a9f9b'
+- name: Tag attribute
+  scope: entity.other.attribute-name
+  settings:
+    fontStyle: ''
+    foreground: '#282122'
+- name: Library function
+  scope: support.function
+  settings:
+    fontStyle: ''
+    foreground: '#e77757'
+- name: Library constant
+  scope: support.constant
+  settings:
+    fontStyle: ''
+    foreground: '#282122'
+- name: Library class/type
+  scope: support.type, support.class
+  settings:
+    fontStyle: italic
+    foreground: '#282122'
+- name: Library variable
+  scope: support.other.variable
+  settings:
+    fontStyle: ''
+- name: Invalid
+  scope: invalid
+  settings:
+    background: '#664e4d'
+    fontStyle: ''
+    foreground: '#cf433e'
+- name: Invalid deprecated
+  scope: invalid.deprecated
+  settings:
+    background: '#664e4d'
+    foreground: '#cf433e'
+- name: JSON String
+  scope: meta.structure.dictionary.json string.quoted.double.json
+  settings:
+    foreground: '#a58163'
+- name: diff.header
+  scope: meta.diff, meta.diff.header
+  settings:
+    foreground: '#75715E'
+- name: diff.deleted
+  scope: markup.deleted
+  settings:
+    foreground: '#00A8C6'
+- name: diff.inserted
+  scope: markup.inserted
+  settings:
+    foreground: '#A6E22E'
+- name: diff.changed
+  scope: markup.changed
+  settings:
+    foreground: '#E6DB74'
+- scope: constant.numeric.line-number.find-in-files - match
+  settings:
+    foreground: '#8FBE00A0'
+- scope: entity.name.filename.find-in-files
+  settings:
+    foreground: '#E6DB74'
+- scope: keyword.other
+  settings:
+    foreground: '#cac5c5'
+- scope: meta.property-value, support.constant.property-value, constant.other.color
+  settings:
+    foreground: '#a58163'
+- scope: meta.structure.dictionary.json string.quoted.double.json
+  settings:
+    foreground: '#282122'
+- scope: meta.structure.dictionary.value.json string.quoted.double.json
+  settings:
+    foreground: '#a58163'
+- name: Function argument
+  scope: meta.property-name support.type.property-name
+  settings:
+    fontStyle: normal
+- name: Function argument
+  scope: meta.property-value punctuation.separator.key-value
+  settings:
+    foreground: '#282122'
+- name: Function argument
+  scope: keyword.other.use, keyword.other.function.use, keyword.other.namespace, keyword.other.new,
+    keyword.other.special-method, keyword.other.unit, keyword.other.use-as
+  settings:
+    foreground: '#0a9f9b'
+- name: Function argument
+  scope: meta.use support.class.builtin, meta.other.inherited-class support.class.builtin
+  settings:
+    fontStyle: normal
+    foreground: '#282122'
+- name: Function argument
+  scope: variable.other
+  settings:
+    fontStyle: normal
+    foreground: '#56484a'
+- name: Coffeescript Function argument
+  scope: variable.parameter.function.coffee
+  settings:
+    fontStyle: italic
+    foreground: '#cc8f5d'
+- name: Markdown Titles
+  scope: entity.name.section.markdown
+  settings:
+    foreground: '#282122'
+- name: Markdown Title Hash
+  scope: punctuation.definition.heading.markdown
+  settings:
+    foreground: '#80b2b0'
+- name: Markdown Raw
+  scope: markup.raw.inline.markdown
+  settings:
+    foreground: '#a58163'
+- name: Markdown bold stars
+  scope: punctuation.definition.bold.markdown, punctuation.definition.italic.markdown
+  settings:
+    foreground: '#80b2b0'
+- name: Markdown link title braces
+  scope: punctuation.definition.string.begin.markdown, punctuation.definition.string.end.markdown
+  settings:
+    foreground: '#80b2b0'
+- name: Markdown link braces
+  scope: punctuation.definition.metadata.markdown
+  settings:
+    foreground: '#80b2b0'
+- name: Markdown link
+  scope: markup.underline.link.markdown, markup.underline.link.image.markdown, meta.image.inline.markdown
+  settings:
+    fontStyle: italic
+    foreground: '#0a9f9b'
+- name: Markdown bold/italic
+  scope: markup.bold.markdown, markup.italic.markdown
+  settings:
+    foreground: '#0a9f9b'
+- name: Markdown bold/italic
+  scope: markup.italic.markdown
+  settings:
+    fontStyle: italic
+- name: Markdown bold/italic
+  scope: markup.bold.markdown
+  settings:
+    fontStyle: bold
+- name: Markdown pre
+  scope: markup.raw.block.markdown
+  settings:
+    foreground: '#664e4d'
+- name: GitGutter deleted
+  scope: markup.deleted.git_gutter
+  settings:
+    foreground: '#e61f44'
+- name: GitGutter inserted
+  scope: markup.inserted.git_gutter
+  settings:
+    foreground: '#a7da1e'
+- name: GitGutter changed
+  scope: markup.changed.git_gutter
+  settings:
+    foreground: '#f7b83d'
+- name: CSS Class
+  scope: entity.other.attribute-name.class.css
+  settings:
+    foreground: '#e77757'
+uuid: '#000000'

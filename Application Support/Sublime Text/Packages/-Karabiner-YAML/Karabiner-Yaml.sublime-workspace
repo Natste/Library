@@ -1,0 +1,2453 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"subsub",
+				"\\subsubsection*{title}                            "
+			],
+			[
+				"phnt",
+				"\\phantomsection                                   \thyperref"
+			],
+			[
+				"list",
+				"\\listoffigures                                    \tlatex-document"
+			],
+			[
+				"input",
+				"\\input{file}                                      "
+			],
+			[
+				"abstra",
+				"\\begin{abstract}                                  "
+			],
+			[
+				"inpu",
+				"\\input{file}                                      "
+			],
+			[
+				"in",
+				"\\input{file}                                      "
+			],
+			[
+				"inp",
+				"\\input{file}                                      "
+			],
+			[
+				"f",
+				"f"
+			],
+			[
+				"r",
+				"variables"
+			],
+			[
+				"insert",
+				"insert"
+			],
+			[
+				"Z",
+				"Zin_min"
+			],
+			[
+				"dm",
+				"dmax_l_"
+			],
+			[
+				"db",
+				"_db_data"
+			],
+			[
+				"write",
+				"writerow\tfunction"
+			],
+			[
+				"get",
+				"getAllKeys\tfunction"
+			],
+			[
+				"set",
+				"set_trace\tfunction"
+			],
+			[
+				"comp",
+				"_compiled_regex"
+			],
+			[
+				"WR",
+				"WRDQ_RSTR\tstatement"
+			],
+			[
+				"WRDQ",
+				"WRDQ_REGEX\tstatement"
+			],
+			[
+				"spl",
+				"splitlines\tfunction"
+			],
+			[
+				"thread",
+				"Thread\tclass"
+			],
+			[
+				"original",
+				"original_putty_log\tstatement"
+			],
+			[
+				"fwsi",
+				"fw_signing_dir\tstatement"
+			],
+			[
+				"ro",
+				"rowconfigure"
+			],
+			[
+				"row",
+				"ROWS\tstatement"
+			],
+			[
+				"fo",
+				"foreground"
+			],
+			[
+				"_Menu",
+				"_Menubutton\tclass"
+			],
+			[
+				"menu",
+				"_Menu"
+			],
+			[
+				"postcode",
+				"postcode_value\tstatement"
+			],
+			[
+				"frame",
+				"frameL1_postcode\tstatement"
+			],
+			[
+				"TL",
+				"TLabelFrame"
+			],
+			[
+				"width",
+				"_width"
+			],
+			[
+				"column",
+				"columnconfigure\tstatement"
+			],
+			[
+				"check",
+				"checkbox_frame\tstatement"
+			],
+			[
+				"format",
+				"formatted_time"
+			],
+			[
+				"total",
+				"total_time_elapsed\tstatement"
+			],
+			[
+				"L",
+				"Labeled_Frame\tclass"
+			],
+			[
+				"log",
+				"Scrolling_Log"
+			],
+			[
+				"Scrol",
+				"scrolledtext\tmodule"
+			],
+			[
+				"Lable",
+				"LabelFrame"
+			],
+			[
+				"class",
+				"class\tkeyword"
+			],
+			[
+				"canvas",
+				"canvas_frame\tstatement"
+			],
+			[
+				"config",
+				"ConfigUpdate"
+			],
+			[
+				"main",
+				"main_Lframe\tstatement"
+			],
+			[
+				"grid",
+				"grid_propagate\tfunction"
+			],
+			[
+				"postcode_v",
+				"postcode_val_label\tstatement"
+			],
+			[
+				"postcode_",
+				"postcode_value"
+			],
+			[
+				"MERO",
+				"MERO_ABL_POSTCODE"
+			],
+			[
+				"post",
+				"postcode_stored\tstatement"
+			],
+			[
+				"label",
+				"LabelFrame\tclass"
+			],
+			[
+				"up",
+				"update_idletasks\tfunction"
+			],
+			[
+				"umc",
+				"umcChoice\tstatement"
+			],
+			[
+				"wri",
+				"writeMux\tfunction"
+			],
+			[
+				"dfmp4",
+				"dfpm4_fields\tstatement"
+			],
+			[
+				"if",
+				"ifmain\tif __name__ == '__main__'"
+			],
+			[
+				"cldo",
+				"cldoLow\tstatement"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Users/Phteben/Library/Application Support/Sublime Text/Packages/HTML-CSS-JS Prettify/src/py/utils/window_utils.py",
+			"settings":
+			{
+				"buffer_size": 2248,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "karabiner_yaml.sublime-syntax",
+			"settings":
+			{
+				"buffer_size": 2125,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			},
+			"undo_stack":
+			[
+				[
+					14,
+					1,
+					"toggle_comment",
+					{
+						"block": false
+					},
+					"AwAAAA8IAAAAAAAAEQgAAAAAAAAAAAAA5AcAAAAAAADmBwAAAAAAAAAAAADNBwAAAAAAAM8HAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAApCAAAAAAAAMkHAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					24,
+					1,
+					"insert",
+					{
+						"characters": "\n-i"
+					},
+					"BAAAAKUEAAAAAAAApgQAAAAAAAAAAAAApgQAAAAAAACsBAAAAAAAAAAAAACsBAAAAAAAAK0EAAAAAAAAAAAAAK0EAAAAAAAArgQAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAClBAAAAAAAAKUEAAAAAAAA////////738"
+				],
+				[
+					25,
+					1,
+					"left_delete",
+					null,
+					"AQAAAK0EAAAAAAAArQQAAAAAAAABAAAAaQ",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACuBAAAAAAAAK4EAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					26,
+					1,
+					"run_macro_file",
+					{
+						"file": "res://Packages/PackageDev/Package/Sublime Text Syntax Definition/Add Syntax Rule (space).sublime-macro"
+					},
+					"AQAAAK0EAAAAAAAArgQAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACtBAAAAAAAAK0EAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					27,
+					1,
+					"insert",
+					{
+						"characters": "include"
+					},
+					"BwAAAK4EAAAAAAAArwQAAAAAAAAAAAAArwQAAAAAAACwBAAAAAAAAAAAAACwBAAAAAAAALEEAAAAAAAAAAAAALEEAAAAAAAAsgQAAAAAAAAAAAAAsgQAAAAAAACzBAAAAAAAAAAAAACzBAAAAAAAALQEAAAAAAAAAAAAALQEAAAAAAAAtQQAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACuBAAAAAAAAK4EAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					28,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAALUEAAAAAAAAtgQAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAC1BAAAAAAAALUEAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					29,
+					1,
+					"left_delete",
+					null,
+					"AQAAALUEAAAAAAAAtQQAAAAAAAABAAAAIA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAC2BAAAAAAAALYEAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					30,
+					1,
+					"insert",
+					{
+						"characters": ":"
+					},
+					"AQAAALUEAAAAAAAAtgQAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAC1BAAAAAAAALUEAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					31,
+					1,
+					"insert",
+					{
+						"characters": " D"
+					},
+					"AgAAALYEAAAAAAAAtwQAAAAAAAAAAAAAtwQAAAAAAAC4BAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAC2BAAAAAAAALYEAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					32,
+					1,
+					"left_delete",
+					null,
+					"AQAAALcEAAAAAAAAtwQAAAAAAAABAAAARA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAC4BAAAAAAAALgEAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					43,
+					1,
+					"insert",
+					{
+						"characters": "directive"
+					},
+					"CQAAALcEAAAAAAAAuAQAAAAAAAAAAAAAuAQAAAAAAAC5BAAAAAAAAAAAAAC5BAAAAAAAALoEAAAAAAAAAAAAALoEAAAAAAAAuwQAAAAAAAAAAAAAuwQAAAAAAAC8BAAAAAAAAAAAAAC8BAAAAAAAAL0EAAAAAAAAAAAAAL0EAAAAAAAAvgQAAAAAAAAAAAAAvgQAAAAAAAC/BAAAAAAAAAAAAAC/BAAAAAAAAMAEAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAC3BAAAAAAAALcEAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					59,
+					1,
+					"cut",
+					null,
+					"AQAAAKYEAAAAAAAApgQAAAAAAAAbAAAAICAgICAgLSBpbmNsdWRlOiBkaXJlY3RpdmUK",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADABAAAAAAAAMAEAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					64,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AwAAAMgHAAAAAAAAyQcAAAAAAAAAAAAAyQcAAAAAAADPBwAAAAAAAAAAAADPBwAAAAAAANEHAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADIBwAAAAAAAMgHAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					65,
+					5,
+					"left_delete",
+					null,
+					"BQAAAM8HAAAAAAAAzwcAAAAAAAACAAAAICDNBwAAAAAAAM0HAAAAAAAAAgAAACAgywcAAAAAAADLBwAAAAAAAAIAAAAgIMkHAAAAAAAAyQcAAAAAAAACAAAAICDIBwAAAAAAAMgHAAAAAAAAAQAAAAo",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADRBwAAAAAAANEHAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					68,
+					1,
+					"toggle_comment",
+					{
+						"block": false
+					},
+					"AwAAAM0HAAAAAAAAzQcAAAAAAAACAAAAIyDkBwAAAAAAAOQHAAAAAAAAAgAAACMgDwgAAAAAAAAPCAAAAAAAAAIAAAAjIA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAMAAADaBwAAAAAAANoHAAAAAAAAAAAAAABAaEDzBwAAAAAAAPMHAAAAAAAAAAAAAAAA8L8gCAAAAAAAACAIAAAAAAAAAAAAAABAaEA"
+				],
+				[
+					76,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AgAAAAoIAAAAAAAACwgAAAAAAAAAAAAACwgAAAAAAAARCAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAKCAAAAAAAAAoIAAAAAAAA////////738"
+				],
+				[
+					77,
+					1,
+					"paste_and_indent",
+					null,
+					"AQAAAAsIAAAAAAAAJggAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAARCAAAAAAAABEIAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					83,
+					2,
+					"swap_line_up",
+					null,
+					"BAAAAC0IAAAAAAAALQgAAAAAAAAfAAAAICAgICAgc2NvcGU6IHRvLmxpbmUua2FyYWJpbmVyCiYIAAAAAAAARQgAAAAAAAAAAAAAJggAAAAAAAAmCAAAAAAAAB8AAAAgICAgICBzY29wZTogdG8ubGluZS5rYXJhYmluZXIKCwgAAAAAAAAqCAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAzCAAAAAAAADMIAAAAAAAAAAAAAABAUUA"
+				],
+				[
+					85,
+					1,
+					"trim_trailing_white_space",
+					null,
+					"AQAAAEUIAAAAAAAARQgAAAAAAAAGAAAAICAgICAg",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAwCAAAAAAAADAIAAAAAAAAAAAAAABAUUA"
+				],
+				[
+					101,
+					1,
+					"left_delete",
+					null,
+					"AQAAADAIAAAAAAAAMAgAAAAAAAABAAAALQ",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAwCAAAAAAAADEIAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					103,
+					1,
+					"left_delete",
+					null,
+					"AQAAADAIAAAAAAAAMAgAAAAAAAABAAAAIA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAxCAAAAAAAADEIAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					105,
+					1,
+					"run_macro_file",
+					{
+						"file": "res://Packages/Default/Delete Line.sublime-macro"
+					},
+					"AQAAACoIAAAAAAAAKggAAAAAAAAZAAAAICAgICAgaW5jbHVkZTogZGlyZWN0aXZlCg",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAwCAAAAAAAADAIAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					106,
+					1,
+					"left_delete",
+					null,
+					"AQAAACkIAAAAAAAAKQgAAAAAAAABAAAACg",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAqCAAAAAAAACoIAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					117,
+					1,
+					"left_delete",
+					null,
+					"AQAAABEIAAAAAAAAEQgAAAAAAAAYAAAAc2NvcGU6IHRvLmxpbmUua2FyYWJpbmVy",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAApCAAAAAAAABEIAAAAAAAAAAAAAABAUUA"
+				],
+				[
+					118,
+					1,
+					"insert",
+					{
+						"characters": "captures"
+					},
+					"CAAAABEIAAAAAAAAEggAAAAAAAAAAAAAEggAAAAAAAATCAAAAAAAAAAAAAATCAAAAAAAABQIAAAAAAAAAAAAABQIAAAAAAAAFQgAAAAAAAAAAAAAFQgAAAAAAAAWCAAAAAAAAAAAAAAWCAAAAAAAABcIAAAAAAAAAAAAABcIAAAAAAAAGAgAAAAAAAAAAAAAGAgAAAAAAAAZCAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAARCAAAAAAAABEIAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					119,
+					1,
+					"left_delete",
+					null,
+					"AQAAABgIAAAAAAAAGAgAAAAAAAABAAAAcw",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAZCAAAAAAAABkIAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					120,
+					1,
+					"insert_completion",
+					{
+						"completion": "captures:\n  ",
+						"format": "snippet",
+						"keep_prefix": false,
+						"must_insert": false,
+						"trigger": "captures"
+					},
+					"AgAAABEIAAAAAAAAEQgAAAAAAAAHAAAAY2FwdHVyZREIAAAAAAAAIwgAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAYCAAAAAAAABgIAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					121,
+					1,
+					"insert",
+					{
+						"characters": "1:"
+					},
+					"AgAAACMIAAAAAAAAJAgAAAAAAAAAAAAAJAgAAAAAAAAlCAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAjCAAAAAAAACMIAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					122,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAACUIAAAAAAAAJggAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAlCAAAAAAAACUIAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					123,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AwAAACYIAAAAAAAAJwgAAAAAAAAAAAAAJwgAAAAAAAAvCAAAAAAAAAAAAAAvCAAAAAAAADEIAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAmCAAAAAAAACYIAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					124,
+					1,
+					"left_delete",
+					null,
+					"AQAAAC8IAAAAAAAALwgAAAAAAAACAAAAICA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAxCAAAAAAAADEIAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					125,
+					1,
+					"insert",
+					{
+						"characters": "2:"
+					},
+					"AgAAAC8IAAAAAAAAMAgAAAAAAAAAAAAAMAgAAAAAAAAxCAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAvCAAAAAAAAC8IAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					127,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAACUIAAAAAAAAJggAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAlCAAAAAAAACUIAAAAAAAAAAAAAACAXEA"
+				],
+				[
+					128,
+					1,
+					"insert",
+					{
+						"characters": "to.line."
+					},
+					"CAAAACYIAAAAAAAAJwgAAAAAAAAAAAAAJwgAAAAAAAAoCAAAAAAAAAAAAAAoCAAAAAAAACkIAAAAAAAAAAAAACkIAAAAAAAAKggAAAAAAAAAAAAAKggAAAAAAAArCAAAAAAAAAAAAAArCAAAAAAAACwIAAAAAAAAAAAAACwIAAAAAAAALQgAAAAAAAAAAAAALQgAAAAAAAAuCAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAmCAAAAAAAACYIAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					129,
+					1,
+					"insert",
+					{
+						"characters": "karabiner"
+					},
+					"CQAAAC4IAAAAAAAALwgAAAAAAAAAAAAALwgAAAAAAAAwCAAAAAAAAAAAAAAwCAAAAAAAADEIAAAAAAAAAAAAADEIAAAAAAAAMggAAAAAAAAAAAAAMggAAAAAAAAzCAAAAAAAAAAAAAAzCAAAAAAAADQIAAAAAAAAAAAAADQIAAAAAAAANQgAAAAAAAAAAAAANQgAAAAAAAA2CAAAAAAAAAAAAAA2CAAAAAAAADcIAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAuCAAAAAAAAC4IAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					132,
+					2,
+					"left_delete",
+					null,
+					"AgAAADkIAAAAAAAAOQgAAAAAAAAKAAAAICAgICAgICAyOjgIAAAAAAAAOAgAAAAAAAABAAAACg",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAABDCAAAAAAAADkIAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					133,
+					1,
+					"trim_trailing_white_space",
+					null,
+					"AQAAADcIAAAAAAAANwgAAAAAAAABAAAAIA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAA4CAAAAAAAADgIAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					251,
+					1,
+					"insert",
+					{
+						"characters": "meta"
+					},
+					"BQAAABEIAAAAAAAAEggAAAAAAAAAAAAAEggAAAAAAAASCAAAAAAAABQAAABjYXB0dXJlczoKICAgICAgICAxOhIIAAAAAAAAEwgAAAAAAAAAAAAAEwgAAAAAAAAUCAAAAAAAAAAAAAAUCAAAAAAAABUIAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAlCAAAAAAAABEIAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					252,
+					1,
+					"insert",
+					{
+						"characters": " scope"
+					},
+					"BgAAABUIAAAAAAAAFggAAAAAAAAAAAAAFggAAAAAAAAXCAAAAAAAAAAAAAAXCAAAAAAAABgIAAAAAAAAAAAAABgIAAAAAAAAGQgAAAAAAAAAAAAAGQgAAAAAAAAaCAAAAAAAAAAAAAAaCAAAAAAAABsIAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAVCAAAAAAAABUIAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					253,
+					1,
+					"insert",
+					{
+						"characters": ":"
+					},
+					"AQAAABsIAAAAAAAAHAgAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAbCAAAAAAAABsIAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					279,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AQAAAC8IAAAAAAAAMAgAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAvCAAAAAAAAC8IAAAAAAAAAAAAAAAAAAA"
+				],
+				[
+					281,
+					2,
+					"left_delete",
+					null,
+					"AgAAADAIAAAAAAAAMAgAAAAAAAADAAAALi4uLwgAAAAAAAAvCAAAAAAAAAEAAAAK",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAwCAAAAAAAADMIAAAAAAAA////////738"
+				],
+				[
+					283,
+					1,
+					"insert",
+					{
+						"characters": "..."
+					},
+					"AwAAAC8IAAAAAAAAMAgAAAAAAAAAAAAAMAgAAAAAAAAxCAAAAAAAAAAAAAAxCAAAAAAAADIIAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAvCAAAAAAAAC8IAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					291,
+					1,
+					"right_delete",
+					null,
+					"AQAAABUIAAAAAAAAFQgAAAAAAAABAAAAIA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAVCAAAAAAAABUIAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					292,
+					1,
+					"insert",
+					{
+						"characters": "_"
+					},
+					"AQAAABUIAAAAAAAAFggAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAVCAAAAAAAABUIAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					296,
+					1,
+					"insert",
+					{
+						"characters": "  s"
+					},
+					"AwAAABEIAAAAAAAAEggAAAAAAAAAAAAAEggAAAAAAAATCAAAAAAAAAAAAAATCAAAAAAAABQIAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAARCAAAAAAAABEIAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					297,
+					1,
+					"left_delete",
+					null,
+					"AQAAABMIAAAAAAAAEwgAAAAAAAABAAAAcw",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAUCAAAAAAAABQIAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					299,
+					2,
+					"left_delete",
+					null,
+					"AgAAABEIAAAAAAAAEQgAAAAAAAACAAAAICAPCAAAAAAAAA8IAAAAAAAAAgAAACAg",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAATCAAAAAAAABMIAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					301,
+					1,
+					"insert",
+					{
+						"characters": "  "
+					},
+					"AgAAAA8IAAAAAAAAEAgAAAAAAAAAAAAAEAgAAAAAAAARCAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAPCAAAAAAAAA8IAAAAAAAAAAAAAAAA8L8"
+				]
+			]
+		},
+		{
+			"file": "Convert-KYAML-to-json.py",
+			"settings":
+			{
+				"buffer_size": 407,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/Phteben/.config/karabiner/assets/complex_modifications/oneHandedEnters.k-yaml",
+			"settings":
+			{
+				"buffer_size": 576,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/Phteben/Library/Application Support/Sublime Text/Packages/YAML/YAML.sublime-syntax",
+			"settings":
+			{
+				"buffer_size": 18104,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "karabiner_completions.sublime-completions",
+			"settings":
+			{
+				"buffer_size": 662,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/Python/Python.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					""
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Traditional"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"PdfLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"XeLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"LuaLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - PdfLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - XeLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - LuaLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Script Builder"
+				]
+			],
+			[
+				"Packages/LaTeXTools/LaTeX.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"open",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"html",
+				"HTMLPrettify"
+			],
+			[
+				"packagedev",
+				"PackageDev: Create Package"
+			],
+			[
+				"apply",
+				"ApplySyntax: Settings"
+			],
+			[
+				"build",
+				"Build With: Convert to ... - YAML (Block Style)"
+			],
+			[
+				"show",
+				"KeybindingHelper: Toggle show commands"
+			],
+			[
+				"yaml",
+				"Set Syntax: YAML"
+			],
+			[
+				"build with",
+				"Build With: Convert to ..."
+			],
+			[
+				"syntax yaml",
+				"Set Syntax: YAML"
+			],
+			[
+				"preserv",
+				"MultiEditUtils: Preserve Case"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"key",
+				"Preferences: Key Bindings"
+			],
+			[
+				"word",
+				"Word Wrap: Toggle"
+			],
+			[
+				"caret view",
+				"View Documentation for Package Under Caret"
+			],
+			[
+				"prese",
+				"MultiEditUtils: Preserve Case"
+			],
+			[
+				"multi",
+				"MultiEditUtils: Preserve Case"
+			],
+			[
+				"view caret",
+				"View Documentation for Package Under Caret"
+			],
+			[
+				"open resource",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"tex docmentat",
+				"LaTeXTools: View TeX package documentation"
+			],
+			[
+				"keybinding",
+				"KeybindingHelper: Show Command Assistant"
+			],
+			[
+				"tex documentat",
+				"LaTeXTools: View TeX package documentation"
+			],
+			[
+				"document",
+				"LaTeXTools: View TeX package documentation"
+			],
+			[
+				"latex doc",
+				"LaTeXTools: View TeX package documentation"
+			],
+			[
+				"latex pac",
+				"LaTeXTools: View TeX package documentation"
+			],
+			[
+				"latex pack",
+				"LaTeXTools: View TeX package documentation"
+			],
+			[
+				"latex documentat",
+				"LaTeXTools: View TeX package documentation"
+			],
+			[
+				"latex ",
+				"LaTeXTools: View TeX package documentation"
+			],
+			[
+				"begin",
+				"Snippet: \\begin{}…\\end{}"
+			],
+			[
+				"fields",
+				"MultiEditUtils: Selection as Fields"
+			],
+			[
+				"toggle show ",
+				"KeybindingHelper: Toggle show commands"
+			],
+			[
+				"side",
+				"Side-by-Side: Select a File"
+			],
+			[
+				"scheme",
+				"PackageDev: Edit Current Color Scheme"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"set syntax tex",
+				"Set Syntax: LaTeX"
+			],
+			[
+				"packages",
+				"Package Control: List Packages"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"extract",
+				"PackageResourceViewer: Extract Package"
+			],
+			[
+				"dis",
+				"Package Control: Disable Package"
+			],
+			[
+				"enab",
+				"Package Control: Enable Package"
+			],
+			[
+				"latex",
+				"Set Syntax: LaTeX"
+			],
+			[
+				"enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"disa",
+				"Package Control: Disable Package"
+			],
+			[
+				"disabl",
+				"Package Control: Disable Package"
+			],
+			[
+				"select brac",
+				"BracketHighlighter: Select Bracket Content"
+			],
+			[
+				"panel",
+				"Find: Show Results Panel"
+			],
+			[
+				"show commands",
+				"KeybindingHelper: Toggle show commands"
+			],
+			[
+				"keyb",
+				"KeybindingHelper: Toggle show commands"
+			],
+			[
+				"pastry",
+				"Text Pastry: Range (numeric)"
+			],
+			[
+				"python",
+				"Set Syntax: Python"
+			],
+			[
+				"Preserve",
+				"MultiEditUtils: Preserve Case"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"convert to json b",
+				"Build With: Convert to ... - JSON"
+			],
+			[
+				"prettify yaml",
+				"Pretty YAML: Reformat (Pretty Print) YAML"
+			],
+			[
+				"serial json to yaml",
+				"Serialized Data Converter: JSON to YAML"
+			],
+			[
+				"convert to json bui",
+				"Build With: Convert to ... - JSON"
+			],
+			[
+				"convert to json",
+				"Serialized Data Converter: YAML to JSON"
+			],
+			[
+				"convert",
+				"Serialized Data Converter: YAML to JSON"
+			],
+			[
+				"tabstop",
+				"Snippet: tabstop-deftxt"
+			],
+			[
+				"snippet ta",
+				"Snippet: tabstop-deftxt"
+			],
+			[
+				"wrap",
+				"Word Wrap: Toggle"
+			],
+			[
+				"new completions",
+				"PackageDev: New Completions File"
+			],
+			[
+				"discove",
+				"Package Control: Discover Packages"
+			],
+			[
+				"package control",
+				"Package Control: List Packages"
+			],
+			[
+				"snippet sim",
+				"Snippet: karabiner_sim"
+			],
+			[
+				"settings",
+				"Side-by-Side: Sublime Settings"
+			],
+			[
+				"snippet sy",
+				"Set Syntax: Sublime Text Snippet (XML)"
+			],
+			[
+				"snippet",
+				"Snippet: karabiner_com"
+			],
+			[
+				"num",
+				"Text Pastry: Range (numeric)"
+			],
+			[
+				"complet",
+				"PackageDev: New Completions File"
+			],
+			[
+				"wrap ",
+				"Word Wrap: Toggle"
+			],
+			[
+				"comapre",
+				"Compare selections"
+			],
+			[
+				"completions",
+				"PackageDev: New Completions File"
+			],
+			[
+				"convert to yaml",
+				"Build With: Convert to ... - YAML (Block Style)"
+			],
+			[
+				"wrap tog",
+				"Word Wrap: Toggle"
+			],
+			[
+				"toggle wrap",
+				"Word Wrap: Toggle"
+			],
+			[
+				"toggle word",
+				"Word Wrap: Toggle"
+			],
+			[
+				"wrap toggle",
+				"Word Wrap: Toggle"
+			],
+			[
+				"numeric",
+				"Text Pastry: Range (numeric)"
+			],
+			[
+				"range",
+				"Text Pastry: Range (numeric)"
+			],
+			[
+				"javas",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"brackethighlighter enable",
+				"BracketHighlighter: Toggle Global Enable"
+			],
+			[
+				"align",
+				"AlignTab: Live Preview Mode"
+			],
+			[
+				"advanced",
+				"Package Control: Advanced Install Package"
+			],
+			[
+				"package",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"debug",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"keybin",
+				"KeybindingHelper: Toggle show commands"
+			],
+			[
+				"sidebyside",
+				"Side-by-Side: Select a File"
+			],
+			[
+				"update",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"add repo",
+				"Package Control: Add Repository"
+			],
+			[
+				"package late",
+				"LaTeXTools: View TeX package documentation"
+			],
+			[
+				"bu",
+				"Build With: LaTeX"
+			],
+			[
+				"package lat",
+				"LaTeXTools: View TeX package documentation"
+			],
+			[
+				"bul",
+				"Build With: LaTeX"
+			],
+			[
+				"select",
+				"BracketHighlighter: Select Bracket Content"
+			],
+			[
+				"pretty",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"convert json",
+				"PackageDev: Convert (YAML, JSON, PList) to…"
+			],
+			[
+				"verilog",
+				"Set Syntax: Verilog"
+			],
+			[
+				"verilog x",
+				"Set Syntax: Verilog"
+			],
+			[
+				"verilo",
+				"Set Syntax: Verilog"
+			],
+			[
+				"synt MIPS",
+				"Set Syntax: MIPS"
+			],
+			[
+				"syntax Mip",
+				"Set Syntax: MIPS"
+			],
+			[
+				"syntax C",
+				"Set Syntax: C"
+			],
+			[
+				"theme se",
+				"UI: Select Theme"
+			],
+			[
+				"syntax matl",
+				"Set Syntax: MATLAB"
+			],
+			[
+				"PackageDev: New",
+				"PackageDev: New TextMate Syntax Definition (JSON)"
+			],
+			[
+				"package create",
+				"PackageDev: Create Package"
+			],
+			[
+				"syntax c",
+				"Set Syntax: C"
+			],
+			[
+				"synta",
+				"Set Syntax: C"
+			],
+			[
+				"json",
+				"Set Syntax: JSON Key-Value"
+			],
+			[
+				"set syntax c",
+				"Set Syntax: C"
+			],
+			[
+				"wrap togg",
+				"Word Wrap: Toggle"
+			],
+			[
+				"syntax dev",
+				"PackageDev: New Syntax Definition"
+			],
+			[
+				"set syntax text",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"Python",
+				"Set Syntax: Python"
+			],
+			[
+				"syntaxc",
+				"Set Syntax: C"
+			],
+			[
+				"instlal",
+				"Package Control: Install Package"
+			],
+			[
+				"xel",
+				"Build With: LaTeX - XeLaTeX"
+			],
+			[
+				"pastr",
+				"Text Pastry: Range (numeric)"
+			],
+			[
+				"mips",
+				"Set Syntax: MIPS"
+			],
+			[
+				"assemb",
+				"Set Syntax: Assembly x86 (MASM compatible)"
+			],
+			[
+				"package latex",
+				"LaTeXTools: View TeX package documentation"
+			],
+			[
+				"indent",
+				"Auto indent"
+			],
+			[
+				"latex build",
+				"Build With: LaTeX"
+			],
+			[
+				"matlab",
+				"Set Syntax: MATLAB"
+			],
+			[
+				"LATEX SYNTAX",
+				"Set Syntax: LaTeX"
+			],
+			[
+				"TOGGLE WORD",
+				"Word Wrap: Toggle"
+			],
+			[
+				"xe",
+				"Build With: LaTeX - XeLaTeX"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 806.0,
+		"history":
+		[
+			"sublime.log_commands(True)",
+			"{\n  \"title\": \"Remote Desktop\",\n  \"rules\": [\n    {\n      \"description\": \"Swap command and control\",\n      \"manipulators\": [\n        {\n          \"type\": \"basic\",\n          \"from\": {\n            \"key_code\": \"left_control\",\n            \"modifiers\": {\n              \"optional\": [\n                \"any\"\n              ]\n            }\n          },\n          \"to\": [\n            {\n              \"key_code\": \"left_command\"\n            }\n          ],\n          \"conditions\": [\n            {\n              \"type\": \"frontmost_application_if\",\n              \"bundle_identifiers\": [\n                \"com\\\\.microsoft\\\\.rdc\\\\.mac\"\n              ]\n            }\n          ]\n        },\n        {\n          \"type\": \"basic\",\n          \"from\": {\n            \"key_code\": \"left_command\",\n            \"modifiers\": {\n              \"optional\": [\n                \"any\"\n              ]\n            }\n          },\n          \"to\": [\n            {\n              \"key_code\": \"left_control\"\n            }\n          ],\n          \"conditions\": [\n            {\n              \"type\": \"frontmost_application_if\",\n              \"bundle_identifiers\": [\n                \"com\\\\.microsoft\\\\.rdc\\\\.mac\"\n              ]\n            }\n          ]\n        },\n        {\n          \"type\": \"basic\",\n          \"from\": {\n            \"key_code\": \"right_control\",\n            \"modifiers\": {\n              \"optional\": [\n                \"any\"\n              ]\n            }\n          },\n          \"to\": [\n            {\n              \"key_code\": \"right_command\"\n            }\n          ],\n          \"conditions\": [\n            {\n              \"type\": \"frontmost_application_if\",\n              \"bundle_identifiers\": [\n                \"com\\\\.microsoft\\\\.rdc\\\\.mac\"\n              ]\n            }\n          ]\n        },\n        {\n          \"type\": \"basic\",\n          \"from\": {\n            \"key_code\": \"right_command\",\n            \"modifiers\": {\n              \"optional\": [\n                \"any\"\n              ]\n            }\n          },\n          \"to\": [\n            {\n              \"key_code\": \"right_control\"\n            }\n          ],\n          \"conditions\": [\n            {\n              \"type\": \"frontmost_application_if\",\n              \"bundle_identifiers\": [\n                \"com\\\\.microsoft\\\\.rdc\\\\.mac\"\n              ]\n            }\n          ]\n        }\n      ]\n    }\n  ]\n}",
+			"rules:\n- description: Swap command and control\n  manipulators:\n  - type: basic\n    from:\n      key_code: left_control\n      modifiers:\n        optional:\n        - any\n    to:\n    - key_code: left_command\n    conditions:\n    - type: frontmost_application_if\n      bundle_identifiers:\n      - com\\.microsoft\\.rdc\\.mac\n  - type: basic\n    from:\n      key_code: left_command\n      modifiers:\n        optional:\n        - any\n    to:\n    - key_code: left_control\n    conditions:\n    - type: frontmost_application_if\n      bundle_identifiers:\n      - com\\.microsoft\\.rdc\\.mac\n  - type: basic\n    from:\n      key_code: right_control\n      modifiers:\n        optional:\n        - any\n    to:\n    - key_code: right_command\n    conditions:\n    - type: frontmost_application_if\n      bundle_identifiers:\n      - com\\.microsoft\\.rdc\\.mac\n  - type: basic\n    from:\n      key_code: right_command\n      modifiers:\n        optional:\n        - any\n    to:\n    - key_code: right_control\n    conditions:\n    - type: frontmost_application_if\n      bundle_identifiers:\n      - com\\.microsoft\\.rdc\\.mac\n",
+			"com.sublimetext.4",
+			"{\n          \"description\": \"escape = capslock switch\",\n          \"type\": \"basic\",\n          \"from\": {\n            \"key_code\": \"escape\",\n            \"modifiers\": {\n              \"optional\": [\n                \"caps_lock\"\n              ],\n              \"mandatory\": [\n                \"right_command\",\n                \"right_control\",\n                \"right_shift\",\n                \"right_option\"\n              ]\n            }\n          },\n          \"to\": [\n            {\n              \"key_code\": \"caps_lock\",\n              \"modifiers\": [\n                \"left_control\"\n              ]\n            }\n          ]\n        }",
+			"{\n    \"title\": \"Keychron Swap\",\n    \"rules\": [{\n\n            \"description\": \"C2: Swap insert and fn\",\n            \"manipulators\": [{\n                    \"conditions\": [{\n                        \"identifiers\": [{\n                            \"description\": \"Keychron\",\n                            \"product_id\": 591\n                        }],\n                        \"type\": \"device_if\"\n                    }],\n                    \"type\": \"basic\",\n                    \"from\": {\n                        \"key_code\": \"fn\"\n                    },\n                    \"to\": {\n                        \"key_code\": \"insert\"\n                    }\n                },\n                {\n                    \"conditions\": [{\n                        \"identifiers\": [{\n                            \"description\": \"Keychron\",\n                            \"product_id\": 591\n                        }],\n                        \"type\": \"device_if\"\n                    }],\n                    \"type\": \"basic\",\n                    \"from\": {\n                        \"key_code\": \"insert\"\n                    },\n                    \"to\": {\n                        \"key_code\": \"fn\"\n                    }\n                }\n            ]\n        },\n        {\n            \"description\": \"C2: Swap CMD and CTRL\",\n            \"manipulators\": [{\n                    \"conditions\": [{\n                        \"identifiers\": [{\n                            \"description\": \"Keychron\",\n                            \"product_id\": 591\n                        }],\n                        \"type\": \"device_if\"\n                    }],\n                    \"from\": {\n                        \"key_code\": \"left_command\",\n                        \"modifiers\": {\n                            \"optional\": [\n                                \"any\"\n                            ]\n                        }\n                    },\n                    \"to\": [{\n                        \"key_code\": \"left_option\"\n                    }],\n                    \"type\": \"basic\"\n                },\n                {\n                    \"conditions\": [{\n                        \"identifiers\": [{\n                            \"description\": \"Keychron\",\n                            \"product_id\": 591\n                        }],\n                        \"type\": \"device_if\"\n                    }],\n                    \"from\": {\n                        \"key_code\": \"left_option\",\n                        \"modifiers\": {\n                            \"optional\": [\n                                \"any\"\n                            ]\n                        }\n                    },\n                    \"to\": {\n                        \"key_code\": \"left_command\"\n                    },\n                    \"type\": \"basic\"\n                },\n                {\n                    \"conditions\": [{\n                        \"identifiers\": [{\n                            \"description\": \"Keychron\",\n                            \"product_id\": 591\n                        }],\n                        \"type\": \"device_if\"\n                    }],\n                    \"from\": {\n                        \"key_code\": \"right_command\",\n                        \"modifiers\": {\n                            \"optional\": [\n                                \"any\"\n                            ]\n                        }\n                    },\n                    \"to\": [{\n                        \"key_code\": \"right_option\"\n                    }],\n                    \"type\": \"basic\"\n                },\n                {\n                    \"conditions\": [{\n                        \"identifiers\": [{\n                            \"description\": \"Keychron\",\n                            \"product_id\": 591\n                        }],\n                        \"type\": \"device_if\"\n                    }],\n                    \"from\": {\n                        \"key_code\": \"right_option\",\n                        \"modifiers\": {\n                            \"optional\": [\n                                \"any\"\n                            ]\n                        }\n                    },\n                    \"to\": {\n                        \"key_code\": \"right_command\"\n                    },\n                    \"type\": \"basic\"\n                }\n            ]\n        }\n    ]\n}",
+			"- identifiers:\n  - description: Keychron\n    product_id: 591\n  type: device_if",
+			"https://www.amazon.com/Skin-Tag-Remover-Patches-Fast-Acting/product-reviews/B091JDQN6D/ref=cm_cr_dp_d_show_all_btm?ie=UTF8&reviewerType=all_reviews",
+			"{ \"keys\": [\"super+alt+n\"], \"command\": \"normalize_region_ends\" },",
+			"command: sublime_linter_assigned {\"linter_names\": [], \"filename\": \"<untitled 800>\"}"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/Phteben/Library/Application Support/Sublime Text/Packages/-Karabiner-YAML"
+	],
+	"file_history":
+	[
+		"/Users/Phteben/Library/Application Support/Sublime Text/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc.defaults.json",
+		"/Users/Phteben/Library/Application Support/Sublime Text/Packages/User/Karabiner-Yaml/package-metadata.json",
+		"/Users/Phteben/Library/Application Support/Sublime Text/Packages/PackageDev/plugins/file_conversion.py",
+		"/Users/Phteben/Library/Application Support/Sublime Text/Packages/PackageDev/Package/Convert to ....sublime-build",
+		"/Users/Phteben/Library/Application Support/Sublime Text/Packages/Default/font.py",
+		"/Users/Phteben/Library/Application Support/Sublime Text/Packages/User/UserListeners.py",
+		"/Users/Phteben/Library/Application Support/Sublime Text/Packages/SublimeLinter-pylint/messages.json",
+		"/Users/Phteben/Library/Application Support/Sublime Text/Packages/SublimeLinter-pylint/package-metadata.json",
+		"/Users/Phteben/Library/Application Support/Sublime Text/Packages/SublimeLinter-pylint/.travis.yml",
+		"/Users/Phteben/Library/Application Support/Sublime Text/Packages/SublimeLinter-pylint/linter.py",
+		"/Users/Phteben/Library/Application Support/Sublime Text/Packages/User/TexDocumentationPackageUnderCaret.py",
+		"/Users/Phteben/Library/Application Support/Sublime Text/Packages/HTML-CSS-JS Prettify/src/py/event_listeners.py",
+		"/Users/Phteben/Library/Application Support/Sublime Text/Packages/User/Convert-KYAML-to-json.py",
+		"/Users/Phteben/Library/Application Support/Sublime Text/Packages/PackageDev/Package/PackageDev.sublime-commands",
+		"/Users/Phteben/Library/Application Support/Sublime Text/Packages/HTML-CSS-JS Prettify/src/py/utils/debounce_utils.py",
+		"/Users/Phteben/Library/Application Support/Sublime Text/Packages/Default/convert_syntax.py",
+		"/Users/Phteben/Library/Application Support/Sublime Text/Packages/Default/Syntax Tests.sublime-build",
+		"/Users/Phteben/Library/Application Support/Sublime Text/Packages/SerializedDataConverter/lib/json_includes.py",
+		"/Users/Phteben/Library/Application Support/Sublime Text/Packages/SerializedDataConverter/serialized_data_converter.py",
+		"/Users/Phteben/Library/Application Support/Sublime Text 3/Packages/sublack/sublack/consts.py",
+		"/Users/Phteben/Library/Application Support/Sublime Text 3/Packages/sublack/sublack/commands.py",
+		"/Users/Phteben/Library/Application Support/Sublime Text 3/Packages/sublack/sublack/utils.py",
+		"/Users/Phteben/Library/Application Support/Sublime Text 3/Packages/sublack/main.py",
+		"/Users/Phteben/Library/Application Support/Sublime Text 3/Packages/On Save/st_tools/view.py",
+		"/Users/Phteben/Library/Application Support/Sublime Text 3/Packages/On Save/program/on_save.py",
+		"/Users/Phteben/Library/Application Support/Sublime Text 3/Packages/On Save/main.py",
+		"/Users/Phteben/Library/Mobile Documents/3L68KQB4HG~com~readdle~CommonDocuments/Documents/IQP/Report/iqp-report.sublime-project",
+		"/Users/Phteben/Library/Mobile Documents/3L68KQB4HG~com~readdle~CommonDocuments/Documents/ARCHIVE/ECE_2010/LAB 4/Lab 4 ECE 2010.tex",
+		"/Users/Phteben/Library/Mobile Documents/3L68KQB4HG~com~readdle~CommonDocuments/Documents/IQP/Report/sections/_title_and_toc.tex",
+		"/Users/Phteben/Library/Mobile Documents/3L68KQB4HG~com~readdle~CommonDocuments/Documents/IQP/Report/sections/_preamble.tex",
+		"/Users/Phteben/Library/Application Support/Sublime Text 3/Packages/LaTeXTools/latex_cwl_completions.py",
+		"/Users/Phteben/Library/Application Support/Sublime Text 3/Packages/LaTeXTools/LaTeXTools.sublime-settings",
+		"/Users/Phteben/Library/Application Support/Sublime Text 3/Packages/LaTeX-cwl/Readme.md",
+		"/Users/Phteben/.config/karabiner/Keychron_CmdCtrl_Swap.json",
+		"/Users/Phteben/Library/Mobile Documents/3L68KQB4HG~com~readdle~CommonDocuments/Documents/IQP/demo script",
+		"/Users/Phteben/Library/Mobile Documents/3L68KQB4HG~com~readdle~CommonDocuments/Documents/IQP/sonify-master/_sample data/spectra/test_data.txt",
+		"/Users/Phteben/Library/Application Support/Sublime Text 3/Packages/BeautifyLatex/Default (OSX).sublime-keymap",
+		"/Users/Phteben/Documents/irb-questionnaire/IRB-SonifyQuestionnaireQuestions.tex",
+		"/Users/Phteben/Library/Mobile Documents/3L68KQB4HG~com~readdle~CommonDocuments/Documents/Verilog Examples/00_ALL_EXAMPLES_.v",
+		"/Users/Phteben/Library/Mobile Documents/3L68KQB4HG~com~readdle~CommonDocuments/Documents/Verilog Examples/clock divider.v",
+		"/Users/Phteben/Library/Mobile Documents/3L68KQB4HG~com~readdle~CommonDocuments/Documents/Verilog Examples/Counters 4b.v",
+		"/Users/Phteben/Library/Mobile Documents/3L68KQB4HG~com~readdle~CommonDocuments/Documents/Verilog Examples/Structure Template.v",
+		"/Users/Phteben/Library/Mobile Documents/3L68KQB4HG~com~readdle~CommonDocuments/Documents/Verilog Examples/Muxes.v",
+		"/Users/Phteben/Library/Mobile Documents/3L68KQB4HG~com~readdle~CommonDocuments/Documents/Verilog Examples/FSMS.v",
+		"/Users/Phteben/Library/Mobile Documents/3L68KQB4HG~com~readdle~CommonDocuments/Documents/Verilog Examples/ROM.v",
+		"/Users/Phteben/Library/Mobile Documents/3L68KQB4HG~com~readdle~CommonDocuments/Documents/Verilog Examples/RAM (Dual Port).v",
+		"/Users/Phteben/Library/Mobile Documents/3L68KQB4HG~com~readdle~CommonDocuments/Documents/Verilog Examples/RAM (Single Port).v",
+		"/Users/Phteben/Library/Mobile Documents/3L68KQB4HG~com~readdle~CommonDocuments/Documents/Verilog Examples/Resource Sharing.v",
+		"/Users/Phteben/Library/Mobile Documents/3L68KQB4HG~com~readdle~CommonDocuments/Documents/Verilog Examples/MultAddSub.v",
+		"/Users/Phteben/Library/Mobile Documents/3L68KQB4HG~com~readdle~CommonDocuments/Documents/Verilog Examples/Multipliers with Pipeline Stages.v",
+		"/Users/Phteben/Library/Mobile Documents/3L68KQB4HG~com~readdle~CommonDocuments/Documents/Verilog Examples/Comparator Multiplier.v",
+		"/Users/Phteben/Library/Mobile Documents/3L68KQB4HG~com~readdle~CommonDocuments/Documents/Verilog Examples/Adders Subtractors.v",
+		"/Users/Phteben/Library/Mobile Documents/3L68KQB4HG~com~readdle~CommonDocuments/Documents/Verilog Examples/Logical Shifter.v",
+		"/Users/Phteben/Library/Mobile Documents/3L68KQB4HG~com~readdle~CommonDocuments/Documents/Verilog Examples/Decoder:Encoder.v",
+		"/Users/Phteben/Library/Mobile Documents/3L68KQB4HG~com~readdle~CommonDocuments/Documents/Verilog Examples/Shift Registers (8bit).v",
+		"/Users/Phteben/Library/Mobile Documents/3L68KQB4HG~com~readdle~CommonDocuments/Documents/Verilog Examples/4bitAccumulator.v",
+		"/Users/Phteben/Library/Mobile Documents/3L68KQB4HG~com~readdle~CommonDocuments/Documents/Verilog Examples/4bitCounters.v",
+		"/Users/Phteben/Library/Mobile Documents/3L68KQB4HG~com~readdle~CommonDocuments/Documents/Verilog Examples/TriStateElement.v",
+		"/Users/Phteben/Library/Mobile Documents/3L68KQB4HG~com~readdle~CommonDocuments/Documents/Verilog Examples/Latches.v",
+		"/Users/Phteben/Library/Mobile Documents/3L68KQB4HG~com~readdle~CommonDocuments/Documents/Verilog Examples/4bit_Reg.v",
+		"/Volumes/PORTCAMP/Vivado Projects/BreadboardKeyboard_FPv4/BreadboardKeyboard_FPv4 src/FlipFlops.v",
+		"/Volumes/PORTCAMP/Vivado Projects/BreadboardKeyboard_FPv4/BreadboardKeyboard_FPv4 src/All_Examples.v",
+		"/Users/Phteben/Library/Mobile Documents/3L68KQB4HG~com~readdle~CommonDocuments/Documents/ECE2112/ref_coeff.m",
+		"/Users/Phteben/Library/Mobile Documents/3L68KQB4HG~com~readdle~CommonDocuments/Documents/ECE4801/hw2/hw4801-2.tex",
+		"/Users/Phteben/Library/Mobile Documents/3L68KQB4HG~com~readdle~CommonDocuments/Documents/ECE4801/hw2/ece4801-preamble.tex",
+		"/Users/Phteben/Library/Mobile Documents/3L68KQB4HG~com~readdle~CommonDocuments/Documents/ECE4801/hw2/hw4801-2.s",
+		"/Users/Phteben/Library/Mobile Documents/3L68KQB4HG~com~readdle~CommonDocuments/Documents/ECE2112/hw3-2112.m",
+		"/Users/Phteben/Library/Mobile Documents/3L68KQB4HG~com~readdle~CommonDocuments/Documents/ECE2112/Hw 2112-4.matlab",
+		"/Users/Phteben/Library/Application Support/Sublime Text 3/Packages/User/Snippets/matlab_pp.sublime-snippet",
+		"/Users/Phteben/Library/Application Support/Sublime Text 3/Packages/User/Snippets/rule.sublime-snippet",
+		"/Users/Phteben/Library/Mobile Documents/3L68KQB4HG~com~readdle~CommonDocuments/Documents/WPI/Resumes/AMD-2021 res/coverletter.tex",
+		"/Users/Phteben/Library/Mobile Documents/3L68KQB4HG~com~readdle~CommonDocuments/Documents/WPI/Resumes/AMD-2021 res/resume/coursework.tex",
+		"/Users/Phteben/Library/Mobile Documents/3L68KQB4HG~com~readdle~CommonDocuments/Documents/WPI/Resumes/AMD-2021 res/resume/experience.tex",
+		"/Users/Phteben/Library/Mobile Documents/3L68KQB4HG~com~readdle~CommonDocuments/Documents/WPI/Resumes/AMD-2021 res/resume/summary.tex",
+		"/Users/Phteben/Library/Mobile Documents/3L68KQB4HG~com~readdle~CommonDocuments/Documents/WPI/Resumes/AMD-2021 res/resume/independentProjects.tex",
+		"/Users/Phteben/Library/Mobile Documents/3L68KQB4HG~com~readdle~CommonDocuments/Documents/WPI/Resumes/AMD-2021 res/resume.pdf",
+		"/Users/stephennatale/OneDrive - Advanced Micro Devices Inc/Projects/CLDO_Dip/VN_CLDO_drop.py",
+		"/Users/stephennatale/Library/Application Support/Sublime Text 3/Packages/User/Sublime Text Settings.sublime-settings",
+		"/Users/stephennatale/OneDrive - Advanced Micro Devices Inc/RMB_logs/RMB_parser.py",
+		"/Users/stephennatale/OneDrive - Advanced Micro Devices Inc/RMB_logs/RMB_parser_v2.py",
+		"/Users/stephennatale/Library/Application Support/Sublime Text 3/Packages/User/Anaconda.sublime-settings",
+		"/Users/stephennatale/Library/Application Support/Sublime Text 3/Packages/Terminal/Terminal.sublime-settings",
+		"/Users/stephennatale/Library/Application Support/Sublime Text 3/Packages/User/Terminal (OSX).sublime-settings",
+		"/Users/stephennatale/Library/Application Support/Sublime Text 3/Packages/User/Terminal.sublime-settings",
+		"/C/Users/stnatale/OneDrive - Advanced Micro Devices Inc/RMB_logs/RMB_parser.py",
+		"/C/Users/stnatale/OneDrive - Advanced Micro Devices Inc/RMB_logs/Decoded/RMB_FP7_DDR3200_AL_4UMC_Training_#1_Hit_failure_point.new.txt",
+		"/C/Users/stnatale/OneDrive - Advanced Micro Devices Inc/RMB_logs/Decoded/Output/RMB_FP7_DDR3200_AL_4UMC_Training_#1_Hit_failure_point.new.txt",
+		"/C/Users/stnatale/OneDrive - Advanced Micro Devices Inc/LCDL_stability_test/LCDL_stability_test_VN.py",
+		"/C/Users/stnatale/OneDrive - Advanced Micro Devices Inc/VN_vDropTest/filterResults.py",
+		"/C/AMD/Kysy4/Examples/Python/register.py",
+		"/C/Users/stnatale/AppData/Roaming/Sublime Text 3/Packages/User/Python_ext.sublime-syntax",
+		"/C/Users/stnatale/OneDrive - Advanced Micro Devices Inc/RMB_logs/notes/rmb_parsrer_unused.py",
+		"/C/Program Files/Sublime Text 3/Packages/Python.sublime-package",
+		"/C/Users/stnatale/AppData/Roaming/Sublime Text 3/Packages/Default/colors.py",
+		"/C/Users/stnatale/AppData/Roaming/Sublime Text 3/Packages/Default/Syntax.sublime-menu",
+		"/C/Users/stnatale/OneDrive - Advanced Micro Devices Inc/RMB_logs/WckDly",
+		"/C/Users/stnatale/OneDrive - Advanced Micro Devices Inc/RMB_logs/Decoded/RMB_FP7_DDR3200_AL_4UMC_Training_#1_Hit_failure_point.new.log",
+		"/C/Users/stnatale/OneDrive - Advanced Micro Devices Inc/quick_decode.py",
+		"/C/Users/stnatale/OneDrive - Advanced Micro Devices Inc/signing_automation.py",
+		"//vatlamd10/projects/Platform_Silicon/Memory/Rembrandt/FP7/Bringup/Debug/RRW/Training_logs/RMB_FP7_DDR3200_AL_4UMC_Training_#1_Hit_failure_point.log",
+		"/C/Users/stnatale/OneDrive - Advanced Micro Devices Inc/DTO/DTO/sanbox123.py",
+		"/C/Users/stnatale/OneDrive - Advanced Micro Devices Inc/DTO/DTO/postcodeGUI_v2.py",
+		"/C/Users/stnatale/OneDrive - Advanced Micro Devices Inc/DTO/DTO/ColumnExplore_v2.py",
+		"/C/AMD/Kysy4/Python/Python37/Kysy.py",
+		"/C/Users/stnatale/AppData/Local/Programs/Python/Python37/Lib/site-packages/jupyter_core/command.py",
+		"/C/Users/stnatale/AppData/Local/Programs/Python/Python37/Lib/site-packages/notebook/notebookapp.py",
+		"/C/Users/stnatale/AppData/Local/Programs/Python/Python37/Lib/site-packages/jupyterlab_pygments/_version.py",
+		"/C/Users/stnatale/AppData/Local/Programs/Python/Python37/Lib/site-packages/jupyterlab_pygments/__init__.py",
+		"/C/AMD/Kysy4/Readme.rtf",
+		"/C/AMD/Kysy4/Python/KysyEnvironment.py",
+		"/C/AMD/Kysy4/Python/Python37/_Kysy.exp",
+		"/C/Logs/12_11_112246.new.log",
+		"/C/Users/stnatale/OneDrive - Advanced Micro Devices Inc/┌─┬─┐",
+		"/C/Users/stnatale/OneDrive - Advanced Micro Devices Inc/DTO/DTO/ColumnExplore_v2_kysy.py",
+		"/C/Logs/12_11_151112.new.log",
+		"//atlvsmb1/stnatale/dwc_lpddr54_cuamd_tsmc7ff18_fw_phyinit_A-2020.09_20201019/firmware/A-2020.09/training/source/project_notes.md",
+		"/C/Users/stnatale/OneDrive - Advanced Micro Devices Inc/DTO/DTO/mrInfo.py",
+		"/C/AMD/Kysy4/Examples/Python/pdm.py",
+		"/C/AMD/Kysy4/Examples/Python/kysy_examples.py",
+		"/C/AMD/Kysy4/Examples/Python/scan_examples.py",
+		"/C/Logs/12_10_181309.log",
+		"/C/Logs/12_10_190444.new.log",
+		"/C/Logs/12_10_192111.new.log",
+		"/C/Logs/12_10_194740.new.log",
+		"/C/Logs/12_10_172642.new.log",
+		"/C/Logs/12_10_173723.log",
+		"/C/Logs/12_10_172642.log",
+		"/C/Logs/12_10_160453.new.log"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 94.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"embed",
+			"htmlprettify"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": true,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/Phteben/Library/Application Support/Sublime Text/Packages/HTML-CSS-JS Prettify/src/py/utils/window_utils.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2248,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								627,
+								627
+							]
+						],
+						"settings":
+						{
+							"WordCount":
+							{
+								"changes": 0,
+								"count": 168,
+								"modified": false,
+								"selection": false,
+								"status": -1,
+								"syntax": "plain text"
+							},
+							"apply_syntax_touched": true,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"function_name_status_row": 17,
+							"incomplete_sync": null,
+							"origPos":
+							[
+								0.0,
+								0.0
+							],
+							"remote_loading": false,
+							"rulers":
+							[
+							],
+							"syncScroll": false,
+							"synced": false,
+							"syntax": "Packages/User/Python_ext.sublime-syntax",
+							"tab_size": 4,
+							"tabs_extra_last_activated": 1626183731.1,
+							"tabs_extra_last_activated_sheet_index": 0,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "karabiner_yaml.sublime-syntax",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2125,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"WordCount":
+							{
+								"changes": 325,
+								"count": 111,
+								"modified": false,
+								"selection": false,
+								"status": -1,
+								"syntax": "plain text"
+							},
+							"apply_syntax_touched": true,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"function_name_status_row": 0,
+							"incomplete_sync": null,
+							"origPos":
+							[
+								0.0,
+								0.0
+							],
+							"remote_loading": false,
+							"rulers":
+							[
+							],
+							"syncScroll": false,
+							"synced": false,
+							"syntax": "Packages/PackageDev/Package/Sublime Text Syntax Definition/Sublime Text Syntax Definition.sublime-syntax",
+							"tab_size": 2,
+							"tabs_extra_last_activated": 1626183736.62,
+							"tabs_extra_last_activated_sheet_index": 1,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "Convert-KYAML-to-json.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 407,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								338,
+								338
+							]
+						],
+						"settings":
+						{
+							"WordCount":
+							{
+								"changes": 0,
+								"count": 33,
+								"modified": false,
+								"selection": false,
+								"status": -1,
+								"syntax": "plain text"
+							},
+							"apply_syntax_touched": true,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"function_name_status_row": 10,
+							"incomplete_sync": null,
+							"origPos":
+							[
+								0.0,
+								0.0
+							],
+							"remote_loading": false,
+							"rulers":
+							[
+							],
+							"syncScroll": false,
+							"synced": false,
+							"syntax": "Packages/User/Python_ext.sublime-syntax",
+							"tab_size": 4,
+							"tabs_extra_last_activated": 1626183734.98,
+							"tabs_extra_last_activated_sheet_index": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Users/Phteben/.config/karabiner/assets/complex_modifications/oneHandedEnters.k-yaml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 576,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								531,
+								531
+							]
+						],
+						"settings":
+						{
+							"WordCount":
+							{
+								"changes": 0,
+								"count": 35,
+								"modified": false,
+								"selection": false,
+								"status": -1,
+								"syntax": "plain text"
+							},
+							"apply_syntax_touched": true,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"function_name_status_row": 20,
+							"incomplete_sync": null,
+							"origPos":
+							[
+								0.0,
+								0.0
+							],
+							"remote_loading": false,
+							"rulers":
+							[
+							],
+							"syncScroll": false,
+							"synced": false,
+							"syntax": "Packages/-Karabiner-YAML/karabiner_yaml.sublime-syntax",
+							"tab_size": 2,
+							"tabs_extra_last_activated": 1626183735.85,
+							"tabs_extra_last_activated_sheet_index": 3,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/Users/Phteben/Library/Application Support/Sublime Text/Packages/YAML/YAML.sublime-syntax",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 18104,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5704,
+								5704
+							]
+						],
+						"settings":
+						{
+							"WordCount":
+							{
+								"changes": 0,
+								"count": 1065,
+								"modified": false,
+								"selection": false,
+								"status": -1,
+								"syntax": "plain text"
+							},
+							"apply_syntax_touched": true,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"function_name_status_row": 174,
+							"incomplete_sync": null,
+							"origPos":
+							[
+								0.0,
+								0.0
+							],
+							"remote_loading": false,
+							"rulers":
+							[
+							],
+							"syncScroll": false,
+							"synced": false,
+							"syntax": "Packages/PackageDev/Package/Sublime Text Syntax Definition/Sublime Text Syntax Definition.sublime-syntax",
+							"tab_size": 2,
+							"tabs_extra_last_activated": 1626183737.37,
+							"tabs_extra_last_activated_sheet_index": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2614.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "karabiner_completions.sublime-completions",
+					"selected": true,
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 662,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"WordCount":
+							{
+								"changes": 0,
+								"count": 39,
+								"modified": false,
+								"selection": false,
+								"status": -1,
+								"syntax": "plain text"
+							},
+							"apply_syntax_touched": true,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										661,
+										662
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"bh.curly"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										0,
+										1
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"function_name_status_row": 0,
+							"incomplete_sync": null,
+							"origPos":
+							[
+								0.0,
+								0.0
+							],
+							"remote_loading": false,
+							"rulers":
+							[
+								0.15
+							],
+							"syncScroll": false,
+							"synced": false,
+							"syntax": "Packages/PackageDev/Package/Sublime Text Completions/Sublime Text Completions.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 44.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SFTP":
+	{
+		"height": 0.0
+	},
+	"output.SublimeLinter":
+	{
+		"height": 127.0
+	},
+	"output.SublimeLinter Messages":
+	{
+		"height": 139.0
+	},
+	"output.exec":
+	{
+		"height": 127.0
+	},
+	"output.find_results":
+	{
+		"height": 152.0
+	},
+	"output.help":
+	{
+		"height": 104.0
+	},
+	"output.keybinding":
+	{
+		"height": 104.0
+	},
+	"output.latextools":
+	{
+		"height": 164.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"output.package_dev":
+	{
+		"height": 104.0
+	},
+	"pinned_build_system": "",
+	"project": "Karabiner-Yaml.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 320.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

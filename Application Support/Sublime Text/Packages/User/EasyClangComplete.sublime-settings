@@ -1,0 +1,14 @@
+{"common_flags" : [
+  // some example includes
+  // "-I/usr/include",
+  // "-I$project_path/src",
+  // this is needed to include the correct headers for clang
+  "-I/usr/lib/clang/$clang_version/include",
+  // For simple projects, you can add a folder where your current file is
+  // "-I$file_path",
+  // "-I$VC_INSTALLDIR",
+  "-I$C_STDLIB"
+],
+"use_libclang" : false,
+"show_type_info" : false
+}

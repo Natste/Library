@@ -1,0 +1,16 @@
+[
+    {
+        "caption": "View Documentation for Package Under Caret",
+        "command": "tex_documentation_package_under_caret",
+    },
+    {
+        "caption": "replace: multiple spaces -> single space",
+        "command": "reduce_to_single_spaces",
+        "caption": "replace: multiple newlines -> single newline",
+        "command": "reduce_to_single_lines",
+        "caption": "replace: all -> spaces",
+        "command": "replace_with_spaces",
+        // "caption": "remove comments (// /**/)",
+        // "command": "remove_comments",
+    },
+]

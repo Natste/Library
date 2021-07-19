@@ -1,0 +1,16 @@
+{
+    // http://www.sublimetext.com/docs/3/color_schemes.html
+    "variables": {
+        // "selection_G": "color(#F18260 l(- 50%) a(0.50))",
+        // "selection_fg": "color(#F18260 l(- 40%) a(0.75))"
+    },
+    "globals": {
+        // "foreground": "var(green)",
+    },
+    "rules": [
+        {
+            // "scope": "string",
+            // "foreground": "#00FF00",
+        },
+    ],
+}

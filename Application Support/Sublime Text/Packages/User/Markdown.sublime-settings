@@ -1,0 +1,24 @@
+{
+"color_scheme": "/Packages/Color Scheme - Default/NATSTE.sublime-color-scheme",
+"tab_size": 4,
+"translate_tabs_to_spaces": true,
+"trim_trailing_white_space_on_save": false,
+"auto_match_enabled": true,
+
+// Layout
+"draw_centered": false,
+"word_wrap": true,
+"wrap_width": 160,
+"rulers": [],
+
+// Line
+"line_numbers": true,
+"highlight_line": true,
+"line_padding_top": 2,
+"line_padding_bottom": 2,
+
+// Caret
+"caret_style": "phase",
+"caret_extra_top": 3,
+"caret_extra_bottom": 3,
+}

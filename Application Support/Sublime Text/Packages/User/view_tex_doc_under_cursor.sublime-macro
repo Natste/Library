@@ -1,0 +1,7 @@
+[
+    {"command": "expand_selection", "args": {"to": "scope"} },
+    // {"command": "copy" },
+    {"command": "exec", "args": {"cmd": ["texdoc", "--view", "$SELECTION"]}},
+    // {"command": "latex_pkg_doc"},
+    // {"command": "paste" },
+]

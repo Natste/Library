@@ -1,0 +1,3 @@
+{
+	"last_test_run": "nosetests  2d-hist_RMB:SpinnerThread.getUniqueValues"
+}

@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+pp_(["${1:answer}" "__End__"],[${1:answer} 123e24])
+]]></content>
+<tabTrigger>pp</tabTrigger>
+<description>matlab pretty print</description>
+<scope>source.matlab</scope>
+</snippet>

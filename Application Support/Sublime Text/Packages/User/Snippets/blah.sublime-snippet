@@ -1,0 +1,8 @@
+<snippet>
+<content><![CDATA[
+blah bloh bluh bleh
+]]></content>
+<tabTrigger>blah</tabTrigger>
+<description>blah</description>
+<scope>text.plain</scope>
+</snippet>

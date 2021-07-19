@@ -1,0 +1,1 @@
+{"sublime_text": ">=3000", "platforms": ["*"], "description": "Graphical Debugger for Sublime Text ", "version": "0.8.4", "url": "https://github.com/matiasmorant/SublimeDebugger", "dependencies": []}

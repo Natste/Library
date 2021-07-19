@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+{ "trigger": "${1:some_trigger}", "contents": "${2:some_trigger}" },
+$0
+]]></content>
+
+
+    <tabTrigger>hello</tabTrigger>
+    <scope> source.json.sublime.completions meta.completions.collection.sublime-completions meta.mapping.value.json meta.sequence.json meta.completions.sublime-completions meta.mapping.json punctuation.section.mapping.begin.json
+    </scope>
+</snippet>

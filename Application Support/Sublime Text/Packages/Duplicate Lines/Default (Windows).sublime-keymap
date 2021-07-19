@@ -1,0 +1,4 @@
+[
+  { "keys": ["ctrl+shift+d"], "command": "duplicate_lines" },
+  { "keys": ["ctrl+shift+u"], "command": "duplicate_lines", "args": { "up": true } }
+]

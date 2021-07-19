@@ -1,0 +1,1 @@
+{"dependencies": [], "url": "https://github.com/kamilkp/Sublime-Text-ReIndent", "version": "1.0.0", "sublime_text": "*", "platforms": ["*"], "description": "Quickly re-indent file to two or four spaces tabsize."}

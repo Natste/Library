@@ -1,0 +1,16 @@
+{
+  "AlignAfterOpenBracket": "Align",
+  "AlignConsecutiveAssignments": true,
+  "AlignConsecutiveDeclarations": true,
+  "AlignOperands": true,
+  "AlignTrailingComments": true,
+  "AllowShortBlocksOnASingleLine": true,
+  "AllowShortFunctionsOnASingleLine": "All",
+  "AllowShortIfStatementsOnASingleLine": true,
+  "AllowShortLoopsOnASingleLine": true,
+  "BasedOnStyle": "Google",
+  "BinPackArguments": false,
+  "BinPackParameters": false,
+  "ColumnLimit": 120,
+  "MaxEmptyLinesToKeep": 2
+}

@@ -1,0 +1,7 @@
+        {
+            "extensions": ["json", "sublime-settings"],
+            "settings":
+            {
+                "syntax": "C:/Users/stnatale/AppData/Roaming/Sublime Text 3/Packages/JSON Key-Value/JSON Key-Value.tmLanguage"
+            }
+        }

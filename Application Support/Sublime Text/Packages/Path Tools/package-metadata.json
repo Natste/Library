@@ -1,0 +1,1 @@
+{"version": "1.3.0", "sublime_text": "*", "platforms": ["*"], "dependencies": [], "url": "https://github.com/pjdietz/sublime-path-tools", "description": "A suite of commands for copying or inserting the current file's path in Sublime Text 2 or 3."}

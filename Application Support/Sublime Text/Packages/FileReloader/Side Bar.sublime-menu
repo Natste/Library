@@ -1,0 +1,6 @@
+[
+    {
+        "caption": "Reload Open Files",
+        "command": "reload_all_files"
+    }
+]

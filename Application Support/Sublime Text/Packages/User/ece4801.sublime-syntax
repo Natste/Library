@@ -1,0 +1,92 @@
+%YAML 1.2
+---
+# See http://www.sublimetext.com/docs/3/syntax.html
+name: ece4801
+file_extensions:
+  - ece4801
+scope: source.ece4801
+
+contexts:
+  # The prototype context is prepended to all contexts but those setting
+  # meta_include_prototype: false.
+  prototype:
+    - include: comments
+
+  main:
+    # The main context is the initial starting point of our syntax.
+    # Include other contexts from here (or specify them directly).
+    - include: keywords
+    - include: numbers
+    - include: strings
+
+  keywords:
+    # Keywords are if, else for and while.
+    # Note that blackslashes don't need to be escaped within single quoted
+    # strings in YAML. When using single quoted strings, only single quotes
+    # need to be escaped: this is done by using two single quotes next to each
+    # other.
+    - match: '│?\b(WB|MEM|EX|IF|ID)[^!~]'
+      scope: variable.parameter.ece4801
+
+    # - match: '\b(Loop|beq|bne)\b'
+    #   scope: string.quoted.ece4801
+
+    - match: '\b(add|addu|addi|addiu|sub|subu|and|andi|or|not|ori|nor|xor|xori|slt|sltu|slti|sltiu|sll|sllv|rol|srl|sra|srlv|ror|j|jr|jal|lw|sw|lui|move|mfhi|mflo|mthi|mtlo|beq|bne)\b'
+      scope: support.function.ece4801
+
+    - match: '\b(bez|swq)\b'
+      scope: markup.deleted.git_gutter.ece4801
+    # - match: '\b(beq\b|bne\b|Loop\b(\W* )*?(?=│\w))' #(.*?,){2} +\w*'
+    - match: '\b(Loop|For|While|Break|End|Label\d?)\b'
+      scope: storage.type.struct.ece4801
+    - match: '│'
+      scope: comment.ece4801
+    #   scope: constant.other.format-spec.python
+
+    - match: '(.*╞|═|╪|╣|ITERATION \d|│ *\d\d? *)'
+      scope: comment.ece4801
+
+    - match: '│?(!(\w| )*|STALL|!|\*\*\*)'
+      scope: keyword.ece4801 #constant.other.format-spec.python
+
+    - match: '│?((\w| )*?~(\w| )*|~)'
+      scope: markup.deleted.ece4801 #constant.other.format-spec.python
+
+    - match: '\\[0-9.]+\\'
+      scope: keyword.other.match.ece4801
+
+    - match: '[┝╍┿]|FLUSHED'
+      scope: markup.changed.git_gutter.ece4801
+    - match: '\?\?\?'
+      scope: string.unquoted.plain.ece4801
+  numbers:
+    - match: '\b(-)?[0-9.]+\b|Cycle'
+      scope: constant.numeric.ece4801
+
+
+
+  strings:
+    # Strings begin and end with quotes, and use backslashes as an escape
+    # character.
+    - match: '"'
+      scope: punctuation.definition.string.begin.ece4801
+      push: inside_string
+
+  inside_string:
+    - meta_include_prototype: false
+    - meta_scope: string.quoted.double.ece4801
+    - match: '\.'
+      scope: constant.character.escape.ece4801
+    - match: '"'
+      scope: punctuation.definition.string.end.ece4801
+      pop: true
+
+  comments:
+    # Comments begin with a '//' and finish at the end of the line.
+    - match: '(//|#).*'
+      scope: punctuation.definition.comment.ece4801
+      push:
+        # This is an anonymous context push for brevity.
+        - meta_scope: comment.line.double-slash.ece4801
+        - match: $\n?
+          pop: true

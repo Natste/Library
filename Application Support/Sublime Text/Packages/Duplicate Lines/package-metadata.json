@@ -1,0 +1,1 @@
+{"description": "A modified version of the duplicate_line command for Sublime Text 2/3", "version": "1.0.0", "sublime_text": "*", "dependencies": [], "url": "https://github.com/wjthomas9/duplicate-lines", "platforms": ["*"]}

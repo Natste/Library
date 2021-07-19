@@ -1,0 +1,19 @@
+[
+  {"command": "toggle_bookmark"},
+  {
+    "args": {
+      "to": "line"
+    },
+    "command": "expand_selection"
+  },
+  {
+    "command": "left_delete"
+  },
+  {
+    "args": {
+      "forward": true,
+      "to": "eol"
+    },
+    "command": "move_to"
+  }
+]

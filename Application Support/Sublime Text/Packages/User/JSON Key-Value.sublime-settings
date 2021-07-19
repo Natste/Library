@@ -1,0 +1,11 @@
+{
+	"extensions":
+	[
+		"sublime-settings",
+		"sublime-color-scheme",
+		"sublime-completions",
+		"sublime-keymap",
+		"sublime-macro",
+		"sublime-mousemap"
+	]
+}

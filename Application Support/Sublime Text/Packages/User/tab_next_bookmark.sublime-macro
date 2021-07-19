@@ -1,0 +1,25 @@
+[
+    {
+        "args":
+        {
+            "characters": "nbm"
+        },
+        "command": "insert"
+    },
+    {
+        "args": null,
+        "command": "left_delete"
+    },
+    {
+        "args": null,
+        "command": "left_delete"
+    },
+    {
+        "args": null,
+        "command": "left_delete"
+    },
+    {
+        "args": null,
+        "command": "next_bookmark"
+    }
+]

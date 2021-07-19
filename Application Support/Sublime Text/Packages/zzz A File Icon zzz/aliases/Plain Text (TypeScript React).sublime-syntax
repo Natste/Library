@@ -1,0 +1,9 @@
+%YAML 1.2
+---
+name: Plain Text (TypeScript React)
+scope: source.tsx
+hidden: true
+file_extensions:
+  - tsx
+contexts:
+  main: []

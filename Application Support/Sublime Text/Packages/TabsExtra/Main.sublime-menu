@@ -1,0 +1,66 @@
+[
+    {
+        "id": "preferences",
+        "children":
+        [
+            {
+                "caption": "Package Settings",
+                "id": "package-settings",
+                "children":
+                [
+                    {
+                        "caption": "TabsExtra",
+                        "children":
+                        [
+                            {
+                                "command": "edit_settings", "args": {
+                                    "base_file": "${packages}/TabsExtra/tabs_extra.sublime-settings",
+                                    "default": "{\n$0\n}\n"
+                                },
+                                "caption": "Settings"
+                            },
+                            { "caption": "-" },
+                            {
+                                "command": "tabs_extra_install_menu",
+                                "caption": "Install/Upgrade TabsExtra Menu"
+                            },
+                            { "caption": "-" },
+                            {
+                                "command": "tabs_extra_install_override_menu",
+                                "caption": "Install/Upgrade Default Override Menu"
+                            },
+                            {
+                                "command": "tabs_extra_uninstall_override_menu",
+                                "caption": "Uninstall Default Override Menu"
+                            },
+                            { "caption": "-" },
+                            {
+                                "caption": "Changelog",
+                                "command": "tabs_extra_changes"
+                            },
+                            {
+                                "caption": "Documentation",
+                                "command": "tabs_extra_open_site",
+                                "args": {
+                                    "url": "http://facelessuser.github.io/TabsExtra/"
+                                }
+                            },
+                            { "caption": "-" },
+                            {
+                                "caption": "Support Info",
+                                "command": "tabs_extra_support_info"
+                            },
+                            {
+                                "caption": "Issues",
+                                "command": "tabs_extra_open_site",
+                                "args": {
+                                    "url": "https://github.com/facelessuser/TabsExtra/issues"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

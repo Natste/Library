@@ -1,0 +1,6 @@
+SublimeLinter-pylint 1.4.0
+--------------------------
+
+Removed the args pair `disable/enable`. `disable` was disfunctional with the release of SublimeLinter 4 anyways. Use the generic `args` setting instead.
+
+See: http://www.sublimelinter.com/en/stable/linter_settings.html#args

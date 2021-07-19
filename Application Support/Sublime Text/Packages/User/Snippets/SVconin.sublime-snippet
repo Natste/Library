@@ -1,0 +1,9 @@
+<snippet>
+<content><![CDATA[
+constraint ${1:«constraint_name»} {${2:«var»} inside {[${3:«var_min»}:${4:«var_max»}]};}
+$0
+]]></content>
+<tabTrigger>conin</tabTrigger>
+<description>SV inline randomization constraint</description>
+<scope>source.systemverilog, meta.module.body.systemverilog, meta.class.body.systemverilog, meta.block.constraint.systemverilog, keyword.other.systemverilog</scope>
+</snippet>

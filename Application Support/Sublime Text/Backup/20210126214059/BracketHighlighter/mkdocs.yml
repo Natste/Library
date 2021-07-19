@@ -1,0 +1,90 @@
+site_name: BracketHighlighter Documentation
+site_url: https://facelessuser.github.io/BracketHighlighter
+repo_url: https://github.com/facelessuser/BracketHighlighter
+edit_uri: tree/master/docs/src/markdown
+site_description: A customizable Sublime Text plugin that highlights matching brackets.
+copyright: |
+  Copyright &copy; 2013 - 2020 <a href="https://github.com/facelessuser"  target="_blank" rel="noopener">Isaac Muse</a>
+
+docs_dir: docs/src/markdown
+theme:
+  name: material
+  custom_dir: docs/theme
+  palette:
+    primary: drac-purple
+    accent: drac-purple
+  icon:
+    logo: material/book-open-page-variant
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+nav:
+  - About BracketHighlighter: index.md
+  - Installation: installation.md
+  - Basic Usage: usage.md
+  - Customizing: customize.md
+  - Extended Regex Guide: extended-regex.md
+  - Contributing &amp; Support: contributing.md
+  - License: license.md
+
+markdown_extensions:
+  - markdown.extensions.toc:
+      slugify: !!python/name:pymdownx.slugs.uslugify
+      permalink: ""
+  - markdown.extensions.admonition:
+  - markdown.extensions.smarty:
+      smart_quotes: false
+  - pymdownx.betterem:
+  - markdown.extensions.attr_list:
+  - markdown.extensions.def_list:
+  - markdown.extensions.tables:
+  - markdown.extensions.abbr:
+  - markdown.extensions.md_in_html:
+  - pymdownx.superfences:
+  - pymdownx.highlight:
+      extend_pygments_lang:
+        - name: php-inline
+          lang: php
+          options:
+            startinline: true
+  - pymdownx.inlinehilite:
+  - pymdownx.magiclink:
+      repo_url_shortener: true
+      repo_url_shorthand: true
+      user: facelessuser
+      repo: BracketHighlighter
+  - pymdownx.tilde:
+  - pymdownx.caret:
+  - pymdownx.smartsymbols:
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.escapeall:
+      hardbreak: true
+      nbsp: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.progressbar:
+  - pymdownx.striphtml:
+  - pymdownx.snippets:
+      base_path: docs/src/markdown/_snippets
+  - pymdownx.keys:
+      separator: "\uff0b"
+  - pymdownx.details:
+  - pymdownx.tabbed:
+  - pymdownx.saneheaders:
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/facelessuser
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/TWs8Tgr
+
+plugins:
+  - search
+  - git-revision-date-localized
+  - mkdocs_pymdownx_material_extras
+  - minify:
+      minify_html: true

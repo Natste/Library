@@ -1,0 +1,27 @@
+/*
+    Text Marker user settings in here override the default
+*/
+{
+    "user": {
+        
+ "default_colors": [
+ "firebrick",
+ "chocolate",
+ "sandybrown",
+ "goldenrod",
+ "gold",
+ "olivedrab",
+ "darkgreen",
+ "seagreen",
+ "teal",
+ "steelblue",
+ "royalblue",
+ "slateblue",
+ "darkorchid",
+ "darkmagenta",
+],
+ "draw_outlined": false,
+ "live": true,
+ "live_color": "#F1826070",
+ "when_selection_is_empty": false}
+}

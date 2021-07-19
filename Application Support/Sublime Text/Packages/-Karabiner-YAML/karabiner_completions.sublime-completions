@@ -1,0 +1,17 @@
+{
+    "scope": "source.yaml",
+
+    "completions": [
+        { "trigger": "some_trigger", "contents": "some_trigger" },
+        { "trigger": "new", "contents": "- description: $1\n  manipulators:\n  - type: basic\n    $0"},
+        { "trigger": "kc", "contents": "key_code: $1\n$0" },
+        { "trigger": "des", "contents": "- description: "},
+        { "trigger": "f", "contents": "from: " },
+        { "trigger": "t", "contents": "to: " },
+        { "trigger": "tyb", "contents": "type: basic\n" },
+        { "trigger": "mod", "contents": "modifiers: {optional:[any]}\n" },
+        { "trigger": "man", "contents": "manipulators:\n" },
+        
+        
+    ]
+}

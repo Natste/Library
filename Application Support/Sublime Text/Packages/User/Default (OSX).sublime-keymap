@@ -1,0 +1,405 @@
+[
+//toggle_comment {"block": true}
+
+{"keys": ["super+shift+/"], "command": "toggle_comment", "args": {"block" : true} }, 
+{"keys": ["ctrl+a", "ctrl+z"], "command": "sort_selection", "args": {"case_sensitive": false}},
+{"keys": ["ctrl+shift+a", "ctrl+shift+z"], "command": "sort_selection", "args": {"case_sensitive": true}},
+{"keys": ["ctrl+z", "ctrl+a"], "command": "permute_selection", "args": {"operation": "reverse"}},
+{"keys": ["ctrl+alt+a"], "command": "align_tab"}, 
+{"keys": ["alt+super+a"], "command": "align_tab", "args": {"live_preview" : true} }, 
+{ "keys": ["ctrl+super+a"], "command": "alignment" },
+{ "keys": ["insert"], "command": "toggle_overwrite" },
+{ "keys": ["f20"], "command": "toggle_overwrite" },
+{ "keys": ["super+b","super+x"], "command": "beautify_latex"},
+{ "keys": ["super", "super"], "command": "insert_snippet", "args": { "name": "Packages/User/tabstop-deftxt.sublime-snippet" }, "context":
+    [{ "key": "selector", "operator": "equal", "operand": "source.sublime.snippet"}] },
+{ "keys": ["super", "super"], "command": "insert_snippet", "args": { "name": "Packages/User/comp-trig.sublime-snippet" }, "context":
+    [{ "key": "selector", "operator": "equal", "operand": "source.json.sublime.completions"}] },
+{ "keys": ["super+\\"], "command": "normalize_region_ends" }, 
+// { "keys": ["super+l", "super+ctrl+alt+shift+enter"], "command": "latex_pkg_doc", "args": {"file": "$SELECTION"} }, 
+{ "keys": ["ctrl+l", "enter"], "command": "tex_documentation_package_under_caret"},
+{ "keys": ["super+pageup"], "command": "jump_back" },
+{ "keys": ["super+pagedown"], "command": "jump_forward" },
+{ "keys": ["super+shift+k"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
+
+{ "keys": ["clear", "clear"], "command": "replace_with_spaces"},
+{ "keys": ["clear", "enter"], "command": "reduce_to_single_spaces"},
+{ "keys": ["clear", "keypad_enter"], "command": "reduce_to_single_lines"},
+
+{ "keys": ["super+f"], "command": "show_panel", "args": {"panel": "replace", "reverse": true} },
+{ "keys": ["super+shift+d"], "command": "duplicate_lines" },
+{ "keys": ["super+shift+u"], "command": "duplicate_lines", "args": { "up": true } },
+{ "keys": ["ctrl+super+up"], "command": "select_lines", "args": {"forward": false} },
+{ "keys": ["ctrl+super+down"], "command": "select_lines", "args": {"forward": true} },
+{ "keys": ["ctrl+shift+up"], "command": "swap_line_up" },
+{ "keys": ["ctrl+shift+down"], "command": "swap_line_down" },
+{ "keys": ["super+shift+v"], "command": "paste" },
+{ "keys": ["super+v"], "command": "paste_and_indent" },
+{ "keys": ["super+alt+ctrl+shift+b"], "command": "build" },
+{ "keys": ["super+b"], "command": "insert_snippet", "args": {"contents": "\\textbf{$SELECTION}"}, "context": 
+    [{"key": "selector", "operator": "equal", "operand": "text.tex.latex"} ] },
+{ "keys": ["super+i"], "command": "insert_snippet", "args": {"contents": "\\emph{$SELECTION}"}, "context": 
+    [{"key": "selector", "operator": "equal", "operand": "text.tex.latex"} ] },
+{ "keys": ["super+b"], "command": "insert_snippet", "args": {"contents": "\\textbf{$1}$2"}, "context": 
+    [{"key": "selector", "operator": "equal", "operand": "text.tex.latex"},
+    { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true } ] },
+{ "keys": ["super+i"], "command": "insert_snippet", "args": {"contents": "\\emph{$1}$2"}, "context": 
+    [{"key": "selector", "operator": "equal", "operand": "text.tex.latex"},
+    { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true } ] },
+
+{ "keys": ["super","shift","alt","ctrl","super+shift+alt+ctrl+down"], "command": "sftp_sync_down" },
+{ "keys": ["super","shift","alt","ctrl","super+shift+alt+ctrl+up"], "command": "sftp_sync_up" },
+{ "keys": ["alt+end"], "command": "power_cursor_add" },
+{ "keys": ["alt+up"], "command": "run_macro_file", "args": {"file": "res://Packages/User/cursorAddMoveUp.sublime-macro"} },
+{ "keys": ["alt+down"], "command": "run_macro_file", "args": {"file": "res://Packages/User/cursorAddMoveDown.sublime-macro"} },
+// { "keys": ["alt+left"], "command": "run_macro_file", "args": {"file": "res://Packages/User/cursorAddMoveLeft.sublime-macro"},
+//   "context": [ { "key": "in_cursor_transition" } ]
+// },
+// { "keys": ["alt+right"], "command": "run_macro_file", "args": {"file": "res://Packages/User/cursorAddMoveRight.sublime-macro"},
+//   "context": [ { "key": "in_cursor_transition" } ]
+// },
+{ "keys": ["alt+super+left"], "command": "power_cursor_select", "args": { "forward": false },
+  "context": [ { "key": "in_cursor_transition" } ]
+},
+{ "keys": ["alt+super+right"], "command": "power_cursor_select", "args": { "forward": true },
+  "context": [ { "key": "in_cursor_transition" } ]
+},
+{ "keys": ["alt+ctrl", "alt+ctrl"], "command": "power_cursor_remove",
+  "context": [ { "key": "in_cursor_transition" } ]
+},
+{ "keys": ["alt+super", "alt+super"], "command": "power_cursor_activate",
+  "context": [ { "key": "in_cursor_transition" } ]
+},
+// { "keys": ["ctrl+super","ctrl+shift","ctrl+alt"], "command": "move", "args": {"by": "subword_ends", "forward": false} },
+{ "keys": ["ctrl+alt+space"], "command": "move", "args": {"by": "subword_ends", "forward": false} },
+// { "keys": ["alt+up"], "command": "move", "args": {"by": "lines", "forward": false} },
+// { "keys": ["alt+down"], "command": "move", "args": {"by": "lines", "forward": true} },
+// { "keys": ["alt+shift+home"], "command": "move", "args": {"by": "words", "forward": false} },
+// { "keys": ["alt+home"], "command": "move", "args": {"by": "words", "forward": true} },
+// { "keys": ["alt+shift+end"], "command": "move", "args": {"by": "wordends", "forward": false} },
+// { "keys": ["alt+end"], "command": "move", "args": {"by": "wordends", "forward": true} },
+
+{ "keys": ["alt+pageup"],              "command": "inc_dec_value", "args": { "action": "inc_min" } },
+{ "keys": ["alt+pagedown"],            "command": "inc_dec_value", "args": { "action": "dec_min" } },
+{ "keys": ["alt+f20"],                 "command": "inc_dec_value", "args": { "action": "ins_min" } },
+
+{ "keys": ["alt+super+pageup"],        "command": "inc_dec_value", "args": { "action": "inc_max" } },
+{ "keys": ["alt+super+pagedown"],      "command": "inc_dec_value", "args": { "action": "dec_max" } },
+{ "keys": ["alt+super+f20"],           "command": "inc_dec_value", "args": { "action": "ins_max" } },
+
+{ "keys": ["super+alt+ctrl+pageup"],   "command": "inc_dec_value", "args": { "action": "inc_all" } },
+{ "keys": ["super+alt+ctrl+pagedown"], "command": "inc_dec_value", "args": { "action": "dec_all" } },
+{ "keys": ["super+alt+ctrl+f20"],       "command":"inc_dec_value", "args": { "action": "ins_all" } },
+
+{ "keys": ["ctrl+backquote"], "command": "unset"},
+{ "keys": ["ctrl+super+/"], "command": "show_panel", "args": {"panel": "console", "toggle": true} },
+//// Keybinding Helper ////
+{
+    "keys": ["ctrl", "super", "/" ],
+    "command": "toggle_show_commands"
+},
+{
+    "keys": ["super", "ctrl", "/" ],
+    "command": "toggle_show_inputs"
+},
+
+//// Bracket Highlightet ////
+// Go to left bracket
+{
+    "keys": ["super+b", "left"],
+    "command": "bh_key",
+    "args":
+    {
+        "no_outside_adj": null,
+        "no_block_mode": null,
+        "lines" : true,
+        "plugin":
+        {
+            "type": ["__all__"],
+            "command": "bh_modules.bracketselect",
+            "args": {"select": "left"}
+        }
+    }
+},
+// Go to right bracket
+{
+    "keys": ["super+b", "right"],
+    "command": "bh_key",
+    "args":
+    {
+        "no_outside_adj": null,
+        "no_block_mode": null,
+        "lines" : true,
+        "plugin":
+        {
+            "type": ["__all__"],
+            "command": "bh_modules.bracketselect",
+            "args": {"select": "right"}
+        }
+    }
+},
+// Select to left bracket
+{
+    "keys": ["super+b", "shift+left"],
+    "command": "bh_key",
+    "args":
+    {
+        "no_outside_adj": null,
+        "no_block_mode": null,
+        "lines" : true,
+        "plugin":
+        {
+            "type": ["__all__"],
+            "command": "bh_modules.bracketselect",
+            "args": {"select": "left", "extend": true}
+        }
+    }
+},
+// Select to right bracket
+{
+    "keys": ["super+b", "shift+right"],
+    "command": "bh_key",
+    "args":
+    {
+        "no_outside_adj": null,
+        "no_block_mode": null,
+        "lines" : true,
+        "plugin":
+        {
+            "type": ["__all__"],
+            "command": "bh_modules.bracketselect",
+            "args": {"select": "right", "extend": true}
+        }
+    }
+},
+// Remove brackets
+{
+    "keys": ["super+b", "backspace"],
+    "command": "bh_remove_brackets"
+},
+// Jump to matching bracket
+{
+    "keys": ["super+b", "tab"],
+    "command": "bh_key",
+    "args": {
+        "plugin": {
+            "args": {"select": "right", "alternate": true},
+            "command": "bh_modules.bracketselect",
+            "type": ["__all__"]
+        },
+        "lines": true,
+        "no_outside_adj": null
+    }
+},
+// Select text between brackets
+{
+    "no_outside_adj": null,
+    "keys": ["super+b", "shift+down"],
+    "command": "bh_key",
+    "args":
+    {
+        "lines" : true,
+        "plugin":
+        {
+            "type": ["__all__"],
+            "command": "bh_modules.bracketselect"
+        }
+    }
+},
+// Select text including brackets
+{
+    "keys": ["super+b", "shift+up"],
+    "command": "bh_key",
+    "args":
+    {
+        "no_outside_adj": null,
+        "lines" : true,
+        "plugin":
+        {
+            "type": ["__all__"],
+            "command": "bh_modules.bracketselect",
+            "args": {"always_include_brackets": true}
+        }
+    }
+},
+// Fold contents between brackets
+{
+    "keys": ["super+b", "super+alt+["],
+    "command": "bh_key",
+    "args":
+    {
+        "plugin": {
+            "type": ["__all__"],
+            "command" : "bh_modules.foldbracket"
+        }
+    }
+},
+// Swap brackets with another type
+{
+    "keys": ["super+b", "escape"],
+    "command": "swap_brackets"
+},
+// Surround selection with brackets from quick panel
+{
+    "keys": ["super+b", "["],
+    "command": "wrap_brackets"
+},
+// Toggle high visibility mode
+{
+    "keys": ["super+b", "`"],
+    "command": "bh_toggle_high_visibility"
+},
+    
+//// Bracket highlighter alternate ////
+// Go to left bracket
+{
+    "keys": ["super","shift","alt","ctrl","a"],
+    "command": "bh_key",
+    "args":
+    {
+        "no_outside_adj": null,
+        "no_block_mode": null,
+        "lines" : true,
+        "plugin":
+        {
+            "type": ["__all__"],
+            "command": "bh_modules.bracketselect",
+            "args": {"select": "left"}
+        }
+    }
+},
+// Go to right bracket
+{
+    "keys": ["super","shift","alt","ctrl","d"],
+    "command": "bh_key",
+    "args":
+    {
+        "no_outside_adj": null,
+        "no_block_mode": null,
+        "lines" : true,
+        "plugin":
+        {
+            "type": ["__all__"],
+            "command": "bh_modules.bracketselect",
+            "args": {"select": "right"}
+        }
+    }
+},
+// Select to left bracket
+{
+    "keys": ["super+shift+alt+ctrl+a"],
+    "command": "bh_key",
+    "args":
+    {
+        "no_outside_adj": null,
+        "no_block_mode": null,
+        "lines" : true,
+        "plugin":
+        {
+            "type": ["__all__"],
+            "command": "bh_modules.bracketselect",
+            "args": {"select": "left", "extend": true}
+        }
+    }
+},
+// Select to right bracket
+{
+    "keys": ["super+shift+alt+ctrl+d"],
+    "command": "bh_key",
+    "args":
+    {
+        "no_outside_adj": null,
+        "no_block_mode": null,
+        "lines" : true,
+        "plugin":
+        {
+            "type": ["__all__"],
+            "command": "bh_modules.bracketselect",
+            "args": {"select": "right", "extend": true}
+        }
+    }
+},
+// Remove brackets
+{
+    "keys": ["super+shift+alt+ctrl+z"],
+    "command": "bh_remove_brackets" 
+},
+// Remove brackets
+{
+    "keys": ["super+shift+alt+ctrl+x"],
+    "command": "bh_key" ,
+    "args": {
+        "plugin": {
+            "args": {
+                "remove_block": false, 
+                "remove_content": false, 
+                "remove_indent": false
+            },
+            "command": "bh_modules.bracketremove",
+            "type": ["__all__"]
+        } 
+     }
+},
+
+// Jump to matching bracket
+// Select text between brackets
+{
+    "no_outside_adj": null,
+    "keys": ["super+shift+alt+ctrl+s"],
+    "command": "bh_key",
+    "args":
+    {
+        "lines" : true,
+        "plugin":
+        {
+            "type": ["__all__"],
+            "command": "bh_modules.bracketselect"
+        }
+    }
+},
+// Select text including brackets
+// Fold contents between brackets
+{
+    "keys": ["super+shift+alt+ctrl+f"],
+    "command": "bh_key",
+    "args":
+    {
+        "plugin": {
+            "type": ["__all__"],
+            "command" : "bh_modules.foldbracket"
+        }
+    }
+},
+// Swap brackets with another type
+{
+    "keys": ["super+shift+alt+ctrl+c"],
+    "command": "swap_brackets"
+},
+{
+    "keys": ["super+shift+alt+ctrl+`"],
+    "command": "bh_key", 
+    "args": {
+        // "lines": true, 
+        "plugin": {
+            "command": "bh_modules.swapquotes", 
+                "type": [
+                    "single_quote", 
+                    "double_quote", 
+                    "py_single_quote", 
+                    "py_double_quote"
+                ]
+            }
+        }
+},
+// Surround selection with brackets from quick panel
+{
+    "keys": ["super+shift+alt+ctrl+w"],
+    "command": "wrap_brackets"
+},
+// Toggle high visibility mode
+{
+    "keys": ["super+shift+alt+ctrl+e"],
+    "command": "bh_toggle_high_visibility"
+},
+
+]

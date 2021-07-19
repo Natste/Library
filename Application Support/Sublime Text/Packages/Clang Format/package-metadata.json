@@ -1,0 +1,1 @@
+{"version": "1.3.7", "sublime_text": ">=3000", "platforms": ["*"], "dependencies": [], "url": "https://github.com/rosshemsley/SublimeClangFormat", "description": "A C++ code formatter based on Clang Format, for beautiful code with minimal effort in Sublime Text 3"}

@@ -1,0 +1,1 @@
+{"dependencies": [], "url": "https://github.com/SublimeText/PackageDev", "version": "3.2.17", "sublime_text": "<4084", "platforms": ["*"], "description": "Tools to ease the creation of snippets, syntax definitions, etc. for Sublime Text."}

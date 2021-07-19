@@ -1,0 +1,11 @@
+{
+    "layer_status_location": ["popup"],
+    // What layers should be available in editor. Icon is the path to the icon file. Scope controls the shading of the icon.
+    // NOTE: All of those listed in the example can be edited/removed.
+    "layer_icons": {
+       // This one is the default Sublime bookmark
+       "bookmarks": {"icon": "bookmark", "scope": "bbm.default"},
+       "functions": {"icon": "function", "scope": "variable.function"},
+       "todos": {"icon": "bookmark", "scope": "bbm.todo"}
+    },
+}

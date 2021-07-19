@@ -1,0 +1,1 @@
+{"platforms": ["*"], "description": "Sync Settings - The cross-platform solution to keep Sublime Text configuration synchronized", "dependencies": [], "url": "https://mfuentesg.dev/SyncSettings", "sublime_text": "*", "version": "3.0.9"}

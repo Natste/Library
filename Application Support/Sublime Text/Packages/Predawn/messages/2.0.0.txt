@@ -1,0 +1,60 @@
+===================================
+2.0.0 - IMPORTANT: Breaking Changes
+===================================
+
+All options now start with "predawn_"
+Be sure to update your Preferences.sublime-settings file
+with your desired settings (there are some new ones, too!)
+
+See below for all options with defaults:
+
+============
+Tabs Options
+============
+
+  "predawn_tabs_active_underline": false,
+  "predawn_tabs_large": false,
+  "predawn_tabs_medium": false,
+  "predawn_tabs_small": false,
+
+===============
+Sidebar Options
+===============
+
+  "predawn_sidebar_arrows": false,
+  "predawn_sidebar_large": false,
+  "predawn_sidebar_medium": false,
+  "predawn_sidebar_small": false,
+  "predawn_sidebar_xlarge": false,
+  "predawn_sidebar_xsmall": false,
+  "predawn_sidebar_narrow": false,
+
+=============
+Panel Options
+=============
+
+  "predawn_findreplace_small": false,
+  "predawn_quick_panel_small": false,
+
+==============================
+IMPORTANT - Sublime Text 3062+
+==============================
+
+  "theme": "predawn-DEV.sublime-theme",
+
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+*                                                           *
+*                                                           *
+*     If you want to put your time, money and skills        *
+*     to really good use, consider contributing to IJM.     *
+*                                                           *
+*     Rescue thousands. Protect millions.                   *
+*     Prove that justice for the poor is possible.          *
+*                                                           *
+*                                                           *
+*     Give to the International Justice Mission:            *
+*     https://www.ijm.org/make-gift                         *
+*                                                           *
+*                                                           *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *

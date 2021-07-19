@@ -1,0 +1,75 @@
+%YAML 1.2
+---
+name: Karabiner-YAML
+file_extensions:
+- k-yaml
+scope: source.yaml
+extends: "Packages/YAML/YAML.sublime-syntax"
+
+contexts:
+  main:
+    - meta_append: true
+    - include: karabiner
+# #     # - match: ""
+# #     #   set: "Packages/YAML/YAML.sublime-syntax"
+# #     #   with_prototype:
+# #     #     - match: ""
+# #     #       push: karabiner
+# # ######################################
+  karabiner:
+
+    - comment: From Block
+      match: '(?i) *(from:)(?= *\n)'
+      captures:
+        1: from.block.head.karabiner from.block.karabiner
+      set:
+      - match: ^([ ]+?(  ))(?! )
+        captures:
+          2: from.indent.karabiner
+        set:
+          - meta_scope: from.block.karabiner
+          - match: '(  )(?=\S)'
+            captures:
+              1: from.indent.karabiner
+            pop: false
+          - match: '(\w+?)\s*(:)(?=\s|$)'
+            captures:
+              1: string.unquoted.plain.out.yaml
+              2: punctuation.separator.key-value.yaml
+            pop: false
+          - match: ^(?!\1|\s*$)
+            pop: true
+      - match: ^(?=\S)  # the block is empty
+        pop: true
+      - include: block-pair
+      - include: comment  # include comments but not properties
+      - match: .+
+    - comment: To Block
+      match: '(?i) *((to):(?= *\n))'
+      captures:
+        1: to.block.head.karabiner to.block.karabiner
+      push:
+      - match: ^([ ]+?(  ))(?! )
+        captures:
+          2: to.indent.karabiner
+        set:
+          - match: ^(?!\1|\s*$)
+            pop: true
+          - meta_scope: to.block.karabiner
+          - match: '(  )(?=\S)'
+            captures:
+              1: to.indent.karabiner
+            pop: false
+          - match: '(\w+?)\s*(:)(?=\s|$)'
+            captures:
+              1: string.unquoted.plain.out.yaml
+              2: punctuation.separator.key-value.yaml
+            pop: false
+      - match: ^(?=\S)  # the block is empty
+        pop: true
+      - include: comment  # include comments but not properties
+      - match: .+
+    - comment: to line
+      match: ' *(?:- )?(to:)(?!= *\n)(.*)'
+      meta_scope: to.line.karabiner
+...

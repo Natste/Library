@@ -1,0 +1,1 @@
+{ "description": "Plugin to allow for YAML to make Karabiner modifications", "dependencies": ["PackageDev"], "sublime_text": ">=3000", "version": "0.1", "platforms": ["*"], "url": "" }

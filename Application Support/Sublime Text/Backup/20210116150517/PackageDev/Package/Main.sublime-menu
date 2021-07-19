@@ -1,0 +1,136 @@
+[
+  { "id": "tools",
+    "children": [
+      { "id": "packages",
+        "caption": "Packages",
+        "mnemonic": "P",
+        "children": [
+          { "id": "package_dev",
+            "caption": "Package Development",
+            "mnemonic": "P",
+            "children": [
+              { "caption": "Create Package…",
+                "command": "packagedev_create_package" },
+
+              { "caption": "Open Package…",
+                "command": "packagedev_open_package" },
+
+              { "caption": "-" },
+
+              { "caption": "New Syntax Definition…",
+                "command": "packagedev_new_resource",
+                "args": {"kind": "syntax_def"} },
+              { "caption": "Convert to YAML and Rearrange Syntax Definition",
+                "command": "packagedev_convert",
+                "args": {
+                  "target_format": "yaml",
+                  "ext": "YAML-tmLanguage",
+                  "open_new_file": true,
+                  "rearrange_yaml_syntax_def": true
+                }
+              },
+              { "caption": "Rearrange YAML Syntax Definition",
+                "command": "packagedev_rearrange_yaml_syntax_def" },
+
+              { "caption": "-" },
+
+              { "caption": "New Raw Snippet…",
+                "command": "packagedev_new_resource",
+                "args": {"kind": "snippet_raw"}
+              },
+              { "caption": "New Raw Snippet from Snippet…",
+                "command": "packagedev_raw_snippet_from_snippet" },
+              { "caption": "Generate Snippet from Raw Snippet",
+                "command": "packagedev_snippet_from_raw_snippet" },
+
+              { "caption": "-" },
+
+              { "caption": "Edit Current Color Scheme…",
+                "command": "packagedev_edit_scheme",
+              },
+              { "caption": "Edit Current Theme…",
+                "command": "packagedev_edit_theme",
+              },
+
+              { "caption": "-" },
+
+              { "caption": "New Build System…",
+                "command": "packagedev_new_resource",
+                "args": {"kind": "build_system"}
+              },
+              { "caption": "New Color Scheme…",
+                "command": "packagedev_new_resource",
+                "args": {"kind": "color_scheme"}
+              },
+              { "caption": "New Commands File…",
+                "command": "packagedev_new_resource",
+                "args": {"kind": "commands"}
+              },
+              { "caption": "New Commands File (short)…",
+                "command": "packagedev_new_resource",
+                "args": {"kind": "commands", "suffix": "short"}
+              },
+              { "caption": "New Completions File…",
+                "command": "packagedev_new_resource",
+                "args": {"kind": "completions"}
+              },
+              { "caption": "New Keymap File",
+                "command": "packagedev_new_resource",
+                "args": {"kind": "keymap"}
+              },
+              { "caption": "New Menu File (empty)…",
+                "command": "packagedev_new_resource",
+                "args": {"kind": "menu"}
+              },
+              { "caption": "New Main Menu File…",
+                "command": "packagedev_new_resource",
+                "args": {"kind": "menu", "suffix": "main"}
+              },
+              { "caption": "New Settings File…",
+                "command": "packagedev_new_resource",
+                "args": {"kind": "settings"}
+              },
+              { "caption": "New Textmate Preferences File…",
+                "command": "packagedev_new_resource",
+                "args": {"kind": "tm_preferences"}
+              },
+              { "caption": "New Theme…",
+                "command": "packagedev_new_resource",
+                "args": {"kind": "theme"}
+              },
+              // { "caption": "New Plugin",
+              //   "command": "packagedev_new_resource",
+              //   "args": {"kind": "plugin"} }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  { "id": "preferences",
+    "children": [
+      { "caption": "Package Settings",
+        "id": "package-settings",
+        "children": [
+          { "caption": "PackageDev",
+            // "id": "package_dev",
+            "children": [
+              { "caption": "Documentation",
+                "command": "open_url",
+                "args": {"url": "https://github.com/SublimeText/PackageDev/wiki"},
+              },
+              { "caption": "-" },
+              { "caption": "Settings",
+                "command": "edit_settings",
+                "args": {
+                  "base_file": "${packages}/PackageDev/Package/PackageDev.sublime-settings",
+                  "default": "{\n\t$0\n}\n"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

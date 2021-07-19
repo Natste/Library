@@ -1,0 +1,1 @@
+{"description": "SublimeLinter plugin for python, using pylint.", "dependencies": [], "sublime_text": ">=3000", "version": "1.5.3", "platforms": ["*"], "url": "https://github.com/SublimeLinter/SublimeLinter-pylint"}

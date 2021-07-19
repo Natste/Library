@@ -1,0 +1,8 @@
+{"settings":
+{
+  // Ignore when files were last changed and always force indexing.
+  "always_force_indexing": false,
+
+  // Ignore selected project folders and alwyas index all.
+  "always_index_all_folders": false
+},}

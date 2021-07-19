@@ -1,0 +1,35 @@
+fileTypes:
+- json
+name: JSON Key-Value
+patterns:
+- comment: Single-line comment
+  match: //.*
+  name: comment.single.line.jsonkv
+- begin: /\*
+  comment: Multi-line comment
+  end: \*/
+  name: comment.block.jsonkv
+- captures:
+    '1':
+      name: keyword.other.name.jsonkv
+  comment: Key names
+  match: '"(?i)([^\"]+)"\s*?:'
+- begin: '"'
+  comment: String values
+  end: '"'
+  name: string.quoted.jsonkv
+  patterns:
+  - comment: Escape characters
+    match: \\[tnr"]
+    name: constant.character.escape.jsonkv
+- comment: Numeric values
+  match: \d+(?:.\d+)?
+  name: constant.numeric.jsonkv
+- comment: Boolean values
+  match: true|false
+  name: constant.language.boolean.jsonkv
+- comment: Null value
+  match: 'null'
+  name: constant.language.null.jsonkv
+scopeName: source.json
+uuid: 4e5a820c-0650-4de9-b793-201999eeeb4f

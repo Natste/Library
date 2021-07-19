@@ -1,0 +1,1 @@
+{"sublime_text": ">=3000", "platforms": ["*"], "version": "2.8.1", "dependencies": [], "url": "https://github.com/colinta/SublimeFileDiffs", "description": "Shows diffs between the current file, or selection(s) in the current file, and clipboard, another file, or unsaved changes.  With contributions from Sebastian Pape (spape) and Jiri Urban (jiriurban)"}

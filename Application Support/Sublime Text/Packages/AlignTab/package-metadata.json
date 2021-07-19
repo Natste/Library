@@ -1,0 +1,1 @@
+{"version": "2.1.11", "sublime_text": ">=3000", "platforms": ["*"], "dependencies": [], "url": "https://github.com/randy3k/AlignTab", "description": "An alignment plugin for Sublime Text using regular expression"}

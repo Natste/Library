@@ -1,0 +1,65 @@
+2021-06-25 10:45:25
+Traceback (most recent call last):
+  File "/Users/wbond/Library/Application Support/Sublime Text/Packages/SFTP/sftp/threads.py", line 22, in run_with_except_hook
+  File "/Users/wbond/Library/Application Support/Sublime Text/Packages/SFTP/sftp/threads.py", line 128, in handler
+  File "/Users/wbond/Library/Application Support/Sublime Text/Packages/SFTP/sftp/commands.py", line 378, in run
+  File "/Users/wbond/Library/Application Support/Sublime Text/Packages/SFTP/sftp/commands.py", line 533, in do_operation
+  File "/Users/wbond/Library/Application Support/Sublime Text/Packages/SFTP/sftp/file_transfer.py", line 50, in handler
+  File "/Users/wbond/Library/Application Support/Sublime Text/Packages/SFTP/sftp/file_transfer.py", line 505, in listr
+  File "/Users/wbond/Library/Application Support/Sublime Text/Packages/SFTP/sftp/file_transfer.py", line 50, in handler
+  File "/Users/wbond/Library/Application Support/Sublime Text/Packages/SFTP/sftp/file_transfer.py", line 468, in list
+  File "/Users/wbond/Library/Application Support/Sublime Text/Packages/SFTP/sftp/ftp_transport.py", line 638, in ls
+  File "/Users/wbond/Library/Application Support/Sublime Text/Packages/SFTP/sftp/ftp_transport.py", line 211, in handle_ftp_error
+  File "/Users/wbond/Library/Application Support/Sublime Text/Packages/SFTP/sftp/ftp_transport.py", line 636, in do_ls
+  File "/Users/wbond/Library/Application Support/Sublime Text/Packages/SFTP/sftp/ftplib2.py", line 581, in retrlines
+  File "/Users/wbond/Library/Application Support/Sublime Text/Packages/SFTP/sftp/ftplib2.py", line 514, in transfercmd
+  File "/Users/wbond/Library/Application Support/Sublime Text/Packages/SFTP/sftp/ftplib2.py", line 481, in ntransfercmd
+  File "/Users/wbond/Library/Application Support/Sublime Text/Packages/SFTP/sftp/ftplib2.py", line 365, in sendcmd
+  File "/Users/wbond/Library/Application Support/Sublime Text/Packages/SFTP/sftp/ftplib2.py", line 324, in getresp
+  File "/Users/wbond/Library/Application Support/Sublime Text/Packages/SFTP/sftp/ftplib2.py", line 310, in getmultiline
+  File "/Users/wbond/Library/Application Support/Sublime Text/Packages/SFTP/sftp/ftplib2.py", line 294, in getline
+ValueError: I/O operation on closed file.
+2021-06-28 12:29:24
+Traceback (most recent call last):
+  File "/Users/wbond/Library/Application Support/Sublime Text/Packages/SFTP/sftp/ftp_transport.py", line 211, in handle_ftp_error
+  File "/Users/wbond/Library/Application Support/Sublime Text/Packages/SFTP/sftp/ftp_transport.py", line 636, in do_ls
+  File "/Users/wbond/Library/Application Support/Sublime Text/Packages/SFTP/sftp/ftplib2.py", line 581, in retrlines
+  File "/Users/wbond/Library/Application Support/Sublime Text/Packages/SFTP/sftp/ftplib2.py", line 514, in transfercmd
+  File "/Users/wbond/Library/Application Support/Sublime Text/Packages/SFTP/sftp/ftplib2.py", line 472, in ntransfercmd
+  File "./python3.3/socket.py", line 435, in create_connection
+  File "./python3.3/socket.py", line 426, in create_connection
+ConnectionRefusedError: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/wbond/Library/Application Support/Sublime Text/Packages/SFTP/sftp/threads.py", line 22, in run_with_except_hook
+  File "/Users/wbond/Library/Application Support/Sublime Text/Packages/SFTP/sftp/threads.py", line 128, in handler
+  File "/Users/wbond/Library/Application Support/Sublime Text/Packages/SFTP/sftp/commands.py", line 378, in run
+  File "/Users/wbond/Library/Application Support/Sublime Text/Packages/SFTP/sftp/commands.py", line 533, in do_operation
+  File "/Users/wbond/Library/Application Support/Sublime Text/Packages/SFTP/sftp/file_transfer.py", line 50, in handler
+  File "/Users/wbond/Library/Application Support/Sublime Text/Packages/SFTP/sftp/file_transfer.py", line 505, in listr
+  File "/Users/wbond/Library/Application Support/Sublime Text/Packages/SFTP/sftp/file_transfer.py", line 50, in handler
+  File "/Users/wbond/Library/Application Support/Sublime Text/Packages/SFTP/sftp/file_transfer.py", line 468, in list
+  File "/Users/wbond/Library/Application Support/Sublime Text/Packages/SFTP/sftp/ftp_transport.py", line 665, in ls
+  File "/Users/wbond/Library/Application Support/Sublime Text/Packages/SFTP/sftp/ftp_transport.py", line 638, in ls
+  File "/Users/wbond/Library/Application Support/Sublime Text/Packages/SFTP/sftp/ftp_transport.py", line 391, in handle_ftp_error
+SFTP.sftp.errors.ConnectionError: Connection refused
+2021-06-28 19:44:30
+Traceback (most recent call last):
+  File "/Users/wbond/Library/Application Support/Sublime Text/Packages/SFTP/sftp/threads.py", line 22, in run_with_except_hook
+  File "/Users/wbond/Library/Application Support/Sublime Text/Packages/SFTP/sftp/threads.py", line 128, in handler
+  File "/Users/wbond/Library/Application Support/Sublime Text/Packages/SFTP/sftp/commands.py", line 378, in run
+  File "/Users/wbond/Library/Application Support/Sublime Text/Packages/SFTP/sftp/commands.py", line 533, in do_operation
+  File "/Users/wbond/Library/Application Support/Sublime Text/Packages/SFTP/sftp/file_transfer.py", line 50, in handler
+  File "/Users/wbond/Library/Application Support/Sublime Text/Packages/SFTP/sftp/ftp_transport.py", line 580, in get
+  File "/Users/wbond/Library/Application Support/Sublime Text/Packages/SFTP/sftp/ftp_transport.py", line 211, in handle_ftp_error
+  File "/Users/wbond/Library/Application Support/Sublime Text/Packages/SFTP/sftp/ftp_transport.py", line 574, in do_get
+  File "/Users/wbond/Library/Application Support/Sublime Text/Packages/SFTP/sftp/ftplib2.py", line 557, in retrbinary
+  File "/Users/wbond/Library/Application Support/Sublime Text/Packages/SFTP/sftp/ftplib2.py", line 514, in transfercmd
+  File "/Users/wbond/Library/Application Support/Sublime Text/Packages/SFTP/sftp/ftplib2.py", line 481, in ntransfercmd
+  File "/Users/wbond/Library/Application Support/Sublime Text/Packages/SFTP/sftp/ftplib2.py", line 365, in sendcmd
+  File "/Users/wbond/Library/Application Support/Sublime Text/Packages/SFTP/sftp/ftplib2.py", line 324, in getresp
+  File "/Users/wbond/Library/Application Support/Sublime Text/Packages/SFTP/sftp/ftplib2.py", line 310, in getmultiline
+  File "/Users/wbond/Library/Application Support/Sublime Text/Packages/SFTP/sftp/ftplib2.py", line 294, in getline
+ValueError: I/O operation on closed file.

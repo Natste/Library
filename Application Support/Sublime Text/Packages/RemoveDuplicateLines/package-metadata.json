@@ -1,0 +1,1 @@
+{"version": "2.1.0", "description": "Remove duplicate lines from a file (Keywords: remove duplicates, delete duplicates, dedup) ", "url": "https://github.com/ilyakam/RemoveDuplicateLines", "platforms": ["*"], "dependencies": [], "sublime_text": "*"}

@@ -1,0 +1,1 @@
+{"description": "Allows opening of files in the same folder as the active view", "dependencies": [], "sublime_text": "*", "version": "1.0.1", "platforms": ["*"], "url": "https://github.com/SublimeText/OpenFileInCurrentFolder"}

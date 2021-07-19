@@ -1,0 +1,1 @@
+{"description": "Plugin for Sublime Text to help identify conflicting key mappings.", "version": "2019.05.17.02.08.34", "sublime_text": "*", "dependencies": [], "url": "https://github.com/skuroda/FindKeyConflicts", "platforms": ["*"]}

@@ -1,0 +1,1 @@
+{"description": "Enhancements to Sublime Text sidebar. Files and folders.", "version": "5.0.39", "sublime_text": ">=3000", "dependencies": [], "url": "https://github.com/titoBouzout/SideBarEnhancements", "platforms": ["*"]}

@@ -1,0 +1,14 @@
+[
+	{
+		"args": null,
+		"command": "power_cursor_add"
+	},
+	{
+		"args":
+		{
+			"by": "characters",
+			"forward": false
+		},
+		"command": "move"
+	}
+]

@@ -1,0 +1,1 @@
+{"description": "Inline color hints for Sublime Text", "dependencies": [], "sublime_text": ">=3200", "version": "0.3.3", "platforms": ["*"], "url": "https://github.com/braver/ColorHints"}
