@@ -28,7 +28,7 @@
         "indent_char": " ",
 
         // Indentation size
-        "indent_size": 4,
+        "indent_size": 2,
 
         // Indent with tabs, overrides `indent_size` and `indent_char`
         "indent_with_tabs": false,
@@ -142,10 +142,14 @@
         "brace_style": "expand",
 
         // Preserve array indentation
-        "keep_array_indentation": false,
+        "keep_array_indentation": true,
 
         // Should printable characters in strings encoded in \xNN notation be unescaped, "example" vs "\x65\x78\x61\x6d\x70\x6c\x65"
-        "unescape_strings": false
+        "unescape_strings": false,
+        "comma_first": true,
+        "wrap_line_length": 0,
+        "indent_size": 2
+
     },
 
     "custom":
@@ -160,14 +164,19 @@
 
         "@(package?(-lock)|yarn-lock).json":
         {
-            "indent_size": 2,
+            "indent_size": 4,
             "brace_style": "collapse"
         },
 
         "*.sublime-@(settings|keymap|commands|menu)":
         {
-            "indent_size": 4,
-            "brace_style": "expand"
+            // "indent_size": 2,
+            "wrap_line_length": 80,
+            // "keep_array_indentation": true,
+            "brace_style": "end-expand",
+            // "operator-position": "before-newline",
+            // "preserve_newlines":true,
+            "comma_first": false
         }
     }
 }

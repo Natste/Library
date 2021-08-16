@@ -7,7 +7,9 @@
       "args": ["-fsyntax-only", "-single_module"],
       // "I": ["${folder}/include", "${folder}","${VC_INCLUDE}/vcruntime.h", "${C_STDLIB}"],
       "filter_errors": ["file not found", "unknown type name", "-Wmacro", "STD_", "undeclared identifier","implicit"],
-      "lint_mode": "load_save"
+      "lint_mode": "load_save",
+      "excludes": "*.i"
+
     },
     "clang++": {
       "disable": true,

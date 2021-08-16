@@ -1,35 +1,79 @@
 [
 
   // Drag select by words
+  // {
+  //   "button": "button1", "count": 1, "modifiers": ["alt"],
+  //   "press_command": "drag_select",
+  //   "press_args": {"by": "words"}
+  // },
+  // {
+  //   "button": "button1", "count": 1, "modifiers": ["super", "alt"],
+  //   "press_command": "drag_select",
+  //   "press_args": {"by": "words", "additive": true}
+  // },
+  // {
+  //   "button": "button1", "count": 1, "modifiers": ["super", "alt", "shift"],
+  //   "press_command": "drag_select",
+  //   "press_args": {"by": "words", "subtractive": true}
+  // },
+  // // Drag select by lines
+  // {
+  //   "button": "button1", "count": 1,  "modifiers": ["ctrl"],
+  //   "press_command": "drag_select",
+  //   "press_args": {"by": "lines"}
+  // },
+  // {
+  //   "button": "button1", "count": 1,  "modifiers": ["super", "ctrl" ],
+  //   "press_command": "drag_select",
+  //   "press_args": {"by": "lines", "additive": true}
+  // },
+  // {
+  //   "button": "button1", "count": 1, "modifiers": ["super", "ctrl",  "shift"],
+  //   "press_command": "drag_select",
+  //   "press_args": {"by": "lines", "subtractive": true}
+  // },
+
+  // {
+  //   "button": "button1", "count": 1, "modifiers": ["ctrl", "super"],
+  //   "press_command": "drag_select",
+  //   "press_args": {"by": "words", "additive": true}
+  // },
   {
-    "button": "button1", "count": 1, "modifiers": ["ctrl"],
-    "press_command": "drag_select",
-    "press_args": {"by": "words"}
+    "button": "button2", "count": 1, "modifiers": ["super"],
+    "press_command": "drag_select"
   },
   {
-    "button": "button1", "count": 1, "modifiers": ["ctrl", "super"],
-    "press_command": "drag_select",
-    "press_args": {"by": "words", "additive": true}
+    "button": "button2", "count": 2, "modifiers": ["super"],
+    "press_command": "toggle_bookmark"
   },
   {
-    "button": "button1", "count": 1, "modifiers": ["ctrl", "shift", "super"],
-    "press_command": "drag_select",
-    "press_args": {"by": "words", "subtractive": true}
-  },
-  // Drag select by lines
-  {
-    "button": "button1", "count": 1,  "modifiers": ["ctrl", "alt"],
-    "press_command": "drag_select",
-    "press_args": {"by": "lines"}
+    "button": "button2", "count": 1, "modifiers": ["ctrl"],
+    "press_command": "prev_bookmark",
   },
   {
-    "button": "button1", "count": 1, "modifiers": ["ctrl", "alt", "super"],
-    "press_command": "drag_select",
-    "press_args": {"by": "lines", "additive": true}
+    "button": "button2", "count": 1, "modifiers": ["ctrl","shift"],
+    "press_command": "next_bookmark",
   },
   {
-    "button": "button1", "count": 1, "modifiers": ["ctrl", "alt", "shift", "super"],
-    "press_command": "drag_select",
-    "press_args": {"by": "lines", "subtractive": true}
+    "button": "button2", "count": 1, "modifiers": ["super","ctrl","shift"],
+    "press_command": "select_all_bookmarks",
+  },
+  {
+    "button": "button2", "count": 2, "modifiers": ["super","alt","ctrl"],
+    "press_command": "clear_bookmarks",
+  },
+  {
+    "button": "button1", "count": 1, "modifiers": ["super","ctrl","alt", "shift"],
+    "command": "bh_key",
+    "args":
+    {
+        "lines" : true,
+        "plugin":
+        {
+            "type": ["__all__"],
+            "command": "bh_modules.bracketselect"
+        }
+    },
+    // "press_command": "select_all_bookmarks",
   },
 ]

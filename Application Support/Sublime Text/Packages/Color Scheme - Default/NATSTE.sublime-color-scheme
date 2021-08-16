@@ -1,7 +1,8 @@
 {
-  "name"                         : "NATSTE",
-  "author"                       : "Unknown",
-  "variables"                    : {
+  "name"                         : "NATSTE"                                  ,
+  "author"                       : "Unknown"                                 ,
+  "variables"                    :
+    {
   "black"                        : "#000000"                                 ,
   "black3"                       : "#040404"                                 ,
   "black4"                       : "#080808"                                 ,
@@ -134,8 +135,8 @@
   "preprocessor_fg"              : "color(var(keyword_fg) s(- 35%))"         ,
   "keyword_bg"                   : "color(var(keyword_fg) a(0.15))"          ,
   "keyword_fg"                   : "#cc3938"                                 ,
-  "json_bg"                      : "color(darkslategrey s(+ 10%) l(- 20%)"   ,
-  "json_fg"                      : "color(darkslategrey s(+ 50%) l(+ 70%)"   ,
+  "json_bg"                      : "color(darkslategrey s(+ 10%) l(- 20%))"   ,
+  "json_fg"                      : "color(darkslategrey s(+ 50%) l(+ 70%))"   ,
   "json_key_bg"                  : "color(var(json_key_fg) a(0.15))"         ,
   "json_key_fg"                  : "color(darkslategrey s(+ 10%) l(+ 20%))"  ,
   "sublime_delimiters"           : "color(gainsboro)"                        ,
@@ -147,6 +148,7 @@
   "sublime_expect_comma"         : "color(lime)"                             ,
   "sublime_support_function"     : "color(burlywood s(+ 75%) l(- 10%))"      ,
   "sublime_support_constant"     : "color(steelblue)"                        ,
+  "css_color"                    : "color(slateblue)"                             ,
   "json_val_bg"                  : "color(var(json_val_fg) s(0.75) a(0.75))" ,
   "json_val_fg"                  : "color(sienna)"                           ,
   "regexp_fg"                    : "color(chocolate l(+ 10%))"               ,
@@ -163,43 +165,68 @@
   "md_fence_bg"                  : "color(darkgreen s(- 60%) l(- 15%))"      ,
   "var_fg"                       : "#239cff"                                 ,
   "var_fn_fg"                    : "#00ccff"                                 ,
-  "caret_fg"                     : "color(#F18260 s(+ 50%) l(+ 10%))"        ,
-  "selection_G"                  : "color(#F18260 l(- 20%) a(0.20))"         ,
-  "selection_fg"                 : "color(#F18260)"                          ,
+  // "theme_base"                   : "color(#F18260)"                          ,
+  "theme_base"                   : "color(springgreen)"                          ,
   "c_semicolons"                 : "color(chartreuse)"                       ,
   // "selection_G"               : "color(cornflowerblue l(- 50%) a(0.50))"  ,
-  // "selection_fg"              : "color(cornflowerblue l(- 40%) a(0.75))"  ,
+  // "theme_base"                : "color(cornflowerblue l(- 40%) a(0.75))"  ,
   },
-  "globals": {
-    "foreground": "var(fg)",
-    "background": "var(bg)",
-    "caret": "color(var(caret_fg) a(0.9))",
-    "block_caret": "color(var(caret_fg))",
-    "invisibles": "color(var(grey45) a(0.4))",
-    "line_highlight": "var(selection_G)",
-    "selection": "color(var(selection_G))",
-    "selection_border": "color(var(selection_G) l(+ 20%) a(0.25))",
-    "selection_border_width": "1",
-    "selection_foreground": "color(var(fg) s(+ 50%) l(+ 10%))",
-    "selection_corner_style": "round",
-    "selection_corner_radius": "0",
-    "brackets_foreground": "color(var(selection_fg) l(+ 5%))", 
-    "bracket_contents_foreground": "color(var(selection_fg))", 
-    "brackets_options": "foreground bold", 
-    "bracket_contents_options": "foreground glow italic"
+  "globals"                      : 
+  {
+  "foreground"                  : "var(fg)"                   ,
+  "background"                  : "color(var(theme_base) l(- 48%))"                   ,
+  // "background"                  : "var(bg)"                   ,
+  "accent"                      : "var(theme_base)"           ,
+  "caret"                       : "color(var(theme_base) )"   ,
+  "block_caret"                 : "color(var(theme_base)      s(+ 00%)    l(- 20%)    a(1.00) )" ,
+  "block_caret_underline"       : "color(var(theme_base)      s(+ 00%)    l(+ 00%)    a(1.00) ) "  ,
+  "block_caret_border"          : "color(var(theme_base)      s(+ 00%)    l(+ 00%)    a(0.90) )" ,
+  "block_caret_corner_style"    : "round"                     ,
+  "block_caret_corner_radius"   : "0"                         ,
+  "invisibles"                  : "color(var(theme_base)      l(- 10%) a(0.55)   )" ,
+  "line_highlight"              : "color(var(theme_base)      l(- 10%)    a(0.15)  )" ,
+  "selection"                   : "color(var(theme_base)      l(- 10%)    a(0.35)  )" ,
+  "selection_border"            : "color(var(theme_base)      a(0.25)  )" ,
+  "selection_border_width"      : "1"                         ,
+  "selection_foreground"        : "color(var(fg)              s(+ 50%)    l(+ 10%) )" ,
+  "selection_corner_style"      : "round"                     ,
+  "selection_corner_radius"     : "0"                         ,
+  "brackets_foreground"         : "color(var(theme_base)      l(+ 5%)  )" ,
+  "bracket_contents_foreground" : "color(var(theme_base))"    ,
+  "brackets_options"            : "foreground bold"           ,
+  "bracket_contents_options"    : "foreground glow underline"
 
   },
   "rules": [ 
     // keyword.type.basic.karabiner
 
-
+    {
+      "scope": "punctuation.section.interface-block",
+      "foreground": "color(lavender alpha(1.0))",
+      "font_style": "glow",
+    },
+    {
+      "scope": "punctuation.section.interface-block.end.i",
+      "foreground": "color(lavender alpha(1.0))",
+      "font_style": "glow underline",
+    },
+    {
+      "scope": "meta.interface-block",
+      "background": "color(lavender alpha(0.1))",
+      "font_style": "glow",
+    },
     {
       "scope": "type.line.basic.karabiner",
       // "foreground": "color(DeepSkyBlue)",
       // "background": "color(DeepSkyBlue a(0.15) blenda(goldenrod a(0.15) 50%))",
-      // "selection_foreground": "color(DeepSkyBlue blend(var(selection_fg) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",
+      // "selection_foreground": "color(DeepSkyBlue blend(var(theme_base) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",
       "font_style": "bold"
     }, 
+    {
+      "scope": "wordhighlight",
+      "foreground": "color(var(theme_base) s(+ 000%) l(+ 20%) a(0.6))",
+      // "background": "color(goldenrod alpha(0.15))",
+    },
     {
       "scope": "type.line.karabiner",
       "foreground": "color(goldenrod l(- 00%))",
@@ -318,14 +345,14 @@
       "scope": "source.c punctuation.terminator.c",
       "foreground": "color(var(c_semicolons))",
       "background": "color(var(c_semicolons) a(0.15))",
-      "selection_foreground": "color(var(c_semicolons) blend(var(selection_fg) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",
+      "selection_foreground": "color(var(c_semicolons) blend(var(theme_base) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",
       "font_style": "regular"
     },
     // {
     //   "name": "sublime -- generic Value",
     //   "scope": "source.json string.quoted.jsonkv",
     //   "foreground": "var(json_val_fg)",
-      // "selection_foreground": "color(var(json_val_fg) blend(var(selection_fg) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
+      // "selection_foreground": "color(var(json_val_fg) blend(var(theme_base) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
     //   "background": "var(json_val_bg)",
     //   "font_style": "regular"
     // },
@@ -334,7 +361,7 @@
       "scope": "source.json.sublime entity.name.variable, source.json.sublime entity.name.globals",
       "foreground": "color(var(sublime_variable))",
       "background": "color(var(sublime_variable) a(0.15))",
-      "selection_foreground": "color(var(sublime_variable) blend(var(selection_fg) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",
+      "selection_foreground": "color(var(sublime_variable) blend(var(theme_base) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",
       "font_style": "regular",
     },
     {
@@ -342,7 +369,7 @@
       "scope": "source.json.sublime punctuation.definition.string, source.json.sublime punctuation.definition.group",
       "foreground": "var(sublime_delimiters)",
       "background": "color(var(sublime_delimiters) a(0.15) blenda(var(json_key_bg) 50%))",
-      "selection_foreground": "color(var(sublime_delimiters) blend(var(selection_fg) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",
+      "selection_foreground": "color(var(sublime_delimiters) blend(var(theme_base) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",
       "font_style": "regular"
     },
     {
@@ -355,7 +382,7 @@
       "scope": "source.json.sublime string.unquoted.scope-segment.scope-selector",
       "foreground": "var(sublime_scope_fg)",
       "background": "var(sublime_scope_bg)",
-      "selection_foreground": "color(var(sublime_scope_fg) blend(var(selection_fg) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",
+      "selection_foreground": "color(var(sublime_scope_fg) blend(var(theme_base) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",
       "font_style": "regular"
     },
     {
@@ -363,14 +390,14 @@
       "scope": "source.json.sublime source.scope-selector punctuation.separator.scope-segments.scope-selector",
       "foreground": "var(sublime_scope_punctuation_fg)",
       "background": "color(var(sublime_scope_bg) blend(var(sublime_scope_punctuation_fg) 50%))",
-      "selection_foreground": "color(var(sublime_scope_punctuation_fg) blend(var(selection_fg) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",
+      "selection_foreground": "color(var(sublime_scope_punctuation_fg) blend(var(theme_base) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",
       "font_style": "regular"
     },
     {
       "name": "Sublime -- scope selector separator",
       "scope": "source.json.sublime source.scope-selector keyword.operator.right.scope-selector",
       "background": "color(var(json_bg) blenda(var(sublime_scope_bg) 90%))",
-      "selection_foreground": "color(var(sublime_scope_fg) blend(var(selection_fg) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",
+      "selection_foreground": "color(var(sublime_scope_fg) blend(var(theme_base) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",
       "font_style": "regular"
     },
     {
@@ -378,7 +405,7 @@
       "scope": "source.json.sublime keyword.other.unit.css",
       "foreground": "color(var(sublime_percent))",
       "background": "color(var(sublime_percent) a(0.15))",
-      "selection_foreground": "color(var(sublime_percent) blend(var(selection_fg) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",
+      "selection_foreground": "color(var(sublime_percent) blend(var(theme_base) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",
       "font_style": "regular"
     },
     {
@@ -386,7 +413,7 @@
       "scope": "source.json.sublime meta.expect-comma.sublime",
       "foreground": "color(var(sublime_expect_comma))",
       // "background": "color(var(sublime_expect_comma) a(0.10) blend(var(json_bg) 50%))",
-      "selection_foreground": "color(var(sublime_expect_comma) blend(var(selection_fg) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",
+      "selection_foreground": "color(var(sublime_expect_comma) blend(var(theme_base) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",
       "font_style": "regular"
     },
     {
@@ -394,7 +421,7 @@
       "scope": "source.json.sublime support.function",
       "foreground": "color(var(sublime_support_function))",
       "background": "color(var(sublime_support_function) a(0.10) blend(var(json_bg) 50%))",
-      "selection_foreground": "color(var(sublime_support_function) blend(var(selection_fg) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",
+      "selection_foreground": "color(var(sublime_support_function) blend(var(theme_base) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",
       "font_style": "regular"
     },
     {
@@ -402,36 +429,44 @@
       "scope": "source.json.sublime support.constant",
       "foreground": "color(var(sublime_support_constant))",
       // "background": "color(var(sublime_support_constant) a(0.10) blend(var(json_bg) 50%))",
-      "selection_foreground": "color(var(sublime_support_constant) blend(var(selection_fg) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",
+      "selection_foreground": "color(var(sublime_support_constant) blend(var(theme_base) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",
       "font_style": "regular"
+    },
+    {
+      "name": "css-color",
+      "scope": "source.json.sublime.color-scheme meta.mapping.value.json source.css-color",
+      "foreground": "color(var(css_color))",
+      // "background": "color(var(sublime_support_constant) a(0.10) blend(var(json_bg) 50%))",
+      "selection_foreground": "color(var(css_color) blend(var(theme_base) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",
+      "font_style": "glow"
     },
     {
       "name": "Python Extensions",
       "scope": "support.extension.python",
       "foreground": "color(var(python_extensions))",
       "background": "color(var(python_extensions) a(0.15))",
-      "selection_foreground": "color(var(python_extensions) blend(var(selection_fg) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",
+      "selection_foreground": "color(var(python_extensions) blend(var(theme_base) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",
       "font_style": "regular"
     },
     {
       "name": "C/C++ Preprocessor Line",
       "scope": "meta.preprocessor.c++, meta.preprocessor.c",
       "foreground": "var(preprocessor_fg)",
-      "selection_foreground": "color(var(preprocessor_fg) blend(var(selection_fg) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
+      "selection_foreground": "color(var(preprocessor_fg) blend(var(theme_base) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
       "background": "var(preprocessor_bg)"
     },
     {
       "name": "C/C++ Preprocessor Directive",
       "scope": "keyword.control.import.c",
       "foreground": "var(directive_fg)",
-      "selection_foreground": "color(var(directive_fg) blend(var(selection_fg) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
+      "selection_foreground": "color(var(directive_fg) blend(var(theme_base) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
       "background": "var(directive_bg)"
     },
     {
       "name": "Fenced Markdown",
       "scope": "markup.raw.block.fenced.markdown ",
       "foreground": "color(var(fg) l(- 10%))",
-      "selection_foreground": "color(color(var(fg) l(- 10%)) blend(var(selection_fg) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
+      "selection_foreground": "color(color(var(fg) l(- 10%)) blend(var(theme_base) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
       "background": "var(md_fence_bg)",
       "font_style": "regular"
     },
@@ -439,22 +474,22 @@
       "name": "Comment",
       "scope": "comment",
       "foreground": "var(comment_fg)",
-      "selection_foreground": "color(var(comment_fg) blend(var(selection_fg) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
+      "selection_foreground": "color(var(comment_fg) blend(var(theme_base) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
       "background": "var(comment_bg)"
     },
     {
       "name": "JSON",
       "scope": "source.json",
       "foreground": "var(fg)",
-      "selection_foreground": "color(var(fg) blend(var(selection_fg) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
+      "selection_foreground": "color(var(fg) blend(var(theme_base) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
       "background": "var(json_bg)",
       "font_style": "regular"
     },
     {
       "name": "JSON Key",
       "scope": "source.json keyword, source.json.sublime keyword.other.rule, source.json.sublime string.quoted.double.json",
-      "foreground": "var(json_key_fg)",
-      "selection_foreground": "color(var(json_key_fg) blend(var(selection_fg) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
+      "foreground": ["var(json_key_fg)", "color(limegreen)"],
+      "selection_foreground": "color(var(json_key_fg) blend(var(theme_base) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
       "background": "var(json_key_bg)",
       "font_style": "italic"
     },
@@ -462,7 +497,7 @@
       "name": "JSON Value",
       "scope": "source.json string.quoted.jsonkv, source.json.sublime meta.mapping.value string.quoted.double.json",
       "foreground": "var(json_val_fg)",
-      "selection_foreground": "color(var(json_val_fg) blend(var(selection_fg) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
+      "selection_foreground": "color(var(json_val_fg) blend(var(theme_base) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
       "background": "var(json_val_bg)",
       "font_style": "regular"
     },
@@ -470,120 +505,119 @@
       "name": "punctuation.definition.table.cell.latex",
       "scope": "punctuation.definition.table.cell.latex",
       "foreground": "var(orange7)",
-      "selection_foreground": "color(var(orange7) blend(var(selection_fg) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
-      "background": "var(black)",
+      "selection_foreground": "color(var(orange7) blend(var(theme_base) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
+      "background": "black",
       "font_style": "bold"
     },
     {
       "name": "punctuation.definition.math.amp.latex",
       "scope": "punctuation.definition.math.amp.latex",
       "foreground": "var(orange7)",
-      "selection_foreground": "color(var(orange7) blend(var(selection_fg) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
-      "background": "var(black)",
+      "selection_foreground": "color(var(orange7) blend(var(theme_base) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
+      "background": "black",
       "font_style": "bold"
     },
     {
       "name": "punctuation.definition.math.operator.latex",
       "scope": "punctuation.definition.math.operator.latex",
       "foreground": "var(string_fg)",
-      "selection_foreground": "color(var(string_fg) blend(var(selection_fg) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
+      "selection_foreground": "color(var(string_fg) blend(var(theme_base) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
       "background": "var(string_bg)"
     },
     {
       "name": "Constant",
       "scope": "constant",
       "foreground": "var(blue3)",
-      "selection_foreground": "color(var(blue3) blend(var(selection_fg) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
+      "selection_foreground": "color(var(blue3) blend(var(theme_base) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
     },
     {
       "name": "Variable Function",
       "scope": " variable.function",
       "foreground": "var(var_fn_fg)",
-      "selection_foreground": "color(var(var_fn_fg) blend(var(selection_fg) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
+      "selection_foreground": "color(var(var_fn_fg) blend(var(theme_base) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
     },
     {
       "name": "Meta function variable",
       "scope": "parameter.variable",
       "foreground": "var(var_fg)",
-      "selection_foreground": "color(var(var_fg) blend(var(selection_fg) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
+      "selection_foreground": "color(var(var_fg) blend(var(theme_base) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
     },
     {
       "name": "Support Type",
       "scope": "support.type",
       "foreground": "var(support_type_fg)",
-      "selection_foreground": "color(var(support_type_fg) blend(var(selection_fg) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
+      "selection_foreground": "color(var(support_type_fg) blend(var(theme_base) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
     },
     {
       "name": "Entity",
       "scope": "entity",
       "foreground": "var(blue6)",
-      "selection_foreground": "color(var(blue6) blend(var(selection_fg) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
+      "selection_foreground": "color(var(blue6) blend(var(theme_base) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
     },
     {
       "name": "Keyword",
       "scope": "keyword",
       "foreground": "var(keyword_fg)",
-      "selection_foreground": "color(var(keyword_fg) blend(var(selection_fg) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
+      "selection_foreground": "color(var(keyword_fg) blend(var(theme_base) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
     },
     {
       "name": "Storage",
       "scope": "storage",
       "foreground": "var(cyan2)",
-      "selection_foreground": "color(var(cyan2) blend(var(selection_fg) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
+      "selection_foreground": "color(var(cyan2) blend(var(theme_base) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
     },
     {
       "name": "String Formatting",
       "scope": "constant.other.format-spec",
       "foreground": "var(str_format_fg)",
-      "selection_foreground": "color(var(str_format_fg) blend(var(selection_fg) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
+      "selection_foreground": "color(var(str_format_fg) blend(var(theme_base) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
       "background": "var(str_format_delim_bg)"
     },
     {
       "name": "String Formatting",
       "scope": "storage.type.string",
       "foreground": "var(str_format_fg)",
-      "selection_foreground": "color(var(str_format_fg) blend(var(selection_fg) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
+      "selection_foreground": "color(var(str_format_fg) blend(var(theme_base) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
       "background": "var(str_format_delim_bg)"
     },
     {
       "name": "String Formatting Delimiters",
       "scope": "punctuation.definition.placeholder",
       "foreground": "var(str_format_delim_fg)",
-      "selection_foreground": "color(var(str_format_delim_fg) blend(var(selection_fg) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
+      "selection_foreground": "color(var(str_format_delim_fg) blend(var(theme_base) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
       "background": "var(str_format_delim_bg)"
     },
     {
       "name": "String",
       "scope": "string",
       "foreground": "var(string_fg)",
-      "selection_foreground": "color(var(string_fg) blend(var(selection_fg) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
+      "selection_foreground": "color(var(string_fg) blend(var(theme_base) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
       "background": "var(string_bg)"
     },
     {
       "name": "Support",
       "scope": "support",
       "foreground": "var(cyan)",
-      "selection_foreground": "color(var(cyan) blend(var(selection_fg) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
+      "selection_foreground": "color(var(cyan) blend(var(theme_base) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
     },
     {
       "name": "Variable",
       "scope": "variable",
       "foreground": "var(var_fg)",
-      "selection_foreground": "color(var(var_fg) blend(var(selection_fg) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
-      "background": "color(var(var_fg) a(0.0))"
+      "selection_foreground": "color(var(var_fg) blend(var(theme_base) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
     },
     {
       "name": "Invalid – Deprecated",
       "scope": "invalid.deprecated",
       "foreground": "var(pink)",
-      "selection_foreground": "color(var(pink) blend(var(selection_fg) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
+      "selection_foreground": "color(var(pink) blend(var(theme_base) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
       "font_style": "underline"
     },
     {
       "name": "Invalid – Illegal",
       "scope": "invalid.illegal",
       "foreground": "var(pink)",
-      "selection_foreground": "color(var(pink) blend(var(selection_fg) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
+      "selection_foreground": "color(var(pink) blend(var(theme_base) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
       "background": "color(var(pink3) a(0.75))"
     },
     {
@@ -595,50 +629,50 @@
       "name": "♦ Entity inherited-class",
       "scope": "entity.other.inherited-class",
       "foreground": "var(orange6)",
-      "selection_foreground": "color(var(orange6) blend(var(selection_fg) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
+      "selection_foreground": "color(var(orange6) blend(var(theme_base) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
     },
     {
       "name": "♦ String embedded-source",
       "scope": "string.quoted source",
       "foreground": "var(pink2)",
-      "selection_foreground": "color(var(pink2) blend(var(selection_fg) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
+      "selection_foreground": "color(var(pink2) blend(var(theme_base) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
     },
     {
       "name": "♦ String constant",
       "scope": "constant.character",
       "foreground": "var(pink)",
-      "selection_foreground": "color(var(pink) blend(var(selection_fg) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
+      "selection_foreground": "color(var(pink) blend(var(theme_base) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
     },
     {
       "name": "♦ String.regexp",
       "scope": "source.regexp, meta.group.assertion.regexp, constant.other.assertion.regexp, constant.character.character-class.regexp, meta.literal.regexp",
       "foreground": "var(regexp_fg)",
-      "selection_foreground": "color(var(regexp_fg) blend(var(selection_fg) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
+      "selection_foreground": "color(var(regexp_fg) blend(var(theme_base) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
       "background": "var(regexp_bg)"
     },
     {
       "name": "♦ String.regexp.«special»",
       "scope": "string.regexp constant.character.escape, string.regexp source.ruby.embedded, string.regexp string.regexp.arbitrary-repitition",
       "foreground": "var(orange3)",
-      "selection_foreground": "color(var(orange3) blend(var(selection_fg) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
+      "selection_foreground": "color(var(orange3) blend(var(theme_base) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
     },
     {
       "name": "♦ String variable",
       "scope": "string variable",
       "foreground": "var(grey)",
-      "selection_foreground": "color(var(grey) blend(var(selection_fg) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
+      "selection_foreground": "color(var(grey) blend(var(theme_base) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
     },
     {
       "name": "♦ Support.function",
       "scope": "support.function",
       "foreground": "var(support_fn_fg)",
-      "selection_foreground": "color(var(support_fn_fg) blend(var(selection_fg) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
+      "selection_foreground": "color(var(support_fn_fg) blend(var(theme_base) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
     },
     {
       "name": "♦ Support.constant",
       "scope": "support.constant",
       "foreground": "var(red4)",
-      "selection_foreground": "color(var(red4) blend(var(selection_fg) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
+      "selection_foreground": "color(var(red4) blend(var(theme_base) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
     },
     {
       "name": "j Entity Name Type",
@@ -649,164 +683,164 @@
       "name": "j Cast",
       "scope": "meta.cast",
       "foreground": "var(grey46)",
-      "selection_foreground": "color(var(grey46) blend(var(selection_fg) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
+      "selection_foreground": "color(var(grey46) blend(var(theme_base) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
     },
     {
       "name": "✘ Doctype/XML Processing",
       "scope": "meta.sgml.html meta.doctype, meta.sgml.html meta.doctype entity, meta.sgml.html meta.doctype string, meta.xml-processing, meta.xml-processing entity, meta.xml-processing string",
       "foreground": "var(grey40)",
-      "selection_foreground": "color(var(grey40) blend(var(selection_fg) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
+      "selection_foreground": "color(var(grey40) blend(var(theme_base) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
     },
     {
       "name": "✘ Meta.tag.all",
       "scope": "meta.tag, meta.tag entity",
       "foreground": "var(blue10)",
-      "selection_foreground": "color(var(blue10) blend(var(selection_fg) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
+      "selection_foreground": "color(var(blue10) blend(var(theme_base) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
     },
     {
       "name": "✘ Meta.tag.inline",
       "scope": "source entity.name.tag, source entity.other.attribute-name, meta.tag.inline, meta.tag.inline entity",
       "foreground": "var(blue10)",
-      "selection_foreground": "color(var(blue10) blend(var(selection_fg) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
+      "selection_foreground": "color(var(blue10) blend(var(theme_base) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
     },
     {
       "name": "✘ Namespaces",
       "scope": "entity.name.tag.namespace, entity.other.attribute-name.namespace",
       "foreground": "var(red5)",
-      "selection_foreground": "color(var(red5) blend(var(selection_fg) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
+      "selection_foreground": "color(var(red5) blend(var(theme_base) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
     },
     {
       "name": "§ css tag-name",
       "scope": "meta.selector.css entity.name.tag",
       "foreground": "var(blue5)",
-      "selection_foreground": "color(var(blue5) blend(var(selection_fg) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
+      "selection_foreground": "color(var(blue5) blend(var(theme_base) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
     },
     {
       "name": "§ css:pseudo-class",
       "scope": "meta.selector.css entity.other.attribute-name.tag.pseudo-class",
       "foreground": "var(blue5)",
-      "selection_foreground": "color(var(blue5) blend(var(selection_fg) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
+      "selection_foreground": "color(var(blue5) blend(var(theme_base) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
     },
     {
       "name": "§ css#id",
       "scope": "meta.selector.css entity.other.attribute-name.id",
       "foreground": "var(blue5)",
-      "selection_foreground": "color(var(blue5) blend(var(selection_fg) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
+      "selection_foreground": "color(var(blue5) blend(var(theme_base) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
     },
     {
       "name": "§ css.class",
       "scope": "meta.selector.css entity.other.attribute-name.class",
       "foreground": "var(blue5)",
-      "selection_foreground": "color(var(blue5) blend(var(selection_fg) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
+      "selection_foreground": "color(var(blue5) blend(var(theme_base) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
     },
     {
       "name": "§ css property-name:",
       "scope": "support.type.property-name.css",
       "foreground": "var(orange10)",
-      "selection_foreground": "color(var(orange10) blend(var(selection_fg) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
+      "selection_foreground": "color(var(orange10) blend(var(theme_base) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
     },
     {
       "name": "§ css property-value;",
       "scope": "meta.property-group support.constant.property-value.css, meta.property-value support.constant.property-value.css",
       "foreground": "var(yellow)",
-      "selection_foreground": "color(var(yellow) blend(var(selection_fg) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
+      "selection_foreground": "color(var(yellow) blend(var(theme_base) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
     },
     {
       "name": "§ css @at-rule",
       "scope": "meta.preprocessor.at-rule keyword.control.at-rule",
       "foreground": "var(blue8)",
-      "selection_foreground": "color(var(blue8) blend(var(selection_fg) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
+      "selection_foreground": "color(var(blue8) blend(var(theme_base) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
     },
     {
       "name": "§ css additional-constants",
       "scope": "meta.property-value support.constant.named-color.css, meta.property-value constant",
       "foreground": "var(red3)",
-      "selection_foreground": "color(var(red3) blend(var(selection_fg) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
+      "selection_foreground": "color(var(red3) blend(var(theme_base) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
     },
     {
       "name": "§ css constructor.argument",
       "scope": "meta.constructor.argument.css",
       "foreground": "var(yellow2)",
-      "selection_foreground": "color(var(yellow2) blend(var(selection_fg) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
+      "selection_foreground": "color(var(yellow2) blend(var(theme_base) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
     },
     {
       "name": "⎇ diff.header",
       "scope": "meta.diff, meta.diff.header",
       "foreground": "var(white2)",
-      "selection_foreground": "color(var(white2) blend(var(selection_fg) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
+      "selection_foreground": "color(var(white2) blend(var(theme_base) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
       "background": "var(blue9)"
     },
     {
       "name": "⎇ diff.deleted",
       "scope": "markup.deleted",
       "foreground": "var(white2)",
-      "selection_foreground": "color(var(white2) blend(var(selection_fg) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
+      "selection_foreground": "color(var(white2) blend(var(theme_base) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
       "background": "var(red6)"
     },
     {
       "name": "⎇ diff.changed",
       "scope": "markup.changed",
       "foreground": "var(white2)",
-      "selection_foreground": "color(var(white2) blend(var(selection_fg) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
+      "selection_foreground": "color(var(white2) blend(var(theme_base) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
       "background": "var(orange)"
     },
     {
       "name": "⎇ diff.inserted",
       "scope": "markup.inserted",
       "foreground": "var(white2)",
-      "selection_foreground": "color(var(white2) blend(var(selection_fg) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
+      "selection_foreground": "color(var(white2) blend(var(theme_base) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
       "background": "var(cyan3)"
     },
     {
       "name": "Markup: Italic",
       "scope": "markup.italic",
       "foreground": "var(orange2)",
-      "selection_foreground": "color(var(orange2) blend(var(selection_fg) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
+      "selection_foreground": "color(var(orange2) blend(var(theme_base) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
     },
     {
       "name": "Markup: Bold",
       "scope": "markup.bold",
       "foreground": "var(orange2)",
-      "selection_foreground": "color(var(orange2) blend(var(selection_fg) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
+      "selection_foreground": "color(var(orange2) blend(var(theme_base) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
     },
     {
       "name": "Markup: Underline",
       "scope": "markup.underline",
       "foreground": "var(red5)",
-      "selection_foreground": "color(var(red5) blend(var(selection_fg) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
+      "selection_foreground": "color(var(red5) blend(var(theme_base) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
       "font_style": "underline"
     },
     {
       "name": "Markup: Quote",
       "scope": "markup.quote",
       "foreground": "var(orange11)",
-      "selection_foreground": "color(var(orange11) blend(var(selection_fg) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
+      "selection_foreground": "color(var(orange11) blend(var(theme_base) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
       "background": "color(var(orange9) a(0.071))"
     },
     {
       "name": "Markup: Heading",
       "scope": "markup.heading, markup.heading entity",
       "foreground": "var(white10)",
-      "selection_foreground": "color(var(white10) blend(var(selection_fg) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
+      "selection_foreground": "color(var(white10) blend(var(theme_base) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
       "background": "var(orange5)"
     },
     {
       "name": "Markup: List",
       "scope": "markup.list",
       "foreground": "var(orange11)",
-      "selection_foreground": "color(var(orange11) blend(var(selection_fg) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
+      "selection_foreground": "color(var(orange11) blend(var(theme_base) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
     },
     {
       "name": "Markup: Raw",
       "scope": "markup.raw",
       "foreground": "var(blue11)",
-      "selection_foreground": "color(var(blue11) blend(var(selection_fg) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
+      "selection_foreground": "color(var(blue11) blend(var(theme_base) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
     },
     {
       "name": "Markup: Comment",
       "scope": "markup comment",
       "foreground": "color(var(comment_fg) blend(darkgreen 80%))",
-      // "selection_foreground": "color(color(var(comment_fg) blend(darkgreen 80%)) blend(var(selection_fg) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
+      // "selection_foreground": "color(color(var(comment_fg) blend(darkgreen 80%)) blend(var(theme_base) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
       "background": "color(var(md_fence_bg) blend(var(comment_bg) 90%))",
       "font_style": "regular"
     },
@@ -814,8 +848,7 @@
       "name": "Markup: Separator",
       "scope": "meta.separator",
       "foreground": "var(green)",
-      "selection_foreground": "color(var(green) blend(var(selection_fg) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
-      "background": "var(black22)"
+      "selection_foreground": "color(var(green) blend(var(theme_base) 70%) l(+ 10%) s(+ 10%))",// s(+ 100%) l(+ 25%))",//selfo
     },
     {
       "name": "Log Entry",

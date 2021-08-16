@@ -1,16 +1,16 @@
 {
   "dumper_args": {
     "allow_unicode": null,
-    "canonical": null,
-    "default_flow_style": false,
+    "canonical": false,
+    "default_flow_style": null,
     "default_style": null,
     "encoding": null,
     "explicit_end": false,
     "explicit_start": false,
-    "indent": null,
+    "indent": 2,
     "line_break": null,
     "tags": null,
     "version": null,
-    "width": null
+    "width": 80
   }
 }

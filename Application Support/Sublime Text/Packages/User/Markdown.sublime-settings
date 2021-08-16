@@ -8,7 +8,7 @@
 // Layout
 "draw_centered": false,
 "word_wrap": true,
-"wrap_width": 160,
+"wrap_width": 80,
 "rulers": [],
 
 // Line

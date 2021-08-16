@@ -82,10 +82,10 @@
     // Note that `use_editor_syntax` and `use_editor_indentation` have precedence
     // and will always override any other settings from any configuration file
     // like `.jsbeautifyrc` and `.editorconfig`.
-    "respect_editorconfig_files": true,
+    "respect_editorconfig_files": false,
 
     // Use current syntax to determine file type, instead of the extension.
-    "use_editor_syntax": true,
+    "use_editor_syntax": false,
 
     // Use current identation settings to override the ones from `.jsbeautifyrc`.
     "use_editor_indentation": false,

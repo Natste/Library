@@ -919,19 +919,6 @@
 			{
 				"args":
 				{
-					"text": "0 1",
-				},
-				"command": "text_pastry_step",
-				"text": "0 1",
-			},
-			"key": "27a3f1a3d555387ab7bf589ca716c295",
-			"label": "0 1",
-		},
-		{
-			"data":
-			{
-				"args":
-				{
 					"text": "3 1",
 				},
 				"command": "text_pastry_step",
@@ -945,6 +932,84 @@
 			{
 				"args":
 				{
+					"text": "1",
+				},
+				"command": "text_pastry_step",
+				"text": "1",
+			},
+			"key": "c4ca4238a0b923820dcc509a6f75849b",
+			"label": "1",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "reduce ",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "reduce ",
+			},
+			"key": "01dfc2c37e60dededaa543d352d5c061",
+			"label": "reduce ",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					/*"text": "reduce ",*/
+					/*"threshold": 3,*/
+					"context": "selection",
+					"operator": "subtract",
+					"pattern": " ",
+				},
+				"command": "text_pastry_modify_selection",
+				"text": "reduce  ",
+			},
+			"key": "a9cdf681a42fada1854710885cd1d14f",
+			"label": "reduce  ",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					/*"text": "reduce ",*/
+					/*"threshold": 3,*/
+					/*"context": "selection",*/
+					/*"operator": "subtract",*/
+					/*"pattern": " ",*/
+					"text": "1 0",
+				},
+				"command": "text_pastry_step",
+				"text": "1 0",
+			},
+			"key": "a451306aa6a2be8fd7cd44dc5f9511ae",
+			"label": "1 0",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					/*"context": "selection",*/
+					/*"operator": "subtract",*/
+					/*"pattern": " "*/
+					"text": "2 1",
+				},
+				"command": "text_pastry_step",
+				"text": "2 1",
+			},
+			"key": "e5f496776d0be90c523ffd4a458d7179",
+			"label": "2 1",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
 					"text": "1 1",
 				},
 				"command": "text_pastry_step",
@@ -952,6 +1017,19 @@
 			},
 			"key": "75c124fae7a8b8b89183d4de196613b3",
 			"label": "1 1",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "0 1",
+				},
+				"command": "text_pastry_step",
+				"text": "0 1",
+			},
+			"key": "27a3f1a3d555387ab7bf589ca716c295",
+			"label": "0 1",
 		},
 	],
 	"last_command":
@@ -973,9 +1051,14 @@
 			/*"start": "0",*/
 			/*"stop": "9",*/
 			/*"start": "0",*/
-			"text": "1 1",
+			/*"text": "reduce ",*/
+			/*"threshold": 3,*/
+			/*"context": "selection",*/
+			/*"operator": "subtract",*/
+			/*"pattern": " ",*/
+			"text": "0 1",
 		},
 		"command": "text_pastry_step",
-		"text": "1 1",
+		"text": "0 1",
 	},
 }
